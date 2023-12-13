@@ -1,0 +1,14 @@
+import React from 'react'
+import Hero from '../../../components/services/hero'
+import Services from '../../../components/services/services'
+
+const page = () => {
+  return (
+    <div className='w-[90vw] mx-auto mt-[5rem] mb-[6rem]'>
+      <Hero/>
+      <Services/>
+    </div>
+  )
+}
+
+export default page

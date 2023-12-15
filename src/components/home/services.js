@@ -6,7 +6,7 @@ const services = () => {
       <h1 className='text-[24px] font-semibold text-[#1B1B1E] text-center'>Our Sevices</h1>
       <div className='flex flex-row mt-[3rem] gap-[1rem] justify-between'>
        <div className='flex flex-col bg-[#F6F8FF] items-center w-[30%] py-[2rem] shadow-shadow1'>
-         <img src='Images/home-icon.png' alt='' className='w-[30px] h-[28px]'/>
+         <img src='Images/home/home-icon.png' alt='' className='w-[30px] h-[28px]'/>
          <p className='font-semibold text-[18px] text-[#1B1B1E] mt-[1rem]'>In-Home Elderly Care</p>
      <div className='mt-[1rem] text-center'>
          <p className='text-[16px] font-normal text-[#1B1B1E]'>Assistance with daily activities</p>
@@ -16,7 +16,7 @@ const services = () => {
       <button className='py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] mt-[1.5rem] rounded-[32px]'>Learn more</button>
        </div>
        <div className='flex flex-col bg-[#F6F8FF] items-center w-[30%] py-[2rem] shadow-shadow1'>
-         <img src='Images/heart-icon.png' alt='' className='w-[30px] h-[28px]'/>
+         <img src='Images/home/heart-icon.png' alt='' className='w-[30px] h-[28px]'/>
          <p className='font-semibold text-[18px] text-[#1B1B1E] mt-[1rem]'>Special Needs Support</p>
      <div className='mt-[1rem] text-center'>
          <p className='text-[16px] font-normal text-[#1B1B1E]'>Tailored care plans</p>
@@ -26,7 +26,7 @@ const services = () => {
       <button className='py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] mt-[1.5rem] rounded-[32px]'>Learn more</button>
        </div>
        <div className='flex flex-col bg-[#F6F8FF] items-center w-[30%] py-[2rem] shadow-shadow1'>
-         <img src='Images/memory-care-icon.png' alt='' className='w-[30px] h-[28px]'/>
+         <img src='Images/home/memory-care-icon.png' alt='' className='w-[30px] h-[28px]'/>
          <p className='font-semibold text-[18px] text-[#1B1B1E] mt-[1rem]'>Memory Care Services</p>
      <div className='mt-[1rem] text-center'>
          <p className='text-[16px] font-normal text-[#1B1B1E]'>Cognitive stimulation</p>

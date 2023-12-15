@@ -1,29 +1,13 @@
 "use client"
-import React,{useState, useEffect} from 'react'
+import React from 'react'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import Navbar2 from './home/navbar2'
 
 const navbar = () => {
   const pathname=usePathname()
-  const [show, setShow] = useState(false)
-  const controlNavbar = () => {
-      if (window.scrollY > window.innerHeight ) {
-          setShow(true)
-      }else{
-        setShow(false)
-      }
-  }
-
-  useEffect(() => {
-      window.addEventListener('scroll', controlNavbar)
-      return () => {
-          window.removeEventListener('scroll', controlNavbar)
-      }
-  }, [])
   return (
-    <div className='bg-white'>
-      <div className='flex flex-row items-center justify-between w-[90vw] mx-auto mt-[2rem]'>
+    <div className='w-full py-[2rem] fixed top-0 bg-white z-[1000] shadow-shadow4'>
+        <div className='flex flex-row items-center justify-between w-[90vw] mx-auto'>
       <img src='Images/home/LOGO.png' alt=''/>
       <ul className='flex flex-row gap-[8px] items-center'>
       <Link href='/'><li className={`text-[14px] text-center transition ease-in-out delay-300 font-medium py-[5px] px-[15px] hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer rounded-[5px] ${pathname==="/" ? "bg-[#252760] text-[#FFFFFF]" :"bg-transparent text-[#1B1B1E] "}`}>HOME</li></Link>
@@ -38,7 +22,6 @@ const navbar = () => {
       <a href='tel:+442034177797'><img src='Images/home/phone-logo.png' alt=''/></a>
       </div>
     </div>
-    {show && <Navbar2/>}
     </div>
   )
 }

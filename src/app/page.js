@@ -1,10 +1,10 @@
-import Hero from '../components/hero'
-import Services from '../components/services'
-import Domiciliary from '../components/domiciliary'
-import WhyChooseUs from '../components/why-us'
-import Explore from '../components/explore'
-import Faq from '../components/faq'
-import Contact from '../components/contact'
+import Hero from '../components/home/hero'
+import Services from '../components/home/services'
+import Domiciliary from '../components/home/domiciliary'
+import WhyChooseUs from '../components/home/why-us'
+import Explore from '../components/home/explore'
+import Faq from '../components/home/faq'
+import Contact from '../components/home/contact'
 
 export default function Home() {
   return (

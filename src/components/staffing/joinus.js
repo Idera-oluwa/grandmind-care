@@ -42,10 +42,10 @@ const joinus = () => {
               </div>
          </div>
          <div className='bg-white p-[1rem] flex flex-row items-center gap-[1rem] rounded-[5px] shadow-shadow4'>
-              <img src='Images/staffing/staff-phone.png' alt=''/>
+              <img src='Images/staffing/staff-mail.png' alt=''/>
               <div>
-                <p className='font-bold text-[20px] text-[#1B1B1E]'>Call us</p>
-                <p className='font-semibold text-[14px] text-[#1B1B1E]'>01474247739</p>
+                <p className='font-bold text-[20px] text-[#1B1B1E]'>Email</p>
+                <a href="mailto:info@grandmind.co.uk"><p className='font-semibold text-[14px] text-[#1B1B1E]'>info@grandmind.co.uk</p></a>
               </div>
          </div>
       </div>

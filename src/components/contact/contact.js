@@ -31,12 +31,13 @@ const contact = () => {
         <div className='flex flex-row gap-[2rem]'>
          <img src='Images/home/phone-logo.png' alt='' className='w-[17px] h-[18px]'/>
          <div className='text-left'>
-              <p className='font-semibold text-[14px] text-[#1B1B1E]'>01474247739</p>
+         <a href='tel:+442034177797'><p className='font-semibold text-[14px] text-[#1B1B1E]'>01474247739</p></a>
               </div>
         </div>
       </div>
       <div className='w-[557px] h-[500px] border border-[#47497380] rounded-[10px] bg-white p-[2rem] ml-auto'>
-         <form>
+         <form action="https://formspree.io/f/xyyrgynn"
+  method="POST">
             <div className='flex flex-col gap-[10px]'>
             <label htmlFor='first-name' className='text-[16px] font-bold text-[#474973]'>First Name</label>
             <input type='text' name='first-name' className='px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none'/>
@@ -45,7 +46,7 @@ const contact = () => {
             <label htmlFor='message' className='text-[16px] font-bold text-[#474973]'>Write your message here</label>
             <textarea name='message' className='px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[177px] outline-none'/>
             </div>
-            <button className='bg-[#474973] rounded-[10px] font-semibold text-[20px] w-full mt-[3rem] h-[64px] text-white hover:border-transparent hover:bg-[#353756] transition ease-in-out delay-300'>Submit</button>
+            <button type="submit" className='bg-[#474973] rounded-[10px] font-semibold text-[20px] w-full mt-[3rem] h-[64px] text-white hover:border-transparent hover:bg-[#353756] transition ease-in-out delay-300'>Submit</button>
          </form>
        </div>
     </div>

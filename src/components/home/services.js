@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 const services = () => {
   return (
@@ -13,7 +14,7 @@ const services = () => {
          <p className='text-[16px] font-normal text-[#1B1B1E]'>Medication management</p>
          <p className='text-[16px] font-normal text-[#1B1B1E]'>Companionship and emotional support</p>
     </div>
-      <button className='py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] mt-[1.5rem] rounded-[32px]'>Learn more</button>
+    <Link href='/about'><button className='py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] mt-[1.5rem] rounded-[32px]'>Learn more</button></Link>
        </div>
        <div className='flex flex-col bg-[#F6F8FF] items-center w-[30%] py-[2rem] shadow-shadow1'>
          <img src='Images/home/heart-icon.png' alt='' className='w-[30px] h-[28px]'/>
@@ -23,7 +24,7 @@ const services = () => {
          <p className='text-[16px] font-normal text-[#1B1B1E]'>Therapeutic activities</p>
          <p className='text-[16px] font-normal text-[#1B1B1E]'>Emotional and behavioral support</p>
     </div>
-      <button className='py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] mt-[1.5rem] rounded-[32px]'>Learn more</button>
+    <Link href='/about'><button className='py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] mt-[1.5rem] rounded-[32px]'>Learn more</button></Link>
        </div>
        <div className='flex flex-col bg-[#F6F8FF] items-center w-[30%] py-[2rem] shadow-shadow1'>
          <img src='Images/home/memory-care-icon.png' alt='' className='w-[30px] h-[28px]'/>
@@ -33,7 +34,7 @@ const services = () => {
          <p className='text-[16px] font-normal text-[#1B1B1E]'>Safe and secure environment</p>
          <p className='text-[16px] font-normal text-[#1B1B1E]'>Family support and education</p>
     </div>
-      <button className='py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] mt-[1.5rem] rounded-[32px]'>Learn more</button>
+    <Link href='/about'><button className='py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] mt-[1.5rem] rounded-[32px]'>Learn more</button></Link>
        </div>
       </div>
     </div>

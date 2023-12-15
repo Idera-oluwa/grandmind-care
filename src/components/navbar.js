@@ -24,7 +24,7 @@ const navbar = () => {
   return (
     <div className='bg-white'>
       <div className='flex flex-row items-center justify-between w-[90vw] mx-auto mt-[2rem]'>
-      <img src='Images/home/LOGO.png' alt=''/>
+      <Link href='/'><img src='Images/home/LOGO.png' alt=''/></Link>
       <ul className='flex flex-row gap-[8px] items-center'>
       <Link href='/'><li className={`text-[14px] text-center transition ease-in-out delay-300 font-medium py-[5px] px-[15px] hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer rounded-[5px] ${pathname==="/" ? "bg-[#252760] text-[#FFFFFF]" :"bg-transparent text-[#1B1B1E] "}`}>HOME</li></Link>
         <Link href='/about'><li className={`transition ease-in-out delay-300 text-[14px] text-center font-medium py-[5px] px-[15px] hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer rounded-[5px] ${pathname==="/about" ? "bg-[#252760] text-[#FFFFFF]" :"bg-transparent text-[#1B1B1E] "}`}>ABOUT US</li></Link>

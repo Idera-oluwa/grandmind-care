@@ -2,7 +2,7 @@ import React from 'react'
 
 const joinus = () => {
   return (
-    <div className='mt-[5rem]'>
+    <div className='mt-[5rem]' id='register'>
       <h1 className='text-[24px] font-semibold text-[#1B1B1E] text-center'>Join Us On The Care Journey</h1>
       <div className='flex flex-row mt-[4rem] px-[2rem] justify-between items-center'>
         <div className='w-[50%]'>

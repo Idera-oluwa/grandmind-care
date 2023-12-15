@@ -19,7 +19,7 @@ const subscribe = () => {
             <div className='flex flex-row gap-[8px] items-center mt-[1rem]'>
              <img src='Images/home/facebook-logo.png' alt=''/>
              <a href="mailto:info@grandmind.co.uk"><img src='Images/home/mail-logo.png' alt=''/></a>
-             <img src='Images/home/phone-logo.png' alt=''/>
+             <a href='tel:+442034177797'><img src='Images/home/phone-logo.png' alt=''/></a>
       </div>
           </div>
           {/* Right hand side */}

@@ -38,7 +38,7 @@ const joinus = () => {
               <img src='Images/staffing/staff-phone.png' alt=''/>
               <div>
                 <p className='font-bold text-[20px] text-[#1B1B1E]'>Call us</p>
-                <p className='font-semibold text-[14px] text-[#1B1B1E]'>01474247739</p>
+                <a href='tel:+442034177797'><p className='font-semibold text-[14px] text-[#1B1B1E]'>01474247739</p></a>
               </div>
          </div>
          <div className='bg-white p-[1rem] flex flex-row items-center gap-[1rem] rounded-[5px] shadow-shadow4'>

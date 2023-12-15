@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 const domiciliary = () => {
   return (
@@ -12,7 +13,7 @@ const domiciliary = () => {
           <div className='flex flex-col ml-[3rem]'>
            <p className='font-medium text-[40px] text-[#FFFFFF]'>Trusted Professionals</p>
            <p className='font-normal text-[16px] text-[#FFFFFF]'>is to make this journey smoother for both caregivers and those in need of care.</p>
-           <button className='bg-[#474973] py-[5px] flex items-center justify-center rounded-[32px] text-[15px] font-medium text-[#F6F8FF] w-[122px] mt-[2rem]'>Learn more</button>
+           <Link href='/about'><button className='bg-[#474973] py-[5px] flex items-center justify-center rounded-[32px] text-[15px] font-medium text-[#F6F8FF] w-[122px] mt-[2rem]'>Learn more</button></Link>
           </div>
         </div>
         </div>

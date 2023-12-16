@@ -5,8 +5,8 @@ const services = () => {
   return (
     <div className='mt-[4rem]'>
       <h1 className='text-[24px] font-semibold text-[#1B1B1E] text-center'>Our Sevices</h1>
-      <div className='flex flex-row mt-[3rem] gap-[1rem] justify-between'>
-       <div className='flex flex-col bg-[#F6F8FF] items-center w-[30%] py-[2rem] shadow-shadow1'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[3rem] gap-[1rem] justify-between'>
+       <div className='flex flex-col bg-[#F6F8FF] items-center py-[2rem] shadow-shadow1'>
          <img src='Images/home/home-icon.png' alt='' className='w-[30px] h-[28px]'/>
          <p className='font-semibold text-[18px] text-[#1B1B1E] mt-[1rem]'>In-Home Elderly Care</p>
      <div className='mt-[1rem] text-center'>
@@ -16,7 +16,7 @@ const services = () => {
     </div>
     <Link href='/about'><button className='py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] mt-[1.5rem] rounded-[32px]'>Learn more</button></Link>
        </div>
-       <div className='flex flex-col bg-[#F6F8FF] items-center w-[30%] py-[2rem] shadow-shadow1'>
+       <div className='flex flex-col bg-[#F6F8FF] items-center py-[2rem] shadow-shadow1'>
          <img src='Images/home/heart-icon.png' alt='' className='w-[30px] h-[28px]'/>
          <p className='font-semibold text-[18px] text-[#1B1B1E] mt-[1rem]'>Special Needs Support</p>
      <div className='mt-[1rem] text-center'>
@@ -26,7 +26,7 @@ const services = () => {
     </div>
     <Link href='/about'><button className='py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] mt-[1.5rem] rounded-[32px]'>Learn more</button></Link>
        </div>
-       <div className='flex flex-col bg-[#F6F8FF] items-center w-[30%] py-[2rem] shadow-shadow1'>
+       <div className='flex flex-col bg-[#F6F8FF] items-center py-[2rem] shadow-shadow1'>
          <img src='Images/home/memory-care-icon.png' alt='' className='w-[30px] h-[28px]'/>
          <p className='font-semibold text-[18px] text-[#1B1B1E] mt-[1rem]'>Memory Care Services</p>
      <div className='mt-[1rem] text-center'>

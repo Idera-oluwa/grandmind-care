@@ -3,7 +3,7 @@ import React from 'react'
 const faq = () => {
   return (
     <div>
-      <h1 className='text-[24px] font-semibold text-[#1B1B1E] text-center mt-[4rem]'>Frequently Asked Quesions</h1>
+      <h1 className='text-[24px] font-semibold text-[#1B1B1E] text-center mt-[6rem]'>Frequently Asked Quesions</h1>
       <div className='flex flex-col mt-[3rem]'>
         <div className='flex flex-row gap-[3rem] items-center pb-[15px] border-b border-[#FFD166]'>
         <img src='Images/home/dot.png' alt='' className='w-[12px] h-[12px]'/>

@@ -3,7 +3,7 @@ import React from 'react'
 const subscribe = () => {
   return (
     <div className='mt-[6rem] w-[90vw] mx-auto'>
-      <div className='w-full lg:w-[80%] bg-[#F4EEEE] px-[1rem] md:px-[4rem] py-[2rem] mx-auto'>
+      <div className='w-full lg:w-[80%] bg-[#F4EEEE] px-[1rem] md:px-[4rem] py-[2rem] mx-auto rounded-[10px]'>
         <div className='flex flex-col gap-[1rem] lg:gap-0 lg:flex-row justify-between items-center border-b border-[#76778399] pb-[3rem]'>
             <p className='font-semibold text-[20px] md:text-[24px] text-[#1B1B1E]'>Subscribe To Our Newsletter</p>
             <div className='flex flex-row w-full'>

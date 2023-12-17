@@ -8,7 +8,7 @@ const domiciliary = () => {
      <div className='mt-[2rem] relative h-[412px] w-[100%]'>
         <img src='Images/home/care-img.png' alt='' className='absolute z-10 w-full h-full object-cover'/>
         <div className='absolute z-50 w-full h-full bg-[#D9D9D933]'>
-        <div className='flex flex-col md:flex-row w-full h-full items-center px-[3rem] justify-center'>
+        <div className='flex flex-col md:flex-row w-full h-full items-center px-[1rem] md:px-[3rem] justify-center'>
           <img src='Images/home/domiciliary-img.png' alt='' className='h-[250px] lg:h-[329px] w-[50%] hidden md:grid'/>
           <div className='flex flex-col ml-[3rem] w-[100%] md:w-[50%] '>
            <p className='font-medium text-[30px] md:text-[40px] text-[#FFFFFF]'>Trusted Professionals</p>

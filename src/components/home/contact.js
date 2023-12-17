@@ -3,7 +3,7 @@ import React from 'react'
 const contact = () => {
   return (
     <div className='mt-[5rem] relative pb-[5rem] h-[652px]'>
-      <img src='Images/home/contact.png' alt='' className='object-cover rounded-[10px]'/>
+      <img src='Images/home/contact.png' alt='' className='object-cover rounded-[10px] h-[11rem] w-full md:h-auto'/>
       <div className='absolute top-0 left-0 flex flex-col items-center w-full mt-[1rem]'>
       <div className='py-[1rem] md:py-0 text-center flex flex-col items-center w-full'>
         <p className='text-[24px] font-bold text-white'>Contact the team</p>

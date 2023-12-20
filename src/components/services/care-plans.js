@@ -2,7 +2,7 @@ import React from 'react'
 
 const carePlans = () => {
   return (
-    <div className='mt-[6rem] w-[90%] mx-auto flex flex-col gap-[4rem]'>
+    <div className='mt-[6rem] w-full lg:w-[90%] mx-auto flex flex-col gap-[4rem]'>
       <div className='flex flex-col md:flex-row items-center gap-[2rem] md:gap-0'>
         <div className='w-full md:w-[50%]'>
             <p className='font-semibold text-[32px] md:text-[35px] lg:text-[40px] text-[#1B1B1E]'>Personalised</p>

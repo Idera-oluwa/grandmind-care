@@ -2,9 +2,10 @@ import React from 'react'
 
 const contact = () => {
   return (
-    <div className='w-[80%] px-[3rem] py-[4rem] shadow-shadow5 mt-0 mx-auto flex flex-row items-center'>
-      <div className='flex flex-col gap-[2rem]'>
-        <div className='flex flex-row gap-[2rem]'>
+    <div className='w-full md:w-[80%] px-[3rem] py-[4rem] shadow-shadow5 mt-0 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-[2rem] lg:gap-0 items-center'>
+      <div className='flex flex-col gap-[2rem] col-span-1'>
+     <div className='flex flex-col justify-between md:flex-row lg:flex-col gap-[2rem] md:gap-0 lg:gap-[2rem]'>
+     <div className='flex flex-row gap-[2rem]'>
          <img src='Images/contact/location.png' alt='' className='w-[17px] h-[24px]'/>
          <div className='text-left'>
               <p className='font-bold text-[14px] text-[#1B1B1E]'>Office Address</p>
@@ -22,6 +23,8 @@ const contact = () => {
               <p className='font-medium text-[14px] text-[#1B1B1E] mt-[0.2rem]'>Sunday: Closed</p>
               </div>
         </div>
+     </div>
+        <div className='flex flex-col justify-between md:flex-row lg:flex-col gap-[2rem] md:gap-0 lg:gap-[2rem]'>
         <div className='flex flex-row gap-[2rem]'>
          <img src='Images/home/mail-sm.png' alt='' className='w-[17px] h-[18px]'/>
          <div className='text-left'>
@@ -34,8 +37,9 @@ const contact = () => {
          <a href='tel:+442034177797'><p className='font-semibold text-[14px] text-[#1B1B1E]'>01474247739</p></a>
               </div>
         </div>
+        </div>
       </div>
-      <div className='w-[557px] h-[500px] border border-[#47497380] rounded-[10px] bg-white p-[2rem] ml-auto'>
+      <div className=' h-[500px] border border-[#47497380] rounded-[10px] bg-white p-[2rem] ml-auto col-span-1 lg:col-span-2 w-full'>
          <form action="https://formspree.io/f/xyyrgynn"
   method="POST">
             <div className='flex flex-col gap-[10px]'>

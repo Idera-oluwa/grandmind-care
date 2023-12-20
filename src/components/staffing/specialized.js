@@ -2,10 +2,11 @@ import React from 'react'
 
 const specialized = () => {
   return (
-    <div className='mt-[8rem] grid grid-cols-2 w-[90%] mx-auto gap-[4rem]'>
-      <img src='Images/staffing/specialized.png' alt='' className='col-span-1'/>
-      <div className='col-span-1'>
-       <p className='font-semibold text-[36px] text-black'>Specialised Staffs</p>
+    <div className='mt-[8rem] grid grid-cols-1 lg:grid-cols-2 w-full md:w-[90%] mx-auto gap-[4rem]'>
+      <img src='Images/staffing/specialized.png' alt='' className='hidden lg:grid col-span-1 w-full'/>
+      <div className='col-span-1 w-full'>
+       <p className='font-semibold text-[28px] md:text-[32px] lgtext-[36px] text-black'>Specialised Staffs</p>
+       <img src='Images/staffing/specialized.png' alt='' className='grid lg:hidden w-full mt-[1rem]'/>
        <p className='font-normal text-[16px] text-[#1B1B1E] mt-[1rem]'>Our extensive staff database includes a diverse range of specialists, encompassing</p>
        <div className='grid grid-cols-2 mt-[1rem] gap-[1rem]'>
          <div className='p-[2rem] border border-[#9C9EBF80] rounded-[10px]'>

@@ -31,7 +31,7 @@ const contact = () => {
          <a href="mailto:info@grandmind.co.uk"> <p className='font-semibold text-[14px] text-[#1B1B1E]'>info@sgmcare.co.uk</p></a>
               </div>
         </div>
-        <div className='flex flex-row gap-[2rem]'>
+        <div className='flex flex-row gap-[2rem] md:mr-[5rem] lg:mr-0'>
          <img src='Images/home/phone-logo.png' alt='' className='w-[17px] h-[18px]'/>
          <div className='text-left'>
          <a href='tel:+442034177797'><p className='font-semibold text-[14px] text-[#1B1B1E]'>01474247739</p></a>

@@ -34,14 +34,14 @@ const joinus = () => {
       <div className='w-full relative'>
       <img src='Images/staffing/join-us.png' alt='' className='col-span-1 h-full w-full lg:rounded-r-[10px]'/>
       <div className='absolute bottom-0 left-0 lg:ml-[3rem] mb-[-3rem] flex flex-row gap-[1rem] md:gap-[3rem]'>
-         <div className='bg-white p-[1rem] flex flex-row items-center gap-[1rem] rounded-[5px] shadow-shadow4'>
+         <div className='bg-white p-[1rem] flex flex-row items-center gap-[0.5rem] md:gap-[1rem] rounded-[5px] shadow-shadow4'>
               <img src='Images/staffing/staff-phone.png' alt='' className='w-[2rem] h-[2rem] md:w-auto md:h-auto'/>
               <div>
                 <p className='font-bold text-[14px] md:text-[20px] text-[#1B1B1E]'>Call us</p>
                 <a href='tel:+442034177797'><p className='font-semibold text-[10px] md:text-[14px] text-[#1B1B1E]'>01474247739</p></a>
               </div>
          </div>
-         <div className='bg-white p-[1rem] flex flex-row items-center gap-[1rem] rounded-[5px] shadow-shadow4'>
+         <div className='bg-white p-[1rem] flex flex-row items-center gap-[0.5rem] md:gap-[1rem] rounded-[5px] shadow-shadow4'>
               <img src='Images/staffing/staff-mail.png' alt='' className='w-[2rem] h-[2rem] md:w-auto md:h-auto'/>
               <div>
                 <p className='font-bold text-[14px] md:text-[20px] text-[#1B1B1E]'>Email</p>

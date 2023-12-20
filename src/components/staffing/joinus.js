@@ -3,8 +3,8 @@ import React from 'react'
 const joinus = () => {
   return (
     <div className='mt-[6rem] grid grid-cols-1 lg:grid-cols-2 h-auto'>
-      <div className='col-span-1 bg-[#2A2C58] h-full px-[2rem] flex flex-col justify-center pb-[2rem] lg:pb-[1rem] rounded-t-[10px] lg:rounded-tl-[10px] lg:rounded-bl-[10px] lg:rounded-t-[0px] pt-[1rem] lg:pt-0'>
-       <h1 className='text-[40px] font-semibold text-white text-center'>Join Our Team</h1>
+      <div className='col-span-1 bg-[#2A2C58] h-full px-[1rem] md:px-[2rem] flex flex-col justify-center pb-[2rem] lg:pb-[1rem] rounded-t-[10px] lg:rounded-tl-[10px] lg:rounded-bl-[10px] lg:rounded-t-[0px] pt-[1rem] lg:pt-0'>
+       <h1 className='text-[32px] md:text-[35px] lgtext-[40px] font-semibold text-white text-center'>Join Our Team</h1>
        <p className='text-[16px] font-medium text-white text-center mt-[1.5rem] w-full md:w-[80%] mx-auto'>Are you passionate about caregiving? Consider joining our team of dedicated professionals. We are always looking for compassionate individuals to contribute to our mission.</p>
        <div className='flex flex-col md:flex-row gap-[2rem] md:gap-0 mt-[2rem] justify-between'>
         <div className='w-full md:w-[45%] bg-white px-[1rem] py-[2rem] rounded-[5px]'>

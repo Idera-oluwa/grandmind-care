@@ -10,7 +10,7 @@ const howWeWork = () => {
        </div>
        <div className='w-full lg:w-[40%] ml-auto mr-[3rem] flex flex-col items-center'>
         <p className='font-extrabold text-[24px] text-white mt-[2rem] text-center'>How  We Work</p>
-        <p className='font-semibold text-[12px] text-[#F6F8FF] mt-[1rem] text-center w-[356px]'>From initial assessments to ongoing support, our process is designed to ensure the best possible care</p>
+        <p className='font-semibold text-[12px] text-[#F6F8FF] mt-[1rem] text-center w-full md:w-[356px]'>From initial assessments to ongoing support, our process is designed to ensure the best possible care</p>
         <img src='Images/services/care5.png' alt='' className='mt-[1rem] w-[95%] lg:w-auto mx-auto'/>
        </div>
     </div>

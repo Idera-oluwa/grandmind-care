@@ -25,7 +25,7 @@ const subscribe = () => {
           {/* Right hand side */}
           <div className='grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row gap-[1rem]'>
             <div className='bg-[#474973] col-span-1 flex flex-col justify-center items-center lg:w-[224px] h-[152px] text-left rounded-[10px]'>
-            <div className='text-left'>
+            <div className='text-center sm:text-left'>
               <p className='font-bold text-[12px] text-white'>Office Address</p>
               <p className='font-medium text-[12px] text-white mt-[0.5rem]'>22 Cutmore Street</p>
               <p className='font-medium text-[12px] text-white mt-[0.2rem]'>Gravesend Kent</p>
@@ -33,7 +33,7 @@ const subscribe = () => {
               </div>
             </div>
             <div className='bg-[#474973] col-span-1 flex flex-col justify-center items-center lg:w-[224px] h-[152px] rounded-[10px]'>
-            <div className='text-left'>
+            <div className='text-center sm:text-left'>
             <p className='font-bold text-[12px] text-white'>Office Opening Hours</p>
             <p className='font-medium text-[12px] text-white mt-[0.5rem]'>Mon-Fri: 9:00am -5:00pm</p>
             <p className='font-medium text-[12px] text-white mt-[0.2rem]'>Saturday: Closed</p>

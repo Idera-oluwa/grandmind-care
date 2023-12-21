@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FaBarsStaggered } from "react-icons/fa6"
 
-const navbar = () => {
+const navbar = ({showSidebar}) => {
   const pathname=usePathname()
   return (
     <div className='w-full py-[2rem] fixed top-0 bg-white z-[1000] shadow-shadow4'>
@@ -22,7 +22,7 @@ const navbar = () => {
       <a href="mailto:info@grandmind.co.uk"><img src='Images/home/mail-logo.png' alt=''/></a>
       <a href='tel:+442034177797'><img src='Images/home/phone-logo.png' alt=''/></a>
       </div>
-      <FaBarsStaggered className='text-[30px] lg:hidden cursor-pointer'/>
+      <FaBarsStaggered className='text-[30px] lg:hidden cursor-pointer' onClick={showSidebar}/>
     </div>
     </div>
   )

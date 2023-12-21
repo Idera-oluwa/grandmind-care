@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import Navbar2 from './home/navbar2'
 import { FaBarsStaggered } from "react-icons/fa6"
 
-const navbar = () => {
+const navbar = ({showSidebar}) => {
   const pathname=usePathname()
   const [show, setShow] = useState(false)
   const controlNavbar = () => {
@@ -38,9 +38,9 @@ const navbar = () => {
       <a href="mailto:info@grandmind.co.uk"><img src='Images/home/mail-logo.png' alt=''/></a>
       <a href='tel:+442034177797'><img src='Images/home/phone-logo.png' alt=''/></a>
       </div>
-      <FaBarsStaggered className='text-[30px] lg:hidden cursor-pointer'/>
+      <FaBarsStaggered className='text-[30px] lg:hidden cursor-pointer' onClick={showSidebar}/>
     </div>
-    {show && <Navbar2/>}
+    {show && <Navbar2 showSidebar={showSidebar}/>}
     </div>
   )
 }

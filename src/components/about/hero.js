@@ -10,7 +10,7 @@ const hero = () => {
          <a href="mailto:info@grandmind.co.uk"><p className='text-[14px] md:text-[16px] font-normal text-[#474973]'>info@grandmind.co.uk</p></a>
        </div>
        <div className='flex flex-row gap-[8px] items-center cursor-pointer'>
-         <img src='Images/home/phone-sm.png' alt='' className='w-[13px] h-[13px]'/>
+         <img src='/Images/home/whatsapp-icon.png' alt='' className='w-[17px] h-[17px]'/>
          <a href='tel:+442034177797'><p className='text-[14px] md:text-[16px] font-normal text-[#474973]'>02034177797</p></a>
        </div>
        </div>

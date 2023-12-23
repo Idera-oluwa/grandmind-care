@@ -12,7 +12,7 @@ const joinus = () => {
            <div className='flex flex-col gap-[1rem]'>
             <p className='font-medium text-[14px] text-[#1B1B1E]'>Healthcare Assistants</p>
             <p className='font-medium text-[14px] text-[#1B1B1E]'>Support Workers</p>
-            <p className='font-medium text-[14px] text-[#1B1B1E]'>Senior Support Workers</p>
+            <p className='font-medium text-[14px] text-[#1B1B1E]'>Registered General Nurses</p>
             <p className='font-medium text-[14px] text-[#1B1B1E]'>Homecare Managers </p>
            </div>
            <img src='Images/staffing/logo2.png' alt='' className='w-[30px] h-[30px] mt-auto ml-auto'/>
@@ -21,10 +21,10 @@ const joinus = () => {
         <div className='w-full md:w-[49%] bg-white px-[1rem] py-[2rem] rounded-[5px]'>
           <div className='flex flex-row'>
            <div className='flex flex-col gap-[1rem]'>
-            <p className='font-medium text-[14px] text-[#1B1B1E]'>Healthcare Assistants</p>
-            <p className='font-medium text-[14px] text-[#1B1B1E]'>Support Workers</p>
-            <p className='font-medium text-[14px] text-[#1B1B1E]'>Senior Support Workers</p>
-            <p className='font-medium text-[14px] text-[#1B1B1E]'>Homecare Managers </p>
+            <p className='font-medium text-[14px] text-[#1B1B1E]'>Carers</p>
+            <p className='font-medium text-[14px] text-[#1B1B1E]'>Senior Carers</p>
+            <p className='font-medium text-[14px] text-[#1B1B1E]'>Registered General Nurses</p>
+            <p className='font-medium text-[14px] text-[#1B1B1E]'>Specialist Registered Nurses  </p>
            </div>
            <img src='Images/staffing/logo2.png' alt='' className='w-[30px] h-[30px] mt-auto ml-auto'/>
           </div>

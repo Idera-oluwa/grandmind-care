@@ -17,9 +17,9 @@ const subscribe = () => {
             <img src='Images/home/LOGO.png' alt='' className='w-[164px] h-[41.65px]'/>
             <p className='font-medium text-[12px] text-[#767783B2] mt-[1rem]'>Contacting the team is easy, enter your name</p>
             <div className='flex flex-row gap-[8px] items-center mt-[1rem]'>
-             <img src='Images/home/facebook-logo.png' alt=''/>
+            <a href='https://www.facebook.com/LCBNTV' target="_blank" rel="noreferrer"><img src='Images/home/facebook-logo.png' alt=''/></a>
              <a href="mailto:info@grandmind.co.uk"><img src='Images/home/mail-logo.png' alt=''/></a>
-             <a href='tel:+442034177797'><img src='Images/home/phone-logo.png' alt=''/></a>
+             <a href='https://wa.me/447903220307' target="_blank" rel="noreferrer"><img src='Images/home/phone-logo.png' alt=''/></a>
       </div>
           </div>
           {/* Right hand side */}

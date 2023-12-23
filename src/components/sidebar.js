@@ -9,7 +9,7 @@ const sidebar = ({show,hideSidebar}) => {
   return (
     <div className={`lg:hidden fixed top-0 transition-all ease-in-out duration-500 container transform -translate-x-full ${show && `transform translate-x-0`} bg-white h-[100vh] z-[10000]`}>
       <div className='flex flex-row items-center justify-between w-[90vw] mx-auto mt-[2rem]'>
-      <Link href='/'><img src='Images/home/LOGO.png' alt='' className=''/></Link>
+      <Link href='/'><img src='Images/home/LOGO.svg' alt='' className=''/></Link>
        <FaTimes className='text-[40px] cursor-pointer text-red-700' onClick={hideSidebar}/>
       </div>
       <ul className='flex flex-col mt-[2rem]'>

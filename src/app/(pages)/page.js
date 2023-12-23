@@ -5,6 +5,7 @@ import WhyChooseUs from '../../components/home/why-us'
 import Explore from '../../components/home/explore'
 import Faq from '../../components/home/faq'
 import Contact from '../../components/home/contact'
+import Companies from '../../components/home/companies'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Explore/>
       <Faq/>
       <Contact/>
+      <Companies/>
     </div>
   )
   }

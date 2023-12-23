@@ -21,21 +21,15 @@ const page = () => {
   }
   const deleteUser = async (id) => {
     const backendEndpoint = url;
-  
     try {
       const response = await axios.delete(`${backendEndpoint}/${id}`);
       console.log('User deleted successfully', response.data);
-      // Perform any additional actions or UI updates as needed
+      window.location.reload()
     } catch (error) {
       console.error('Error deleting user', error);
-      // Perform any error handling or display error messages to the user
     }
   };
   
-  // Replace 'USER_ID_TO_DELETE' with the actual ID of the user you want to delete
-  // const userIdToDelete = 'USER_ID_TO_DELETE';
-  
-  // Call the asynchronous function
 
 
   useEffect(() => {
@@ -81,15 +75,15 @@ const page = () => {
           <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center'>Action</p>
         </div>
         {regData.map((data)=>{
-         const {id,name, email, contact} = data;
+         const {_id,name, email, contact} = data;
          return(
-           <div className='grid grid-cols-4 py-[1rem] cursor-pointer hover:bg-[#7677831A]'>
+           <div className='grid grid-cols-4 py-[1rem] cursor-pointer hover:bg-[#7677831A]' key={_id}>
           <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center'>{name}</p>
           <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center'>{email}</p>
           <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center'>{contact}</p>
           <div className='flex flex-row gap-[0.5rem] mx-auto items-center'>
             <img src='/Images/home/delete.png' className='w-[10.67px] h-[10.67px]'/>
-          <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center' onClick={(id)=>deleteUser(id)}>Delete</p>
+          <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center' onClick={()=>deleteUser(_id)}>Delete</p>
           </div>
         </div>
          )

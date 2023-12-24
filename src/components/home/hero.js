@@ -25,8 +25,8 @@ const hero = () => {
        <i className='text-[32px] md:text-[35px] lg:text-[40px] font-bold leading-[48.41px] text-[#1B1B1E] mt-[48px]'>No 1 Carer <span className='text-[#474973]'>Service</span> </i>
        <p className='text-[16px] leading-[25.6px] text-[#1B1B1E] font-normal w-[95%] md:w-[80%] mt-[2rem]'>We're delighted to welcome you to <span className='text-[#474973] font-semibold'>Grandmind Care LTD</span>, where compassionate care meets cutting-edge convenience. Here, you’ll find a supportive community,valuable resources, and a seamless interaction with our professional carers.</p>
        <div className='flex flex-row mt-[1.5rem] gap-[10px]'>
-       <Link href='/about#register'><button className='bg-[#474973] rounded-[22px] py-[10px] lg:py-[12px] px-[18px] lg:px-[20px] text-[15px] font-bold text-[#FDFDFD] tracking-[1px] hover:text-black border border-transparent hover:border-[#1B1B1E] hover:bg-transparent transition ease-in-out delay-300'>Register today</button></Link>
-        <Link href='/about'> <button className='bg-transparent rounded-[22px] py-[10px] lg:py-[12px] px-[18px] lg:px-[20px] text-[15px] font-medium text-black border border-[#1B1B1E] tracking-[1px] hover:bg-[#474973] hover:border-transparent hover:text-[#FDFDFD] transition ease-in-out delay-300'>Learn more</button> </Link>
+       <Link href='/about#register'><button className='bg-[#474973] rounded-[22px] py-[10px] lg:py-[12px] px-[18px] lg:px-[20px] text-[15px] font-bold text-[#FDFDFD] tracking-[1px] border border-transparent hover:bg-[hsl(237,24%,25%)] transition ease-in-out delay-500'>Register today</button></Link>
+        <Link href='/about'> <button className='bg-transparent rounded-[22px] py-[10px] lg:py-[12px] px-[18px] lg:px-[20px] text-[15px] font-medium text-black border border-[#1B1B1E] tracking-[1px] hover:bg-[#474973] hover:border-transparent hover:text-[#FDFDFD] transition ease-in-out delay-500'>Learn more</button> </Link>
        </div>
        <img src='Images/home/Star 6.png' alt='' className='absolute bottom-0 mb-0 md:mb-[-3rem] left-0 right-0 ml-auto mr-[1rem] md:mr-[-5rem] lg:mr-[4rem] z-[-50] w-[6rem] lg:w-auto'/>
      </div>

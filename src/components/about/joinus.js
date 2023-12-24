@@ -44,7 +44,7 @@ const joinus = () => {
             <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Email Address' className='py-[15px] px-[20px] border border-[#47497380] w-full text-[14px] font-bold text-[#474973] rounded-[10px] outline-none'/>
             <input type="text" value={contact} onChange={(e) => setContact(e.target.value)} name='contact' placeholder='Phone Number' className='py-[15px] px-[20px] border border-[#47497380] w-full text-[14px] font-bold text-[#474973] rounded-[10px] outline-none'/>
             </div>
-            <button className='w-full bg-[#474973] rounded-[10px] h-[64px] font-semibold text-[20px] text-white flex justify-center items-center mt-[2rem] hover:border-transparent hover:bg-[#353756] transition ease-in-out delay-300' onClick={handleRegistration}>Register</button>
+            <button className='w-full bg-[#474973] rounded-[10px] h-[64px] font-semibold text-[20px] text-white flex justify-center items-center mt-[2rem] hover:border-transparent hover:bg-[#353756] transition ease-in-out delay-500' onClick={handleRegistration}>Register</button>
            </form>
          </div>
         </div>

@@ -1,12 +1,15 @@
 "use client"
 import React, { useState } from 'react';
 import axios from 'axios';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const joinus = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [contact, setContact] = useState('');
-  const handleRegistration = async() => {
+  const handleRegistration = async(e) => {
+    e.preventDefault()
     const url = 'https://grandmindcare.onrender.com/api/v1/grandmind'
     const registrationData = {
       name: name,
@@ -20,12 +23,29 @@ const joinus = () => {
 
       // Handle the response after registration
       console.log('Registration successful:', response.data);
+      toast.success("Registration Successful !", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
       setName('')
       setEmail('')
       setContact('')
     } catch (error) {
       // Handle registration errors
       console.error('Registration failed:', error);
+      if (name==='' || email ==='' || contact===''){
+        toast.warning("Please input all credentials !", {
+          position: toast.POSITION.TOP_RIGHT,
+        });
+      }
+      else{
+        toast.error("Registration failed !", {
+          position: toast.POSITION.TOP_RIGHT,
+        });
+      }
+      
+      setName('')
+      setEmail('')
+      setContact('')
     }
   };
   return (
@@ -45,6 +65,7 @@ const joinus = () => {
             <input type="text" value={contact} onChange={(e) => setContact(e.target.value)} name='contact' placeholder='Phone Number' className='py-[15px] px-[20px] border border-[#47497380] w-full text-[14px] font-bold text-[#474973] rounded-[10px] outline-none bg-[#47497303] h-[52px] '/>
             </div>
             <button className='w-full bg-[#474973] rounded-[10px] h-[64px] font-semibold text-[20px] text-white flex justify-center items-center mt-[2rem] hover:border-transparent hover:bg-[#353756] transition ease-in-out delay-500' onClick={handleRegistration}>Register</button>
+            <ToastContainer />
            </form>
          </div>
         </div>

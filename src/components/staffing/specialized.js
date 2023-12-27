@@ -2,7 +2,7 @@ import React from 'react'
 
 const specialized = () => {
   return (
-    <div className='mt-[8rem] grid grid-cols-1 lg:grid-cols-2 w-full md:w-[90%] mx-auto gap-[4rem]'>
+    <div className='mt-[12rem] grid grid-cols-1 lg:grid-cols-2 w-full md:w-[90%] mx-auto gap-[4rem]'>
       <img src='Images/staffing/specialized.png' alt='' className='hidden lg:grid col-span-1 w-full'/>
       <div className='col-span-1 w-full'>
        <p className='font-semibold text-[28px] md:text-[32px] lgtext-[36px] text-black'>Specialised Staffs</p>

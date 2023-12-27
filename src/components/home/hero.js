@@ -2,7 +2,7 @@
 import React,{useRef} from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import { Autoplay, Navigation, Pagination, A11y, EffectFade } from 'swiper/modules';
+import { Autoplay, Navigation, A11y, EffectFade } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';

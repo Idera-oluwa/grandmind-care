@@ -6,7 +6,7 @@ const subscribe = () => {
       <div className='w-full lg:w-[80%] bg-[#F4EEEE] px-[1rem] md:px-[4rem] py-[2rem] mx-auto rounded-[10px]'>
         <div className='flex flex-col gap-[1rem] lg:gap-0 lg:flex-row justify-between items-center border-b border-[#76778399] pb-[3rem]'>
             <p className='font-semibold text-[20px] md:text-[24px] text-[#1B1B1E]'>Subscribe To Our Newsletter</p>
-            <form className='flex flex-row w-full'  action="https://formspree.io/f/mgegwrqy"
+            <form className='flex flex-row w-full md:w-auto'  action="https://formspree.io/f/mgegwrqy"
              method="POST">
                <input type='text' name='subscribe' placeholder='Enter your email' className='font-medium text-[14px] text-[#767783] w-[83%] md:w-[306px] px-[1rem] h-[59px] outline-none'/>
                <button type='submit' className='bg-[#FFD166] w-[17%] md:w-[62px] h-[59px] rounded-[5px] flex justify-center items-center cursor-pointer hover:border-transparent hover:bg-[#ffba66] transition ease-in-out delay-500'><img src='Images/home/subscribe-arrow.png' alt=''/></button>

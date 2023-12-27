@@ -39,34 +39,33 @@ const hero = () => {
        </div>
      </div>
      {/* Right hand side */}
-     <div className='w-full md:w-[50%] mt-[3rem] md:mt-0 border-t md:border-t-0 md:border-l border-[#47497380] pt-[2rem] md:pl-[2rem]'>
+     <div className='w-full md:w-[50%] mt-[2rem] pt-[2rem] md:pt-0 md:mt-0 border-t md:border-t-0 md:border-l border-[#47497380] md:pl-[2rem]'>
      <Swiper
-      modules={[Autoplay, Navigation, Pagination, A11y,EffectFade]}
+      modules={[Autoplay, Navigation, A11y,EffectFade]}
       spaceBetween={50}
       slidesPerView={1}
       // navigation
       autoplay={{ delay: 2500, disableOnInteraction: false,}}
-      pagination={{ clickable: true }}
       onSwiper={it => (sliderRef.current = it)}
       onSlideChange={() => console.log('slide change')}
       effect="fade"
       fadeEffect= {{ crossFade: true }}
     >
       <SwiperSlide>
-      <img src='Images/home/hero-image.png' alt=''/>
+      <img src='Images/home/hero-image.png' alt='' className='w-full h-[350px] md:h-[420px]'/>
       </SwiperSlide>
       <SwiperSlide>
-      <img src='/Images/home/hero2.png' alt=''/>
+      <img src='/Images/home/hero2.png' alt='' className='rounded-[23px] w-full h-[350px] md:h-[420px]'/>
       </SwiperSlide>
       <SwiperSlide>
-      <img src='/Images/home/hero3.png' alt=''/>
+      <img src='/Images/home/hero3.png' alt='' className='rounded-[23px] w-full h-[350px] md:h-[420px]'/>
       </SwiperSlide>
       <SwiperSlide>
-      <img src='/Images/home/hero4.png' alt=''/>
+      <img src='/Images/home/hero4.png' alt='' className='rounded-[23px] w-full h-[350px] md:h-[420px]'/>
       </SwiperSlide>
     </Swiper>
-       <h1 className='text-[32px] font-semibold text-[#1B1B1E] mt-[1rem] md:mt-0'>Our <span className='text-[35px] font-bold text-[#E27396] mt-[1rem]'>Mission</span></h1>
-       <p className='text-[16px] md:text-[18px] font-medium text-[#1B1B1E] mt-[1rem] md:mt-0'>is to make this journey smoother for both caregivers and those in need of care. Here, you'll find a supportive community, valuable resources, and a seamless</p>
+       <h1 className='text-[20px] font-semibold text-[#1B1B1E] mt-[1rem] md:mt-[1rem]'>Our <span className='text-[20px] font-bold text-[#E27396] mt-[1rem]'>Mission</span></h1>
+       <p className='text-[14px] font-medium text-[#1B1B1E] mt-[1rem] md:mt-0'>is to make this journey smoother for both caregivers and those in need of care. Here, you'll find a supportive community, valuable resources, and a seamless</p>
      </div>
     </div>
   )

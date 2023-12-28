@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const explore = () => {
   return (
-    <div className='flex flex-row mt-[10rem] items-center'>
+    <div className='flex flex-row mt-[7rem] md:mt-[10rem] items-center'>
       <div className='w-full md:w-[50%]'>
        <p className='text-[32px] lg:text-[40px] font-bold text-black leading-[55.55px]'>Explore our flexible</p>
        <p className='text-[32px] lg:text-[40px] font-bold text-black leading-[55.55px]'><span className='text-[#32936F]'>staffing</span> options</p>

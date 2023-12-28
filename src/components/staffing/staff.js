@@ -4,7 +4,7 @@ import Link from 'next/link';
 const staff = () => {
   return (
     <div className='w-[90vw] mx-auto'>
-    <div className='mt-[10rem] h-[20rem] md:h-auto w-full relative'>
+    <div className='mt-[7rem] md:mt-[10rem] h-[20rem] md:h-auto w-full relative'>
       <img src='Images/staffing/our-staff-banner.png' alt='' className='object-cover h-full w-full rounded-[10px]'/>
       <div className='absolute top-0 w-full h-full flex flex-col justify-center items-center'>
         <p className='text-[30px] md:text-[32px] font-semibold text-white'>Our Staff</p>

@@ -3,7 +3,7 @@ import React from 'react'
 const whyus = () => {
   return (
     <div className='w-[90vw] mx-auto'>
-    <div className='mt-[10rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[1rem]'>
+    <div className='mt-[7rem] md:mt-[10rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[1rem]'>
       <div className='h-auto shadow-shadow3 hover:shadow-none hover:border cursor-pointer px-[1rem] py-[2rem] flex flex-col items-center col-span-1'>
        <img src='Images/staffing/staffing-logo1.png' alt=''/>
        <p className='text-[16px] font-bold text-black mt-[2.5rem]'>24-Hour Availability</p>

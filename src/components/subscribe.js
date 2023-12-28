@@ -15,7 +15,7 @@ const subscribe = () => {
         <div className='flex flex-col gap-[2rem] lg:gap-0 lg:flex-row mt-[3rem] justify-between border-b border-[#76778399] pb-[3rem]'>
           {/* Left hand side */}
           <div className='w-full lg:w-[50%]'>
-            <img src='Images/home/LOGO.png' alt='' className='w-[164px] h-[41.65px]'/>
+            <img src='Images/home/LOGO.svg' alt='' className='w-[164px] h-[41.65px]'/>
             <p className='font-medium text-[12px] text-[#767783B2] mt-[1rem]'>Contacting the team is easy, enter your name</p>
             <div className='flex flex-row gap-[8px] items-center mt-[1rem]'>
             <a href='https://www.facebook.com/LCBNTV' target="_blank" rel="noreferrer"><img src='Images/home/facebook-logo.png' alt=''/></a>

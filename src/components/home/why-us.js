@@ -1,15 +1,18 @@
+"use client"
 import React from "react";
 import Link from "next/link";
+import { Zoom } from "react-awesome-reveal";
 
 const WhyChooseUs = () => {
   return (
+
     <div className="mt-[7rem] md:mt-[10rem]">
       <h1 className="text-[20px] font-semibold text-[#1B1B1E] text-center">
         Why Choose Us
       </h1>
       <div className="mt-[2rem]">
         <div className="bg-[#474973D4] w-full hidden md:grid grid-cols-3 py-[1rem] rounded-[7px]">
-          <div className="col-span-1 border-r-2 border-[#FFD166] px-[2rem]">
+        <Zoom> <div className="col-span-1 border-r-2 border-[#FFD166] px-[2rem]">
             <img src="Images/home/patient1.png" alt="" className="" />
           </div>
           <div className="col-span-1 border-r-2 border-[#FFD166] px-[2rem]">
@@ -17,10 +20,10 @@ const WhyChooseUs = () => {
           </div>
           <div className="col-span-1 px-[2rem]">
             <img src="Images/home/patient3.png" alt="" className="" />
-          </div>
+          </div></Zoom>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[3rem] md:gap-0 md:mt-[1rem]">
-          <div className="col-span-1 md:px-[2rem]">
+        <Zoom><div className="col-span-1 md:px-[2rem]">
             <img
               src="Images/home/patient1.png"
               alt=""
@@ -98,7 +101,7 @@ const WhyChooseUs = () => {
                 className="w-[38px] h-[38px] mr-[1rem]"
               />
             </div>
-          </div>
+          </div></Zoom>
         </div>
       </div>
     </div>

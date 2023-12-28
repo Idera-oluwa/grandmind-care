@@ -3,6 +3,7 @@ import React,{useRef} from 'react'
 import Link from 'next/link';
 import { Autoplay, Navigation, A11y, EffectFade } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Fade } from "react-awesome-reveal";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -13,6 +14,7 @@ import 'swiper/css/effect-fade';
 const domiciliary = () => {
   const sliderRef = useRef();
   return (
+    <Fade>
     <div className='mt-[7rem] md:mt-[10rem]'>
      <h1 className='text-[20px] font-semibold text-[#1B1B1E] text-center'>Domiciliary Care Services</h1>
      <div className='mt-[2rem] relative h-[290px] md:h-[412px] w-[100%]'>
@@ -65,6 +67,7 @@ const domiciliary = () => {
         </div>
      </div>
     </div>
+    </Fade>
   )
 }
 

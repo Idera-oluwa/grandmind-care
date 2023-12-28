@@ -1,14 +1,16 @@
+"use client"
 import React from "react";
 import Link from "next/link";
+import { Zoom } from "react-awesome-reveal";
 
 const services = () => {
   return (
     <div className="mt-[7rem] md:mt-[12rem] lg:px-[3rem]">
-      <h1 className="text-[20px] font-semibold text-[#1B1B1E] text-center">
+      <Zoom><h1 className="text-[20px] font-semibold text-[#1B1B1E] text-center">
         Our Sevices
-      </h1>
+      </h1></Zoom>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[3rem] gap-[2rem] md:gap-[4rem] justify-between">
-        <div className="flex flex-col bg-[#F6F8FF] items-center py-[2rem] shadow-shadow1 cursor-pointer hover:bg-[#fdebf1] transition-all duration-300 ease-in">
+      <Zoom cascade damping={0.1}><div className="flex flex-col bg-[#F6F8FF] items-center py-[2rem] shadow-shadow1 cursor-pointer hover:bg-[#fdebf1] transition-all duration-300 ease-in">
           <img
             src="Images/home/home-icon.png"
             alt=""
@@ -85,8 +87,9 @@ const services = () => {
               Learn more
             </button>
           </Link>
-        </div>
+        </div></Zoom>
       </div>
+
     </div>
   );
 };

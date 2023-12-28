@@ -49,7 +49,7 @@ const joinus = () => {
     }
   };
   return (
-    <div className='mt-[10rem] px-[3rem]' id='register'>
+    <div className='mt-[7rem] md:mt-[10rem] px-[3rem]' id='register'>
       <h1 className='text-[20px] font-semibold text-[#1B1B1E] text-center'>Join Us On The Care Journey</h1>
       <div className='flex flex-col md:flex-row mt-[4rem] md:px-[2rem] justify-between gap-[2rem] md:gap-0'>
         <div className='w-full md:w-[50%] mt-[4rem]'>

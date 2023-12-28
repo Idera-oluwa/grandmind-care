@@ -64,7 +64,7 @@ const hero = () => {
       <img src='/Images/home/hero4.png' alt='' className='rounded-[23px] w-full h-[209px] md:h-[420px] object-cover'/>
       </SwiperSlide>
     </Swiper>
-       <h1 className='text-[20px] font-semibold text-[#1B1B1E] text-center md:text-left mt-[1.5rem] md:mt-[1rem]'>Our <span className='text-[20px] font-bold text-[#E27396] mt-[1rem]'>Mission</span></h1>
+       <h1 className='text-[20px] font-semibold text-[#1B1B1E] text-center md:text-left mt-[2rem] md:mt-[1rem]'>Our <span className='text-[20px] font-bold text-[#E27396]'>Mission</span></h1>
        <p className='text-[14px] md:text-[14px] font-medium text-[#1B1B1E] mt-[0.5rem] md:mt-0 text-center md:text-left'>is to make this journey smoother for both caregivers and those in need of care. Here, you'll find a supportive community, valuable resources, and a seamless</p>
      </div>
     </div>

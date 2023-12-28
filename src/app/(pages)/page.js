@@ -9,7 +9,7 @@ import Companies from "../../components/home/companies";
 
 export default function Home() {
   return (
-    <div className="w-[90vw]  2xl:max-w-[1440px] mx-auto mt-[2rem] mb-[5rem]">
+    <div className="w-[90vw]  2xl:max-w-[1440px] mx-auto mt-[2rem] mb-[5rem] overflow-hidden">
       <Hero />
       <Services />
       <Domiciliary />

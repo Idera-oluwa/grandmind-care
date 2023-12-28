@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import Link from "next/link";
-import { Zoom } from "react-awesome-reveal";
+import { Slide,Fade  } from "react-awesome-reveal";
 
 const WhyChooseUs = () => {
   return (
@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
       </h1>
       <div className="mt-[2rem]">
         <div className="bg-[#474973D4] w-full hidden md:grid grid-cols-3 py-[1rem] rounded-[7px]">
-        <Zoom> <div className="col-span-1 border-r-2 border-[#FFD166] px-[2rem]">
+        <Fade> <div className="col-span-1 border-r-2 border-[#FFD166] px-[2rem]">
             <img src="Images/home/patient1.png" alt="" className="" />
           </div>
           <div className="col-span-1 border-r-2 border-[#FFD166] px-[2rem]">
@@ -20,10 +20,10 @@ const WhyChooseUs = () => {
           </div>
           <div className="col-span-1 px-[2rem]">
             <img src="Images/home/patient3.png" alt="" className="" />
-          </div></Zoom>
+          </div></Fade>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[3rem] md:gap-0 md:mt-[1rem]">
-        <Zoom><div className="col-span-1 md:px-[2rem]">
+        <Slide direction="up"><div className="col-span-1 md:px-[2rem]">
             <img
               src="Images/home/patient1.png"
               alt=""
@@ -101,7 +101,7 @@ const WhyChooseUs = () => {
                 className="w-[38px] h-[38px] mr-[1rem]"
               />
             </div>
-          </div></Zoom>
+          </div></Slide>
         </div>
       </div>
     </div>

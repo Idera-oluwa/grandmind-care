@@ -1,10 +1,18 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const hero = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center">
-      <div className="w-full md:w-[50%]">
+    <div className="flex flex-col md:flex-row items-center overflow-x-hidden">
+      <motion.div
+        initial={{ opacity: 0, x: -200 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: "0.5" }}
+        className="w-full md:w-[50%]"
+      >
         <h1 className="font-bold text-[30px] md:text-[32px] text-[#474973]">
           Our <span className="font-bold text-[#1B1B1E]">Comprehensive</span>
         </h1>
@@ -52,8 +60,11 @@ const hero = () => {
             </a>
           </div>
         </div>
-      </div>
-      <img
+      </motion.div>
+      <motion.img
+        initial={{ opacity: 0, x: 200 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: "0.5" }}
         src="Images/services/our-services-image.png"
         alt=""
         className="w-full md:w-[50%] mt-[3rem] md:mt-full"

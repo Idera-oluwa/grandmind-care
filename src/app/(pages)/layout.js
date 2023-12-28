@@ -34,37 +34,35 @@ const LayoutTransition = ({ children }) => {
   }, [pathname]);
 
   return (
-    <AnimatePresence initial={false}>
-      <div>
-        <motion.div
-          key={pathname + "exit-animation"}
-          style={{
-            position: "absolute",
-          }}
-          initial={{ opacity: 1 }}
-          animate={{
-            opacity: 0,
-          }}
-          transition={{ ease: "easeIn", duration: 0.4 }}
-        >
-          <div ref={exitAnimationDivRef} />
-        </motion.div>
+    <AnimatePresence mode="wait" initial={false}>
+      <motion.div
+        key={pathname + "exit-animation"}
+        style={{
+          position: "absolute",
+        }}
+        initial={{ opacity: 1 }}
+        animate={{
+          opacity: 0,
+        }}
+        transition={{ ease: "easeIn", duration: 0.4 }}
+      >
+        <div ref={exitAnimationDivRef} />
+      </motion.div>
 
-        <motion.div
-          key={pathname}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ ease: "easeIn", duration: 0.4 }}
-        >
-          <div ref={currentPageRef}>
-            {" "}
-            <Sidebar show={show} hideSidebar={hideSidebar} />
-            <Navbar showSidebar={showSidebar} />
-            {children}
-            <Subscribe />
-          </div>
-        </motion.div>
-      </div>
+      <motion.div
+        key={pathname}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeIn", duration: 0.4 }}
+      >
+        <div ref={currentPageRef}>
+          {" "}
+          <Sidebar show={show} hideSidebar={hideSidebar} />
+          <Navbar showSidebar={showSidebar} />
+          {children}
+          <Subscribe />
+        </div>
+      </motion.div>
     </AnimatePresence>
   );
 };

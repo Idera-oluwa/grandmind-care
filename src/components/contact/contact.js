@@ -1,8 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const contact = () => {
   return (
-    <div className="w-full md:w-[80%]  2xl:w-full px-[1rem] md:px-[3rem] py-[4rem] shadow-shadow5 mt-0 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-[2rem] lg:gap-0 items-center">
+    <motion.div
+      initial={{ opacity: 0, y: -300 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: "0.5" }}
+      className="w-full md:w-[80%]  2xl:w-full px-[1rem] md:px-[3rem] py-[4rem] shadow-shadow5 mt-0 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-[2rem] z-[2] lg:gap-0 items-center"
+    >
       <div className="flex flex-col gap-[2rem] col-span-1">
         <div className="flex flex-col justify-between md:flex-row lg:flex-col gap-[2rem] md:gap-0 lg:gap-[2rem]">
           <div className="flex flex-row gap-[2rem]">
@@ -115,7 +121,7 @@ const contact = () => {
           </button>
         </form>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

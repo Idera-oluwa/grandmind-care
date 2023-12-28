@@ -1,11 +1,19 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const hero = () => {
   return (
     <div className="w-[90vw]  2xl:max-w-[1440px] mx-auto">
-      <div className="flex flex-row mt-[5rem] items-center">
-        <div className="w-full md:w-[43%]">
+      <div className="flex flex-row mt-[5rem] items-center overflow-x-hidden">
+        <motion.div
+          initial={{ opacity: 0, x: -200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: "0.5" }}
+          className="w-full md:w-[43%]"
+        >
           <p className="text-[32px] md:text-[35px] lg:text-[40px] font-bold text-black leading-[55.55px]">
             Explore our flexible
           </p>
@@ -58,8 +66,11 @@ const hero = () => {
               </a>
             </div>
           </div>
-        </div>
-        <img
+        </motion.div>
+        <motion.img
+          initial={{ opacity: 0, x: 200 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: "0.5" }}
           src="Images/staffing/staffing1.png"
           alt=""
           className="hidden md:grid w-[57%]"

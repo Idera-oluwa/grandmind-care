@@ -1,11 +1,18 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
 const hero = () => {
   return (
-    <div className="flex flex-col items-center mt-[3rem] md:mt-[6rem]">
-      <div className="flex flex-row gap-[20px]">
+    <motion.div
+      initial={{ opacity: 0, y: 18 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: "0.5" }}
+      className="flex flex-col items-center mt-[3rem] md:mt-[6rem]"
+    >
+      <motion.div className="flex flex-row gap-[20px]">
         <div className="flex flex-row gap-[8px] items-center cursor-pointer">
           <img
             src="Images/home/mail-sm.png"
@@ -30,7 +37,7 @@ const hero = () => {
             </p>
           </a>
         </div>
-      </div>
+      </motion.div>
       <h1 className="font-bold text-[30px] md:text-[35px] lg:text-[40px] text-[#1B1B1E] mt-[1rem]">
         Empowering <span className="text-[#474973]">Care,</span>
       </h1>
@@ -47,7 +54,7 @@ const hero = () => {
           Register today
         </button>
       </Link>
-    </div>
+    </motion.div>
   );
 };
 

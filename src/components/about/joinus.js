@@ -49,10 +49,10 @@ const joinus = () => {
     }
   };
   return (
-    <div className='mt-[7rem] md:mt-[10rem] px-[3rem]' id='register'>
+    <div className='mt-[7rem] md:mt-[10rem] md:px-[3rem]' id='register'>
       <h1 className='text-[20px] font-semibold text-[#1B1B1E] text-center'>Join Us On The Care Journey</h1>
-      <div className='flex flex-col md:flex-row mt-[4rem] md:px-[2rem] justify-between gap-[2rem] md:gap-0'>
-        <div className='w-full md:w-[50%] mt-[4rem]'>
+      <div className='flex flex-col md:flex-row mt-[2rem] md:mt-[4rem] md:px-[2rem] justify-between gap-[2rem] md:gap-0'>
+        <div className='w-full md:w-[50%] mt-[2rem] md:mt-[4rem]'>
           <img src='Images/home/LOGO.png' alt=''/>
           <p className='text-[14px] md:text-[16px] font-medium text-[#1B1B1E] w-[95%] lg:w-[85%] mt-[2rem] leading-[36.02px]'>Whether you're a caregiver looking for fulfilling opportunities or a family seeking reliable and caring support, we invite you to join us on this care journey. Explore, <span className='font-medium text-[#32936F]'>Grandmind Care</span> connect with our community, and be a part of something truly meaningful.</p>
         </div>

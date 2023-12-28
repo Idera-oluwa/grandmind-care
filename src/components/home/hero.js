@@ -39,7 +39,7 @@ const hero = () => {
           <div className="flex flex-row gap-[8px] items-center cursor-pointer">
             <img
               src="Images/home/whatsapp-icon.png"
-              alt=""
+              alt="image"
               className="w-[17px] h-[17px]"
             />
             <a

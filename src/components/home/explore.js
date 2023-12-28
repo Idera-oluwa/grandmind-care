@@ -31,7 +31,7 @@ const explore = () => {
           </button>
         </Link></Slide>
       </div>
-      <Slide direction="up"><img src="Images/home/staffing.png" alt="" className="w-0 md:w-[50%]" /></Slide>
+      <div className="w-0 md:w-[50%]"><Slide direction="up"><img src="Images/home/staffing.png" alt="" className="w-full" /></Slide></div>
     </div>
   );
 };

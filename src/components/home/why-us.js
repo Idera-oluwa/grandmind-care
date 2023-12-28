@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
           </div></Fade>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[3rem] md:gap-0 md:mt-[1rem]">
-        <Slide direction="up"><div className="col-span-1 md:px-[2rem]">
+        <Fade><div className="col-span-1 md:px-[2rem]">
             <img
               src="Images/home/patient1.png"
               alt=""
@@ -101,7 +101,7 @@ const WhyChooseUs = () => {
                 className="w-[38px] h-[38px] mr-[1rem]"
               />
             </div>
-          </div></Slide>
+          </div></Fade>
         </div>
       </div>
     </div>

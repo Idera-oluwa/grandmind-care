@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const hero = () => {
   return (
-    <div className='flex flex-col items-center mt-[6rem]'>
+    <div className='flex flex-col items-center mt-[3rem] md:mt-[6rem]'>
       <div className='flex flex-row gap-[20px]'>
        <div className='flex flex-row gap-[8px] items-center cursor-pointer'>
          <img src='Images/home/mail-sm.png' alt='' className='w-[18px] h-[16px]'/>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const mission = () => {
   return (
-    <div className='mt-[10rem] relative w-full h-[20rem] md:h-auto'>
+    <div className='mt-[7rem] md:mt-[10rem] relative w-full h-[20rem] md:h-auto'>
       <img src='Images/about/mission-img2.png' alt='' className='object-cover h-full w-full  rounded-[10px]'/>
       <div className='absolute w-full h-full top-0 flex flex-col items-center justify-center'>
         <h1 className='font-bold text-[30px] md:text-[32px] text-white'>Our Mission</h1>

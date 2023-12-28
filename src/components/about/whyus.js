@@ -2,9 +2,9 @@ import React from 'react'
 
 const whyus = () => {
   return (
-    <div className='mt-[8rem]'>
+    <div className='mt-[6rem] md:mt-[8rem]'>
       <h1 className='text-[20px] font-semibold text-[#1B1B1E] text-center'>What Sets Us Apart?</h1>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[2rem] gap-[2rem] md:gap-[2rem] px-[3rem]'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[2rem] gap-[2rem] md:gap-[2rem] md:px-[3rem]'>
        <div className='bg-[#32936F] flex flex-col items-center justify-center h-[273px] rounded-[10px] px-[3rem] cursor-pointer hover:translate-y-[-0.5rem] transition ease-in duration-300 '>
         <img src='Images/home/heart2.png' alt=''/>
         <p className='font-bold text-[18px] text-white mt-[1rem]'>Empathy In Every Interaction</p>

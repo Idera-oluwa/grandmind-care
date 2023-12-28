@@ -34,7 +34,8 @@ const domiciliary = () => {
         <div className='flex flex-col md:flex-row w-full h-full items-center px-[1rem] md:px-[3rem] justify-center'>
           <img src='Images/home/domiciliary-img.png' alt='' className='h-[128px] lg:h-[329px] w-[100%] md:grid rounded-[5px] object-cover'/>
           <div className='flex flex-col ml-0 md:ml-[3rem] w-[100%] md:w-[50%] mt-[1rem] md:mt-0'>
-           <p className='font-medium text-[20px] md:text-[40px] text-[#FFFFFF] text-center md:text-left'>Trusted Professionals</p>
+           <p className='font-medium text-[20px] md:text-[40px] text-[#FFFFFF] text-center md:text-left'><span className='text-[
+#E27396]'>Trusted</span> Professionals</p>
            <p className='font-normal text-[14px] text-[#FFFFFF] text-center md:text-left'>is to make this journey smoother for both caregivers and those in need of care.</p>
            <Link href='/about'><button className='bg-[#474973] py-[5px] flex items-center justify-center rounded-[32px] text-[15px] font-medium text-[#F6F8FF] w-[122px] mt-[1rem] md:mt-[2rem] mx-auto md:ml-0'>Learn more</button></Link>
           </div>

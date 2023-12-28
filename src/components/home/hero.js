@@ -10,18 +10,15 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/effect-fade";
 import { motion } from "framer-motion";
+import { Fade } from "react-awesome-reveal";
 
 const hero = () => {
   const sliderRef = useRef();
   return (
     <div className="flex flex-col md:flex-row mt-[3rem] md:mt-[6rem]">
       {/* Left hand side */}
-      <motion.div
-        initial={{ opacity: 0, x: -200 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: "0.5" }}
-        className="w-full md:w-[47%]"
-      >
+      <div className="w-full md:w-[47%]">
+      <Fade>
         <div className="flex flex-row gap-[20px]">
           <div className="flex flex-row gap-[8px] items-center cursor-pointer">
             <Image
@@ -82,14 +79,13 @@ const hero = () => {
             </button>{" "}
           </Link>
         </div>
-      </motion.div>
+        </Fade>
+        </div>
       {/* Right hand side */}
-      <motion.div
-        initial={{ opacity: 0, x: 200 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: "0.5" }}
+      <div
         className="w-full md:w-[53%] mt-[0.5rem] pt-[2rem] md:pt-0 md:mt-0 md:border-l border-[#47497380] md:pl-[2rem]"
       >
+        <Fade>
         <Swiper
           modules={[Autoplay, Navigation, A11y, EffectFade]}
           spaceBetween={50}
@@ -139,7 +135,8 @@ const hero = () => {
           of care. Here, you'll find a supportive community, valuable resources,
           and a seamless
         </p>
-      </motion.div>
+        </Fade>
+      </div>
     </div>
   );
 };

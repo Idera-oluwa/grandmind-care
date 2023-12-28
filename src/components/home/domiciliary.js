@@ -32,7 +32,7 @@ const domiciliary = () => {
   
         <SwiperSlide className='h-full'>
         <div className='flex flex-col md:flex-row w-full h-full items-center px-[1rem] md:px-[3rem] justify-center'>
-          <img src='Images/home/domiciliary-img.png' alt='' className='h-[250px] lg:h-[329px] w-[50%] hidden md:grid'/>
+          <img src='Images/home/domiciliary-img.png' alt='' className='h-[250px] lg:h-[329px] w-[50%] hidden md:grid rounded-[5px] object-cover'/>
           <div className='flex flex-col ml-0 md:ml-[3rem] w-[100%] md:w-[50%] '>
            <p className='font-medium text-[30px] md:text-[40px] text-[#FFFFFF]'>Trusted Professionals</p>
            <p className='font-normal text-[16px] text-[#FFFFFF]'>is to make this journey smoother for both caregivers and those in need of care.</p>
@@ -42,7 +42,7 @@ const domiciliary = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className='flex flex-col md:flex-row w-full h-full items-center px-[1rem] md:px-[3rem] justify-center'>
-          <img src='/Images/home/hero3.png' alt='' className='h-[250px] lg:h-[329px] w-[50%] hidden md:grid rounded-[5px]'/>
+          <img src='/Images/home/hero3.png' alt='' className='h-[250px] lg:h-[329px] w-[50%] hidden md:grid rounded-[5px] object-cover'/>
           <div className='flex flex-col ml-0 md:ml-[3rem] w-[100%] md:w-[50%] '>
            <p className='font-medium text-[30px] md:text-[40px] text-[#FFFFFF]'>Dependable <span className='text-[#32936F]'>&</span> Reliable</p>
            <p className='font-normal text-[16px] text-[#FFFFFF]'>is to make this journey smoother for both caregivers and those in need of care.</p>
@@ -52,7 +52,7 @@ const domiciliary = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className='flex flex-col md:flex-row w-full h-full items-center px-[1rem] md:px-[3rem] justify-center'>
-          <img src='/Images/home/domiciliary2.png' alt='' className='h-[250px] lg:h-[329px] w-[50%] hidden md:grid rounded-[5px]'/>
+          <img src='/Images/home/domiciliary2.png' alt='' className='h-[250px] lg:h-[329px] w-[50%] hidden md:grid rounded-[5px] object-cover'/>
           <div className='flex flex-col ml-0 md:ml-[3rem] w-[100%] md:w-[50%] '>
            <p className='font-medium text-[30px] md:text-[40px] text-[#FFFFFF]'>Personalised <span className='text-[#32936F]'>Care</span></p>
            <p className='font-normal text-[16px] text-[#FFFFFF]'>is to make this journey smoother for both caregivers and those in need of care.</p>

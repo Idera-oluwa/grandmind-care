@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 const hero = () => {
   return (
+    <div className='w-[90vw] mx-auto'>
 <div className='flex flex-row mt-[5rem] items-center'>
       <div className='w-full md:w-[43%]'>
        <p className='text-[32px] md:text-[35px] lg:text-[40px] font-bold text-black leading-[55.55px]'>Explore our flexible</p>
@@ -18,11 +19,12 @@ const hero = () => {
        </div>
        <div className='flex flex-row gap-[8px] items-center cursor-pointer'>
          <img src='Images/home/whatsapp-icon.png' alt='' className='w-[17px] h-[17px]'/>
-         <a href='tel:+442034177797'><p className='text-[12px] md:text-[14px] font-normal text-[#474973]'>02034177797</p></a>
+         <a href='https://wa.me/447903220307' target="_blank" rel="noreferrer"><p className='text-[12px] md:text-[14px] font-normal text-[#474973]'>07903220307</p></a>
        </div>
        </div>
       </div>
        <img src='Images/staffing/staffing1.png' alt='' className='hidden md:grid w-[57%]'/>
+    </div>
     </div>
   )
 }

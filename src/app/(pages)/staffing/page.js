@@ -7,7 +7,7 @@ import Specialized from '../../../components/staffing/specialized'
 
 const page = () => {
   return (
-    <div className='w-[90vw] mx-auto mt-[4rem] mb-[5rem]'>
+    <div className='mt-[4rem] mb-[5rem]'>
       <Hero/>
       <Staff/>
       <WhyUs/>

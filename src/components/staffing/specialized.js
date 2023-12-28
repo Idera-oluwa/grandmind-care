@@ -2,6 +2,7 @@ import React from 'react'
 
 const specialized = () => {
   return (
+    <div className='w-[90vw] mx-auto'>
     <div className='mt-[12rem] grid grid-cols-1 lg:grid-cols-2 w-full md:w-[90%] mx-auto gap-[4rem]'>
       <img src='Images/staffing/specialized.png' alt='' className='hidden lg:grid col-span-1 w-full'/>
       <div className='col-span-1 w-full'>
@@ -29,6 +30,7 @@ const specialized = () => {
          </div>
        </div>
       </div>
+    </div>
     </div>
   )
 }

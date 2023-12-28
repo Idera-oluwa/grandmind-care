@@ -11,7 +11,7 @@ const hero = () => {
        </div>
        <div className='flex flex-row gap-[8px] items-center cursor-pointer'>
          <img src='/Images/home/whatsapp-icon.png' alt='' className='w-[17px] h-[17px]'/>
-         <a href='tel:+442034177797'><p className='text-[12px] md:text-[14px] font-normal text-[#474973]'>02034177797</p></a>
+         <a href='https://wa.me/447903220307' target="_blank" rel="noreferrer"><p className='text-[12px] md:text-[14px] font-normal text-[#474973]'>07903220307</p></a>
        </div>
        </div>
        <h1 className='font-bold text-[30px] md:text-[35px] lg:text-[40px] text-[#1B1B1E] mt-[1rem]'>Empowering <span className='text-[#474973]'>Care,</span></h1>

@@ -2,6 +2,7 @@ import React from 'react'
 
 const whyus = () => {
   return (
+    <div className='w-[90vw] mx-auto'>
     <div className='mt-[10rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[1rem]'>
       <div className='h-auto shadow-shadow3 hover:shadow-none hover:border cursor-pointer px-[1rem] py-[2rem] flex flex-col items-center col-span-1'>
        <img src='Images/staffing/staffing-logo1.png' alt=''/>
@@ -23,6 +24,7 @@ const whyus = () => {
        <p className='text-[16px] font-bold text-black mt-[2.5rem]'>Regular Staff Audits</p>
        <p className='text-[16px] font-normal text-[#1B1B1E] mt-[2rem] text-center'>To ensure our staff always meet our high standards, we work with clients to regularly check for quality and consistency.</p>
       </div>
+    </div>
     </div>
   )
 }

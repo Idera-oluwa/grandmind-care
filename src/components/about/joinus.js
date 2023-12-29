@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Fade } from "react-awesome-reveal";
 
 const joinus = () => {
   const [name, setName] = useState("");
@@ -49,6 +50,7 @@ const joinus = () => {
   };
   return (
     <div className="mt-[7rem] md:mt-[10rem] md:px-[3rem]" id="register">
+      <Fade>
       <h1 className="text-[20px] font-semibold text-[#1B1B1E] text-center">
         Join Us On The Care Journey
       </h1>
@@ -103,7 +105,7 @@ const joinus = () => {
             </form>
           </div>
         </div>
-      </div>
+      </div></Fade>
     </div>
   );
 };

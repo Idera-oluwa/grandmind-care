@@ -3,13 +3,12 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { Fade } from "react-awesome-reveal";
 
 const mission = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 18 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: "0.5" }}
+    <Fade>
+    <div
       className="mt-[7rem] md:mt-[10rem] relative w-full h-[20rem] md:h-auto"
     >
       <img
@@ -18,6 +17,7 @@ const mission = () => {
         className="object-cover h-full w-full  rounded-[10px]"
       />
       <div className="absolute w-full h-full top-0 flex flex-col items-center justify-center">
+      <Fade>
         <h1 className="font-bold text-[30px] md:text-[32px] text-white">
           Our Mission
         </h1>
@@ -29,9 +29,10 @@ const mission = () => {
           <button className="bg-[#474973] py-[5px] flex items-center justify-center rounded-[32px] text-[15px] font-medium text-[#F6F8FF] w-[122px] mt-[2rem]">
             Learn more
           </button>
-        </Link>
+        </Link></Fade>
       </div>
-    </motion.div>
+    </div>
+    </Fade>
   );
 };
 

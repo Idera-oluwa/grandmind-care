@@ -1,13 +1,16 @@
+"use client";
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 const faq = () => {
   return (
     <div>
-      <h1 className="text-[24px] font-semibold text-[#1B1B1E] text-center mt-[4rem]">
+      <Fade><h1 className="text-[24px] font-semibold text-[#1B1B1E] text-center mt-[4rem]">
         Frequently Asked Quesions
-      </h1>
+      </h1></Fade>
       <div className="flex flex-col mt-[3rem]">
-        <div className="flex flex-row gap-[3rem] items-center pb-[15px] border-b border-[#FFD166]">
+      <Fade>
+        <div className="flex flex-row gap-[1rem] md:gap-[3rem] items-center pb-[15px] border-b border-[#FFD166]">
           <img src="Images/home/dot.png" alt="" className="w-[12px] h-[12px]" />
           <div className="flex flex-col">
             <p className="text-[16px] font-semibold text-[#353538]">
@@ -21,7 +24,7 @@ const faq = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row gap-[3rem] items-center pb-[15px] border-b border-[#FFD166] mt-[1rem]">
+        <div className="flex flex-row gap-[1rem] md:gap-[3rem] items-center pb-[15px] border-b border-[#FFD166] mt-[1rem]">
           <img src="Images/home/dot.png" alt="" className="w-[12px] h-[12px]" />
           <div className="flex flex-col">
             <p className="text-[16px] font-semibold text-[#353538]">
@@ -33,7 +36,7 @@ const faq = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row gap-[3rem] items-center pb-[15px] border-b border-[#FFD166] mt-[1rem]">
+        <div className="flex flex-row gap-[1rem] md:gap-[3rem] items-center pb-[15px] border-b border-[#FFD166] mt-[1rem]">
           <img src="Images/home/dot.png" alt="" className="w-[12px] h-[12px]" />
           <div className="flex flex-col">
             <p className="text-[16px] font-semibold text-[#353538]">
@@ -47,6 +50,7 @@ const faq = () => {
             </p>
           </div>
         </div>
+        </Fade>
       </div>
     </div>
   );

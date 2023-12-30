@@ -1,13 +1,16 @@
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { Fade } from "react-awesome-reveal";
 
 const faq = () => {
   return (
     <div>
-      <h1 className="text-[20px] font-semibold text-[#1B1B1E] text-center mt-[7rem] md:mt-[10rem]">
+      <Fade><h1 className="text-[20px] font-semibold text-[#1B1B1E] text-center mt-[7rem] md:mt-[10rem]">
         Frequently Asked Quesions
-      </h1>
+      </h1></Fade>
       <div className="flex flex-col mt-[3rem]">
+      <Fade>
         <div className="flex flex-row gap-[1rem] md:gap-[3rem] items-center pb-[15px] border-b border-[#FFD166]">
           <img src="Images/home/dot.png" alt="" className="w-[12px] h-[12px]" />
           <div className="flex flex-col">
@@ -48,6 +51,7 @@ const faq = () => {
             </p>
           </div>
         </div>
+        </Fade>
       </div>
     </div>
   );

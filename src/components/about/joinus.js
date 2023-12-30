@@ -9,8 +9,12 @@ const joinus = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [contact, setContact] = useState("");
+  const [loading, setLoading] = useState(false)
+  const [disabled, setDisabled] = useState(false)
   const handleRegistration = async (e) => {
     e.preventDefault();
+    setLoading(true)
+    setDisabled(true)
     const url = "https://grandmindcare.onrender.com/api/v1/grandmind";
     const registrationData = {
       name: name,
@@ -27,6 +31,8 @@ const joinus = () => {
       toast.success("Registration Successful !", {
         position: toast.POSITION.TOP_RIGHT,
       });
+      setLoading(false)
+      setDisabled(false)
       setName("");
       setEmail("");
       setContact("");
@@ -46,6 +52,8 @@ const joinus = () => {
       setName("");
       setEmail("");
       setContact("");
+      setLoading(false)
+      setDisabled(false)
     }
   };
   return (
@@ -98,8 +106,9 @@ const joinus = () => {
               <button
                 className="w-full bg-[#474973] rounded-[10px] h-[64px] font-semibold text-[20px] text-white flex justify-center items-center mt-[2rem] hover:border-transparent hover:bg-[#353756] transition-all ease-out duration-[600]"
                 onClick={handleRegistration}
+                disabled={disabled}
               >
-                Register
+                {loading? "Registering..." : "Register"}
               </button>
               <ToastContainer />
             </form>

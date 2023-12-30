@@ -89,7 +89,7 @@ const contact = () => {
         </Fade>
       </div>
       <div className=" h-[500px] border border-[#47497380] rounded-[10px] bg-white p-[2rem] ml-auto col-span-1 lg:col-span-2 w-full">
-        <form action="https://formspree.io/f/xyyrgynn" method="POST">
+        <form action="https://formspree.io/f/xayrynve" method="POST">
           <div className="flex flex-col gap-[10px]">
             <label
               htmlFor="first-name"

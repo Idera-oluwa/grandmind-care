@@ -10,7 +10,7 @@ const subscribe = () => {
           </p>
           <form
             className="flex flex-row w-full md:w-auto"
-            action="https://formspree.io/f/mgegwrqy"
+            action="https://formspree.io/f/mleqedzn"
             method="POST"
           >
             <input

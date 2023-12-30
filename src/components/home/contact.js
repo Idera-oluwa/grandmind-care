@@ -18,7 +18,7 @@ const contact = () => {
         </div>
         <div className="w-full md:w-[588px] h-[528px] rounded-[10px] bg-[#474973B2] mt-[1rem] md:mt-[1.5rem] flex items-center justify-center shadow-shadow2">
           <div className="w-full md:w-[557px] h-[500px] border border-[#424359] rounded-[10px] bg-white md:mt-[1.5rem] p-[2rem]">
-            <form action="https://formspree.io/f/xyyrgynn" method="POST">
+            <form action="https://formspree.io/f/xayrynve" method="POST">
               <div className="flex flex-col gap-[10px]">
                 <label
                   htmlFor="first-name"

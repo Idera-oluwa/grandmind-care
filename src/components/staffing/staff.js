@@ -1,8 +1,11 @@
+"use client";
 import React from "react";
 import Link from "next/link";
+import { Fade } from "react-awesome-reveal";
 
 const staff = () => {
   return (
+    <Fade>
     <div className="w-[90vw]  2xl:max-w-[1440px] mx-auto">
       <div className="mt-[7rem] md:mt-[10rem] h-[20rem] md:h-auto w-full relative">
         <img
@@ -11,6 +14,7 @@ const staff = () => {
           className="object-cover h-full w-full rounded-[10px]"
         />
         <div className="absolute top-0 w-full h-full flex flex-col justify-center items-center">
+        <Fade>
           <p className="text-[30px] md:text-[32px] font-semibold text-white">
             Our Staff
           </p>
@@ -23,9 +27,11 @@ const staff = () => {
               Register today
             </button>
           </Link>
+          </Fade>
         </div>
       </div>
     </div>
+    </Fade>
   );
 };
 

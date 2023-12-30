@@ -1,9 +1,13 @@
+"use client"
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 const joinus = () => {
   return (
+    <Fade>
     <div className="mt-[6rem] grid grid-cols-1 lg:grid-cols-2 h-auto w-full">
       <div className="col-span-1 bg-[#2A2C58] h-full px-[1rem] md:px-[2rem] flex flex-col justify-center pb-[2rem] lg:pb-[2rem] pt-[1rem] lg:pt-[3rem]">
+      <Fade>
         <h1 className="text-[32px] md:text-[35px] lgtext-[40px] font-semibold text-white text-center">
           Join Our Team
         </h1>
@@ -58,6 +62,7 @@ const joinus = () => {
             </div>
           </div>
         </div>
+        </Fade>
       </div>
       <div className="w-full relative">
         <img
@@ -103,6 +108,7 @@ const joinus = () => {
         </div>
       </div>
     </div>
+    </Fade>
   );
 };
 

@@ -1,9 +1,12 @@
+"use client"
 import React from "react";
+import { Zoom } from "react-awesome-reveal";
 
 const whyus = () => {
   return (
     <div className="w-[90vw]  2xl:max-w-[1440px] mx-auto">
       <div className="mt-[7rem] md:mt-[10rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[1rem]">
+      <Zoom cascade damping={0.3}>
         <div className="cursor-pointer shadow-shadow3 hover:scale-[1.01] border border-transparent transition-all duration-[600] ease-out  px-[1rem] py-[2rem] flex flex-col items-center col-span-1">
           <img src="Images/staffing/staffing-logo1.png" alt="" />
           <p className="text-[16px] font-bold text-black mt-[2.5rem]">
@@ -37,7 +40,7 @@ const whyus = () => {
             the right carers from our team.
           </p>
         </div>
-        <div className="shadow-shadow3 hover:scale-[1.01] border border-transparent transition-all duration-[600] ease-out cursor-pointer px-[1rem] py-[2rem] flex flex-col items-center col-span-1">
+        <div className="h-full shadow-shadow3 hover:scale-[1.01] border border-transparent transition-all duration-[600] ease-out cursor-pointer px-[1rem] py-[2rem] flex flex-col items-center col-span-1">
           <img src="Images/staffing/staffing-logo4.png" alt="" />
           <p className="text-[16px] font-bold text-black mt-[2.5rem]">
             Regular Staff Audits
@@ -47,6 +50,7 @@ const whyus = () => {
             clients to regularly check for quality and consistency.
           </p>
         </div>
+        </Zoom>
       </div>
     </div>
   );

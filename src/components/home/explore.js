@@ -1,13 +1,18 @@
-"use client"
+"use client";
 import React from "react";
 import Link from "next/link";
-import { Slide,Fade  } from "react-awesome-reveal";
+import { Slide, Fade } from "react-awesome-reveal";
+import { motion } from "framer-motion";
 
 const explore = () => {
   return (
     <div className="flex flex-row mt-[7rem] md:mt-[10rem] items-center">
-      <div className="w-full md:w-[50%]">
-      <Slide direction="up">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: "0.3", ease: "easeOut" }}
+        className="w-full md:w-[50%]"
+      >
         <p className="text-[32px] lg:text-[40px] font-bold text-black leading-[55.55px]">
           Explore our flexible
         </p>
@@ -29,9 +34,18 @@ const explore = () => {
           <button className="py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] rounded-[32px] mt-[2rem] hover:bg-[#474973] hover:border-transparent hover:text-[#FDFDFD] transition-all ease-out duration-[600]">
             Learn more
           </button>
-        </Link></Slide>
+        </Link>
+      </motion.div>
+      <div className="w-0 md:w-[50%]">
+        <motion.img
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: "0.3", ease: "easeOut" }}
+          src="Images/home/staffing.png"
+          alt=""
+          className="w-full"
+        />
       </div>
-      <div className="w-0 md:w-[50%]"><Slide direction="up"><img src="Images/home/staffing.png" alt="" className="w-full" /></Slide></div>
     </div>
   );
 };

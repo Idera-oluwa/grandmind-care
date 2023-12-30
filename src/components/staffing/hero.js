@@ -8,9 +8,11 @@ import { Fade } from "react-awesome-reveal";
 const hero = () => {
   return (
     <div className="w-[90vw]  2xl:max-w-[1440px] mx-auto">
-      <Fade>
       <div className="flex flex-row mt-[5rem] items-center overflow-x-hidden">
-        <div
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: "0.3", ease: "easeOut" }}
           className="w-full md:w-[43%]"
         >
           <p className="text-[32px] md:text-[35px] lg:text-[40px] font-bold text-black leading-[55.55px]">
@@ -65,14 +67,16 @@ const hero = () => {
               </a>
             </div>
           </div>
-        </div>
-        <img
+        </motion.div>
+        <motion.img
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: "0.3", ease: "easeOut" }}
           src="Images/staffing/staffing1.png"
           alt=""
           className="hidden md:grid w-[57%]"
         />
       </div>
-      </Fade>
     </div>
   );
 };

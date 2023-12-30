@@ -59,7 +59,7 @@ const WhyChooseUs = () => {
               Skilled Professionals
             </p>
             <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] leading-[21.78px] mt-[1.5rem]">
-              Our experienced and trained caregivers are committed to providing
+              Our experienced and trained carers are committed to providing
               quality assistance with a focus on dignity and respect.
             </p>
             <div className="flex flex-row items-center justify-between mt-[1.5rem]">

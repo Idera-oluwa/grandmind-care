@@ -66,7 +66,7 @@ const joinus = () => {
         <div className="w-full md:w-[50%] mt-[2rem] md:mt-[4rem]">
           <img src="Images/home/LOGO.png" alt="" />
           <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] w-[95%] lg:w-[85%] mt-[2rem] leading-[36.02px]">
-            Whether you're a caregiver looking for fulfilling opportunities or a
+            Whether you're a carer looking for fulfilling opportunities or a
             family seeking reliable and caring support, we invite you to join us
             on this care journey. Explore,{" "}
             <span className="font-medium text-[#32936F]">Grandmind Care</span>{" "}

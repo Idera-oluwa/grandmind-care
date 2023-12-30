@@ -44,7 +44,7 @@ const faq = () => {
             </p>
             <p className="text-[14px] font-medium leading-[16.94px] text-[#353538] mt-[1rem]">
               Grandmind Care is a dedicated caregiving platform that connects
-              caregivers with family needs, so whether you’re a caregiver
+              carers with family needs, so whether you’re a carer
               looking for opportunities or a family seeking reliable care,our
               platform makes it easier by fostering meaningful connections
             </p>

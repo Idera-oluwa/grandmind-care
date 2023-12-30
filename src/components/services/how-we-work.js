@@ -8,8 +8,8 @@ const howWeWork = () => {
        <div className='w-full lg:w-[40%]'>
        <Fade>
         <img src='Images/services/care4.png' alt='' className='hidden lg:grid lg:absolute top-0 mt-[-3rem] left-0 ml-[3rem] object-cover' />
-         <p className='font-medium text-[12px] text-[#F6F8FF] mt-[2rem] lg:mt-[11rem] lg:px-[1rem]'>We conduct a thorough assessment to understand your loved one's unique needs. Based on the assessment, we create a personalised care plan tailored to individual requirement</p>
-         <p className='font-medium text-[12px] text-[#F6F8FF] mt-[1rem] lg:px-[1rem]'>Our team is comprised of experienced caregivers who bring expertise and compassion to every interaction.</p>
+         <p className='font-medium text-[12px] text-[#F6F8FF] mt-[2rem] lg:mt-[11rem] px-[1rem]'>We conduct a thorough assessment to understand your loved one's unique needs. Based on the assessment, we create a personalised care plan tailored to individual requirement</p>
+         <p className='font-medium text-[12px] text-[#F6F8FF] mt-[1rem] px-[1rem]'>Our team is comprised of experienced carers who bring expertise and compassion to every interaction.</p>
          </Fade>
        </div>
        <div className='w-full lg:w-[40%] ml-auto mr-[3rem] flex flex-col items-center'>

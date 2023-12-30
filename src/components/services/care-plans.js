@@ -12,7 +12,7 @@ const carePlans = () => {
             <p className='font-semibold text-[26px] md:text-[32px] text-[#1B1B1E]'>Personalised</p>
             <p className='font-semibold text-[26px] md:text-[32px]  text-[#1B1B1E]'>Care Plans</p>
             </div>
-            <p className='text-[14px] font-normal w-full lg:w-[90%] mt-[1rem]'>We offer respite care services to provide temporary relief for family caregivers. This allows you to take a break while ensuring your loved ones receive the care they need.</p>
+            <p className='text-[14px] font-normal w-full lg:w-[90%] mt-[1rem]'>We offer respite care services to provide temporary relief for family carers. This allows you to take a break while ensuring your loved ones receive the care they need.</p>
             </Fade>
         </div>
         <div className="w-full md:w-[50%] "><Slide direction="right"><img src='Images/services/care1.png' alt='' className='object-cover'/></Slide></div>
@@ -21,7 +21,7 @@ const carePlans = () => {
         <div className='w-full md:w-[50%]'>
         <Fade>
             <p className='font-semibold text-[26px] md:text-[32px] text-[#1B1B1E]'>Specialised Care</p>
-            <p className='text-[14px] font-normal w-full lg:w-[90%] mt-[1rem]'>We offer respite care services to provide temporary relief for family caregivers. This allows you to take a break while ensuring your loved ones receive the care they need.</p>
+            <p className='text-[14px] font-normal w-full lg:w-[90%] mt-[1rem]'>We offer respite care services to provide temporary relief for family carers. This allows you to take a break while ensuring your loved ones receive the care they need.</p>
             </Fade>
         </div>
         <div className="w-full md:w-[50%] "><Slide direction="left"><img src='Images/services/care2.png' alt='' className='object-cover'/></Slide></div>
@@ -30,7 +30,7 @@ const carePlans = () => {
         <div className='w-full md:w-[50%]'>
         <Fade>
             <p className='font-semibold text-[26px] md:text-[32px] text-[#1B1B1E]'>Respite Care</p>
-            <p className='text-[14px] font-normal w-full lg:w-[90%] mt-[1rem]'>We offer respite care services to provide temporary relief for family caregivers. This allows you to take a break while ensuring your loved ones receive the care they need.</p>
+            <p className='text-[14px] font-normal w-full lg:w-[90%] mt-[1rem]'>We offer respite care services to provide temporary relief for family carers. This allows you to take a break while ensuring your loved ones receive the care they need.</p>
             </Fade>
         </div>
         <div className="w-full md:w-[50%] "><Slide direction="right"><img src='Images/services/care3.png' alt='' className='object-cover'/></Slide></div>

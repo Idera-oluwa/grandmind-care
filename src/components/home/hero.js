@@ -137,7 +137,7 @@ const hero = () => {
           <span className="text-[20px] font-bold text-[#E27396]">Mission</span>
         </h1>
         <p className="text-[14px] md:text-[14px] font-medium text-[#1B1B1E] mt-[0.5rem] md:mt-0 text-center md:text-left">
-          is to make this journey smoother for both caregivers and those in need
+          is to make this journey smoother for both carers and those in need
           of care. Here, you'll find a supportive community, valuable resources,
           and a seamless
         </p>

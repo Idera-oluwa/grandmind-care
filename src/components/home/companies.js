@@ -7,12 +7,12 @@ const companies = () => {
   return (
     <div className='mt-[10rem]'>
         <Marquee>
-    <img src='Images/home/logo-1.png' alt=''/>
-    <img src='Images/home/logo-2.png' alt=''/>
-    <img src='Images/home/logo-3.png' alt=''/>
-    <img src='Images/home/logo-1.png' alt=''/>
-    <img src='Images/home/logo-2.png' alt=''/>
-    <img src='Images/home/logo-3.png' alt=''/>
+    <img src='Images/home/logo-1.svg' alt=''/>
+    <img src='Images/home/logo-2.svg' alt=''/>
+    <img src='Images/home/logo-3.svg' alt=''/>
+    <img src='Images/home/logo-1.svg' alt=''/>
+    <img src='Images/home/logo-2.svg' alt=''/>
+    <img src='Images/home/logo-3.svg' alt=''/>
     </Marquee>
     </div>
   )

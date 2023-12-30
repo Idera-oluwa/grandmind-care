@@ -7,13 +7,8 @@ import { Fade } from "react-awesome-reveal";
 
 const hero = () => {
   return (
-    <Fade>
     <div className="flex flex-col md:flex-row items-center overflow-x-hidden">
-
-      <div
-        className="w-full md:w-[50%]"
-      >
-        <Fade>
+      <motion.div className="w-full md:w-[50%]">
         <h1 className="font-bold text-[30px] md:text-[32px] text-[#474973]">
           Our <span className="font-bold text-[#1B1B1E]">Comprehensive</span>
         </h1>
@@ -61,23 +56,28 @@ const hero = () => {
             </a>
           </div>
         </div>
-        </Fade>
+      </motion.div>
+      <div className="w-full md:w-[50%] mt-[3rem] md:mt-full">
+        <motion.img
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: "0.3", ease: "easeOut" }}
+          src="Images/services/our-services-image.png"
+          alt=""
+          className="w-full"
+        />
       </div>
-      <div className="w-full md:w-[50%] mt-[3rem] md:mt-full"><Fade><img
-        src="Images/services/our-services-image.png"
-        alt=""
-        className="w-full"
-      /></Fade></div>
     </div>
-    </Fade>
   );
 };
 
 export default hero;
 
-{/* <motion.img
+{
+  /* <motion.img
         initial={{ opacity: 0, x: 200 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: "0.5" }}
         src="Images/services/our-services-image.png"
-        alt="" */}
+        alt="" */
+}

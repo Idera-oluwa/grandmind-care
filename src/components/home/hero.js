@@ -20,7 +20,7 @@ const hero = () => {
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: "0.5", ease: "easeOut" }}
+        transition={{ duration: "0.3", ease: "easeOut" }}
         className="w-full md:w-[47%]"
       >
         <div className="flex flex-row gap-[20px]">
@@ -89,7 +89,7 @@ const hero = () => {
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: "0.5", ease: "easeOut" }}
+        transition={{ duration: "0.3", ease: "easeOut" }}
         className="w-full md:w-[53%] mt-[0.5rem] pt-[2rem] md:pt-0 md:mt-0 md:border-l border-[#47497380] md:pl-[2rem]"
       >
         <Swiper

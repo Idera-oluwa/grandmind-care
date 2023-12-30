@@ -18,8 +18,8 @@ const hero = () => {
     <div className="flex flex-col md:flex-row mt-[3rem] md:mt-[6rem]">
       {/* Left hand side */}
       <motion.div
-        initial={{ opacity: 1 }}
-        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: "0.5", ease: "easeOut" }}
         className="w-full md:w-[47%]"
       >
@@ -87,9 +87,9 @@ const hero = () => {
       {/* Right hand side */}
 
       <motion.div
-        initial={{ opacity: 1 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: "0.6", ease: "easeOut" }}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: "0.5", ease: "easeOut" }}
         className="w-full md:w-[53%] mt-[0.5rem] pt-[2rem] md:pt-0 md:mt-0 md:border-l border-[#47497380] md:pl-[2rem]"
       >
         <Swiper

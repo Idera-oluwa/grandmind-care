@@ -21,6 +21,12 @@ const joinus = () => {
       email: email,
       contact: contact,
     };
+    if (name === "" || email === "" || contact === "") {
+      toast.warning("Please input all credentials !", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      setLoading(false)
+      }
 
     try {
       const response = await axios.post(url, registrationData);
@@ -35,15 +41,11 @@ const joinus = () => {
       setContact("");
     } catch (error) {
       console.error("Registration failed:", error);
-      if (name === "" || email === "" || contact === "") {
-        toast.warning("Please input all credentials !", {
-          position: toast.POSITION.TOP_RIGHT,
-        });
-      } else {
-        toast.error("Registration failed !", {
-          position: toast.POSITION.TOP_RIGHT,
-        });
-      }
+        if (name !== "" || email !== "" || contact !== "") {
+          toast.error("Registration failed !", {
+            position: toast.POSITION.TOP_RIGHT,
+          });
+        }
 
       setName("");
       setEmail("");

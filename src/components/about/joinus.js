@@ -23,10 +23,7 @@ const joinus = () => {
     };
 
     try {
-      // Make a POST request with Axios using async/await
       const response = await axios.post(url, registrationData);
-
-      // Handle the response after registration
       console.log("Registration successful:", response.data);
       toast.success("Registration Successful !", {
         position: toast.POSITION.TOP_RIGHT,
@@ -37,7 +34,6 @@ const joinus = () => {
       setEmail("");
       setContact("");
     } catch (error) {
-      // Handle registration errors
       console.error("Registration failed:", error);
       if (name === "" || email === "" || contact === "") {
         toast.warning("Please input all credentials !", {

@@ -9,7 +9,7 @@ const team = () => {
       <Fade><p className='text-center w-[95%] lg:w-[833px] font-normal text-[14px] mt-[1rem] mx-auto'>Get to know the faces and stories of the individuals working tirelessly to make our platform a trusted and compassionate space.</p></Fade>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[4rem] justify-between px-[5rem] gap-[2rem] md:gap-[1rem]'>
       <Fade><div>
-            <img src='Images/about/President.png' alt='' className='mx-auto'/>
+            <img src='Images/about/president2.svg' alt='' className='mx-auto'/>
             <p className='font-bold text-[16px] text-[#1B1B1E] text-center mt-[1rem]'>HAPPY AKPEYI</p>
             <p className='font-medium text-[14px] text-[#48484A] text-center mt-[1rem]'>President</p>
         </div>

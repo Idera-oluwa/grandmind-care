@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
           </div></Fade>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[3rem] md:gap-0 md:mt-[1rem]">
-        <Fade><div className="col-span-1 md:px-[2rem]">
+        <Fade><div className="col-span-1 md:px-[2rem] h-full">
             <img
               src="Images/home/patient1.png"
               alt=""
@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[1.5rem] md:mt-[0.5rem]">
               Personalised Care Plans
             </p>
-            <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] leading-[21.78px] mt-[1rem] md:mt-[1.5rem]">
+            <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] leading-[21.78px] mt-[1rem] md:mt-[3.5rem]">
               We design individualized care plans to ensure your loved ones
               receive the attention and support they deserve
             </p>
@@ -48,8 +48,9 @@ const WhyChooseUs = () => {
                 className="w-[38px] h-[38px] mr-[1rem]"
               />
             </div>
+            <div className='hidden md:block bg-[#474973] w-full h-[3px] mt-[2rem]'></div>
           </div>
-          <div className="col-span-1 md:px-[2rem]">
+          <div className="col-span-1 md:px-[2rem] h-full">
             <img
               src="Images/home/patient2.png"
               alt=""
@@ -75,8 +76,9 @@ const WhyChooseUs = () => {
                 className="w-[38px] h-[38px] mr-[1rem]"
               />
             </div>
+            <div className='hidden md:block bg-[#474973] w-full h-[3px] mt-[2rem]'></div>
           </div>
-          <div className="col-span-1 md:px-[2rem]">
+          <div className="col-span-1 md:px-[2rem] h-full">
             <img
               src="Images/home/patient3.png"
               alt=""
@@ -85,7 +87,7 @@ const WhyChooseUs = () => {
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[0.5rem]">
               Comprehensive Support
             </p>
-            <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] leading-[21.78px] mt-[1.5rem]">
+            <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] leading-[21.78px] mt-[4.5rem]">
               We design individualized care plans to ensure your loved ones
               receive the attention and support they deserve
             </p>
@@ -101,6 +103,7 @@ const WhyChooseUs = () => {
                 className="w-[38px] h-[38px] mr-[1rem]"
               />
             </div>
+            <div className='hidden md:block bg-[#474973] w-full h-[3px] mt-[2rem]'></div>
           </div></Fade>
         </div>
       </div>

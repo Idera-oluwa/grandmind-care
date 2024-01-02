@@ -15,7 +15,7 @@ import { Fade } from "react-awesome-reveal";
 const hero = () => {
   const sliderRef = useRef();
   return (
-    <div className="flex flex-col md:flex-row mt-[3rem] md:mt-[6rem]">
+    <div className="flex flex-col md:flex-row md:items-center mt-[3rem] md:mt-[6rem]">
       {/* Left hand side */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -31,9 +31,9 @@ const hero = () => {
               width={18}
               height={16}
             />
-            <a href="mailto:info@grandmind.co.uk">
-              <p className="text-[13px] md:text-[14px] font-normal text-[#474973]">
-                info@grandmind.co.uk
+            <a href="mailto:info@grandmindcare.co.uk">
+              <p className="text-[12px] md:text-[14px] font-normal text-[#474973]">
+              info@grandmindcare.co.uk
               </p>
             </a>
           </div>

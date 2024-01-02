@@ -33,9 +33,9 @@ const hero = () => {
               alt=""
               className="w-[18px] h-[16px]"
             />
-            <a href="mailto:info@grandmind.co.uk">
-              <p className="text-[14px] md:text-[14px] font-normal text-[#474973]">
-                info@grandmind.co.uk
+            <a href="mailto:info@grandmindcare.co.uk">
+              <p className="text-[12px] md:text-[14px] font-normal text-[#474973]">
+              info@grandmindcare.co.uk
               </p>
             </a>
           </div>

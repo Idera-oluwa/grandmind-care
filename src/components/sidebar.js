@@ -98,7 +98,7 @@ const sidebar = ({ show, hideSidebar }) => {
           >
         <img src="Images/home/facebook-logo.png" alt="" />
         </a>
-        <a href="mailto:info@grandmind.co.uk">
+        <a href="mailto:info@grandmindcare.co.uk">
           <img src="Images/home/mail-logo.png" alt="" />
         </a>
         <a href="https://wa.me/447903220307" target="_blank" rel="noreferrer">

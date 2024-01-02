@@ -63,7 +63,7 @@ const contact = () => {
               className="w-[17px] h-[18px]"
             />
             <div className="text-left">
-              <a href="mailto:info@grandmind.co.uk">
+              <a href="info@sgmcare.co.uk">
                 {" "}
                 <p className="font-semibold text-[14px] text-[#1B1B1E]">
                   info@sgmcare.co.uk

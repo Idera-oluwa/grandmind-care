@@ -46,7 +46,7 @@ const subscribe = () => {
               >
                 <img src="Images/home/facebook-logo.png" alt="" />
               </a>
-              <a href="mailto:info@grandmind.co.uk">
+              <a href="mailto:info@grandmindcare.co.uk">
                 <img src="Images/home/mail-logo.png" alt="" />
               </a>
               <a

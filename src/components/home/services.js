@@ -10,7 +10,7 @@ const services = () => {
         Our Services
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[3rem] gap-[2rem] md:gap-[4rem] justify-between">
-        <Zoom cascade damping={0.1}>
+        <Zoom cascade damping={0.3}>
           <div className="flex flex-col bg-[#F6F8FF] items-center py-[2rem] shadow-shadow1 cursor-pointer hover:bg-[#fdebf1] transition-all duration-300 ease-in">
             <img
               src="Images/home/home-icon.png"

@@ -6,7 +6,7 @@ const services = () => {
   return (
     <div className="mt-[7rem] md:mt-[10rem] w-full lg:w-[90%] mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-[3rem] gap-[2rem] md:gap-[4rem] justify-between">
-      <Zoom cascade damping={0.1}>
+      <Zoom cascade damping={0.3}>
         <div className="flex flex-col bg-[#F6F8FF] items-center py-[2rem] px-[2rem] shadow-shadow1 h-[319px] rounded-[10px] cursor-pointer hover:bg-[#fdebf1] transition-all duration-300 ease-in">
         <Fade>
           <img

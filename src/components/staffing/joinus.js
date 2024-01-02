@@ -67,7 +67,7 @@ const joinus = () => {
           alt=""
           className="col-span-1 h-full w-full object-cover"
         />
-        <div className="absolute bottom-0 left-0 lg:ml-[3rem] mb-[-3rem] flex flex-row-reverse gap-[1rem] md:gap-[3rem]">
+        <div className="absolute bottom-0 left-0 lg:ml-[3rem] mb-[-3rem] flex flex-row-reverse gap-[1rem] md:gap-[2rem]">
           <div className="bg-white p-[1rem] flex flex-row items-center gap-[0.5rem] md:gap-[1rem] rounded-[5px] shadow-shadow4 hover:shadow-none border border-transparent hover:border hover:border-[#FFD166] cursor-pointer">
             <img
               src="Images/staffing/staff-phone.png"

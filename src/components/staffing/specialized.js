@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 const specialized = () => {
   return (
     <Fade>
-    <div className="w-[90vw]  2xl:max-w-[1440px] mx-auto">
+    <div className="w-[90vw] lg:w-[80%]  2xl:max-w-[1440px] mx-auto">
       <div className="mt-[7rem] md:mt-[12rem] grid grid-cols-1 lg:grid-cols-2 w-full md:w-full mx-auto gap-[4rem]">
         <img
           src="Images/staffing/specialized.png"

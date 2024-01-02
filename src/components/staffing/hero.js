@@ -34,7 +34,7 @@ const hero = () => {
           </p>
           <Link href="/about#register">
             <button className="bg-[#474973] rounded-[22px] py-[9px] lg:py-[10px] px-[15px] lg:px-[18px] text-[15px] font-bold text-[#FDFDFD] tracking-[1px] mt-[1rem] border border-transparent hover:bg-[hsl(237,24%,25%)] transition-all ease-out duration-[600]">
-              Register today
+              Apply Now
             </button>
           </Link>
           <div className="flex flex-row gap-[10px] mt-[1rem]">
@@ -44,9 +44,9 @@ const hero = () => {
                 alt=""
                 className="w-[18px] h-[16px]"
               />
-              <a href="mailto:info@grandmindcare.co.uk">
+              <a href="mailto:recruitment@grandmindcare.co.uk">
                 <p className="text-[12px] md:text-[14px] font-normal text-[#474973]">
-                info@grandmindcare.co.uk
+                recruitment@grandmindcare.co.uk
                 </p>
               </a>
             </div>

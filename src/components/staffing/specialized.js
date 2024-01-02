@@ -30,16 +30,13 @@ const specialized = () => {
               <div className="w-full h-[11px] rounded-[20px] bg-[#FFD166]"></div>
               <div className="flex flex-col mt-[1rem] gap-[0.5rem]">
                 <p className="text-[16px] font-bold text-[#1B1B1E]">
-                  Brain Injury
+                Respite Care
                 </p>
                 <p className="text-[16px] font-bold text-[#1B1B1E]">
-                  Spinal Cord Injury
+                Special Care
                 </p>
                 <p className="text-[16px] font-bold text-[#1B1B1E]">
-                  End of Life Care
-                </p>
-                <p className="text-[16px] font-bold text-[#1B1B1E]">
-                  Down syndrome
+                Personalised Care
                 </p>
               </div>
             </div>
@@ -47,16 +44,13 @@ const specialized = () => {
               <div className="w-full h-[11px] rounded-[20px] bg-[#474973]"></div>
               <div className="flex flex-col mt-[1rem] gap-[0.5rem]">
                 <p className="text-[16px] font-bold text-[#1B1B1E]">
-                  Elderly Care
+                Live-in Care
                 </p>
                 <p className="text-[16px] font-bold text-[#1B1B1E]">
                   Learning Disability
                 </p>
                 <p className="text-[16px] font-bold text-[#1B1B1E]">
                   Mental Health
-                </p>
-                <p className="text-[16px] font-bold text-[#1B1B1E]">
-                  Physical Disability
                 </p>
               </div>
             </div>

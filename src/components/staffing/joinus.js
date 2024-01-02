@@ -27,10 +27,10 @@ const joinus = () => {
                   Support Workers
                 </p>
                 <p className="font-medium text-[14px] text-[#1B1B1E]">
-                  Registered General Nurses
+                  Nurses
                 </p>
                 <p className="font-medium text-[14px] text-[#1B1B1E]">
-                  Homecare Managers{" "}
+                  Care Managers{" "}
                 </p>
               </div>
               <img
@@ -40,24 +40,21 @@ const joinus = () => {
               />
             </div>
           </div>
-          <div className="w-full md:w-[49%] bg-white px-[1rem] py-[1rem] rounded-[5px]">
-            <div className="flex flex-row">
+          <div className="w-full md:w-[49%] bg-white px-[1rem] py-[1rem] rounded-[5px] relative">
+            <div className="flex flex-row h-full items-center">
               <div className="flex flex-col gap-[0.4rem]">
                 <p className="font-medium text-[14px] text-[#1B1B1E]">Carers</p>
                 <p className="font-medium text-[14px] text-[#1B1B1E]">
                   Senior Carers
                 </p>
                 <p className="font-medium text-[14px] text-[#1B1B1E]">
-                  Registered General Nurses
-                </p>
-                <p className="font-medium text-[14px] text-[#1B1B1E]">
-                  Specialist Registered Nurses{" "}
+                Live-In Carers
                 </p>
               </div>
               <img
                 src="Images/staffing/logo2.png"
                 alt=""
-                className="w-[30px] h-[30px] mt-auto ml-auto"
+                className="w-[30px] h-[30px] mt-auto ml-auto absolute right-0 bottom-0 mr-[1rem] mb-[1rem]"
               />
             </div>
           </div>
@@ -66,11 +63,11 @@ const joinus = () => {
       </div>
       <div className="w-full relative">
         <img
-          src="Images/staffing/join-us.png"
+          src="Images/staffing/join-us.svg"
           alt=""
           className="col-span-1 h-full w-full object-cover"
         />
-        <div className="absolute bottom-0 left-0 lg:ml-[3rem] mb-[-3rem] flex flex-row gap-[1rem] md:gap-[3rem]">
+        <div className="absolute bottom-0 left-0 lg:ml-[3rem] mb-[-3rem] flex flex-row-reverse gap-[1rem] md:gap-[3rem]">
           <div className="bg-white p-[1rem] flex flex-row items-center gap-[0.5rem] md:gap-[1rem] rounded-[5px] shadow-shadow4 hover:shadow-none border border-transparent hover:border hover:border-[#FFD166] cursor-pointer">
             <img
               src="Images/staffing/staff-phone.png"
@@ -83,7 +80,7 @@ const joinus = () => {
               </p>
               <a href="tel:+442034177797">
                 <p className="font-semibold text-[10px] md:text-[14px] text-[#1B1B1E]">
-                  01474247739
+                +44&#40;0&#41;2034177797
                 </p>
               </a>
             </div>

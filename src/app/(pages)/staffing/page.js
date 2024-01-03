@@ -4,6 +4,7 @@ import Staff from "../../../components/staffing/staff";
 import WhyUs from "../../../components/staffing/whyus";
 import JoinUs from "../../../components/staffing/joinus";
 import Specialized from "../../../components/staffing/specialized";
+import Contact from "../../../components/staffing/contact";
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <WhyUs />
       <JoinUs />
       <Specialized />
+      <Contact />
     </div>
   );
 };

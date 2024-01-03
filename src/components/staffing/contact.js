@@ -34,7 +34,7 @@ const contact = () => {
                   className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none"
                 />
               </div>
-              <div className="flex flex-col gap-[10px] mt-[20px]">
+              <div className="flex flex-col gap-[10px] mt-[15px]">
                 <label
                   htmlFor="email"
                   className="text-[16px] font-bold text-[#474973]"
@@ -47,7 +47,7 @@ const contact = () => {
                   className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none"
                 />
               </div>
-              <div className="flex flex-col gap-[10px] mt-[20px]">
+              <div className="flex flex-col gap-[10px] mt-[15px]">
                 <label
                   htmlFor="cv"
                   className="text-[16px] font-bold text-[#474973]"
@@ -56,14 +56,13 @@ const contact = () => {
                 </label>
                 <input
                  type="text"
-                 placeholder="Upload your CV"
                  value={file ? file.name : ''}
                  readOnly
                   name="cv"
                   className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none"
                 />
               </div>
-              <label className='text-[14px] font-medium text-[#171C74]'> Click to upload your CV
+              <label className='text-[14px] font-medium text-[#171C74] mt-[1rem]'> Click to upload your CV
                 <input
           type="file"
           className="hidden"

@@ -59,10 +59,10 @@ const page = () => {
       <div className='col-span-8 bg-white h-[100vh] px-[5vw] py-[1rem]'>
       <div className='w-full flex justify-end'><p className='text-[#373737] font-semibold text-[25px] ml-auto text-right'>Administrator</p></div>
       <div className='flex flex-row justify-between mt-[5rem]'>
-        <p className='font-semibold text-[24px] text-[#1B1B1E]'>Emails</p>
+        <p className='font-semibold text-[24px] text-[#1B1B1E]'>CVs</p>
         <div className='p-[1rem] shadow-shadow4'>
             <div className='flex flex-row gap-[2rem]'>
-              <p className='font-medium text-[#1B1B1E] text-[20px]'>Total Messages</p>
+              <p className='font-medium text-[#1B1B1E] text-[20px]'>Applications</p>
               <img src='/Images/home/notification-icon.png' alt=''/>
             </div>
             <div className='flex flex-row gap-[0.8rem] mt-[1rem] items-center'>

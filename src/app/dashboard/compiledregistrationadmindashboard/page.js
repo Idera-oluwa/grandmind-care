@@ -43,7 +43,7 @@ const page = () => {
       <div className='col-span-2 h-[100vh] py-[1rem] sticky top-0'>
       <div className='pl-[5vw]'><img src='/Images/home/LOGO.svg' alt='' className='mr-auto w-[133.86px] h-[34px]'/></div>
       <div className=' flex flex-col mt-[30vh]'>
-      <Link href='/dashboard/compiledregistrationadmindashboard'><div className='flex flex-row gap-[0.5rem] items-center cursor-pointer hover:bg-[#32936F80] py-[0.5rem]  pl-[5vw]'>
+      <Link href='/dashboard/compiledregistrationadmindashboard'><div className='flex flex-row gap-[0.5rem] items-center cursor-pointer bg-[#32936F80] py-[0.5rem]  pl-[5vw]'>
             <MdWindow className='text-[15px] text-[#32936F]'/>
             <p className='font-medium text-[#32936F] text-[16px]'>Dashboard</p>
             <div className='bg-[#32936F] w-[3px] h-[1.5rem] ml-auto'></div>
@@ -51,12 +51,10 @@ const page = () => {
         <Link href='/dashboard/compiledregistrationadmindashboard/data'><div className='flex flex-row gap-[0.5rem] items-center cursor-pointer hover:bg-[#32936F80] py-[0.5rem] pl-[5vw]'>
             <img src='/Images/dashboard/email2.png' alt='' className='w-[13px] h-[13px]'/>
             <p className='font-medium text-[#32936F] text-[16px]'>Emails</p>
-            <div className='bg-[white] w-[3px] h-[1.5rem] ml-auto'></div>
         </div></Link>
         <Link href='/dashboard/compiledregistrationadmindashboard/recruitment'><div className='flex flex-row gap-[0.5rem] items-center cursor-pointer hover:bg-[#32936F80] py-[0.5rem] pl-[5vw]'>
             <img src='/Images/dashboard/person-logo.png' alt='' className='w-[13px] h-[13px]'/>
             <p className='font-medium text-[#32936F] text-[16px]'>Recruitment</p>
-            <div className='bg-[white] w-[3px] h-[1.5rem] ml-auto'></div>
         </div></Link>
         
       </div>

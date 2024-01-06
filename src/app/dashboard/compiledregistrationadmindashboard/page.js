@@ -1,8 +1,42 @@
-import React from 'react'
+"use client"
+import React, {useState,useEffect} from 'react'
 import { MdWindow } from "react-icons/md";
 import Link from 'next/link';
+import axios from 'axios';
 
 const page = () => {
+  const msgurl = 'https://grandmindcare.onrender.com/api/v1/grandmind/register'
+  const cvurl = 'https://grandmindcare.onrender.com/api/v1/grandmind/applicants'
+  const [msgData, setmsgData] = useState([])
+  const [cvData, setCvData] = useState([])
+
+  const msgLength = msgData.length;
+  const cvLength = cvData.length;
+
+  const fetchMsgUrl = async() =>{
+   try {
+    const response = await axios.get(msgurl)
+    const data = await response.data;
+    setmsgData(data.user)
+   } catch (error) {
+    console.log(error)
+   }
+    
+  }
+  const fetchCvUrl = async() =>{
+   try {
+    const response = await axios.get(cvurl)
+    const data = await response.data;
+    setCvData(data.applicant)
+   } catch (error) {
+    console.log(error)
+   }
+    
+  }
+  useEffect(() => {
+    fetchMsgUrl()
+    fetchCvUrl()
+  },[])
   return (
     <div className='grid grid-cols-10 relative pb-[3rem]'>
         <div className='absolute top-0 mt-[5rem] w-full h-[1px]'></div>
@@ -50,7 +84,7 @@ const page = () => {
             </div>
             <div className='flex flex-row gap-[0.8rem] mt-[1rem] items-center'>
             <img src='/Images/home/mail3.png' alt='' className='w-[40px] h-[41px]'/>
-            <p className='font-bold text-[#1B1B1E] text-[40px]'>20</p>
+            <p className='font-bold text-[#1B1B1E] text-[40px]'>{msgLength}</p>
             </div>
         </div>
         <div className='p-[1rem] shadow-shadow4 w-[296px]'>
@@ -60,7 +94,7 @@ const page = () => {
             </div>
             <div className='flex flex-row gap-[0.8rem] mt-[1rem] items-center'>
             <img src='/Images/home/mail3.png' alt='' className='w-[40px] h-[41px]'/>
-            <p className='font-bold text-[#1B1B1E] text-[40px]'>20</p>
+            <p className='font-bold text-[#1B1B1E] text-[40px]'>{cvLength}</p>
             </div>
         </div>
       </div>

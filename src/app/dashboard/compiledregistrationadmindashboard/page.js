@@ -5,27 +5,36 @@ import Link from 'next/link';
 const page = () => {
   return (
     <div className='grid grid-cols-10 relative pb-[3rem]'>
-        <div className='absolute top-0 mt-[5rem] w-full h-[1px] bg-[#c2c2c241]'></div>
-      <div className='col-span-2 bg-[#CECECE80] h-[100vh] pl-[5vw] py-[1rem] sticky top-0'>
-      <img src='/Images/home/LOGO.svg' alt='' className='mr-auto w-[133.86px] h-[34px]'/>
-      <div className=' flex flex-col mt-[30vh] gap-[1rem]'>
-      <Link href='/dashboard/compiledregistrationadmindashboard'><div className='flex flex-row gap-[0.5rem] items-center cursor-pointer'>
-            <MdWindow className='text-[15px] text-[#474973]'/>
-            <p className='font-medium text-[#474973] text-[16px]'>Dashboard</p>
+        <div className='absolute top-0 mt-[5rem] w-full h-[1px]'></div>
+      <div className='col-span-2 h-[100vh] py-[1rem] sticky top-0'>
+      <div className='pl-[5vw]'><img src='/Images/home/LOGO.svg' alt='' className='mr-auto w-[133.86px] h-[34px]'/></div>
+      <div className=' flex flex-col mt-[30vh]'>
+      <Link href='/dashboard/compiledregistrationadmindashboard'><div className='flex flex-row gap-[0.5rem] items-center cursor-pointer hover:bg-[#32936F80] py-[0.5rem]  pl-[5vw]'>
+            <MdWindow className='text-[15px] text-[#32936F]'/>
+            <p className='font-medium text-[#32936F] text-[16px]'>Dashboard</p>
+            <div className='bg-[#32936F] w-[3px] h-[1.5rem] ml-auto'></div>
         </div></Link>
-        <Link href='/dashboard/compiledregistrationadmindashboard/data'><div className='flex flex-row gap-[0.5rem] items-center cursor-pointer'>
-            <img src='/Images/home/mail-sm.png' alt='' className='w-[13px] h-[13px]'/>
-            <p className='font-medium text-[#474973] text-[16px]'>Emails</p>
+        <Link href='/dashboard/compiledregistrationadmindashboard/data'><div className='flex flex-row gap-[0.5rem] items-center cursor-pointer hover:bg-[#32936F80] py-[0.5rem] pl-[5vw]'>
+            <img src='/Images/dashboard/email2.png' alt='' className='w-[13px] h-[13px]'/>
+            <p className='font-medium text-[#32936F] text-[16px]'>Emails</p>
+            <div className='bg-[white] w-[3px] h-[1.5rem] ml-auto'></div>
         </div></Link>
-        <Link href='/dashboard/compiledregistrationadmindashboard/recruitment'><div className='flex flex-row gap-[0.5rem] items-center cursor-pointer'>
-            <img src='/Images/home/mail-sm.png' alt='' className='w-[13px] h-[13px]'/>
-            <p className='font-medium text-[#474973] text-[16px]'>Recruitment</p>
+        <Link href='/dashboard/compiledregistrationadmindashboard/recruitment'><div className='flex flex-row gap-[0.5rem] items-center cursor-pointer hover:bg-[#32936F80] py-[0.5rem] pl-[5vw]'>
+            <img src='/Images/dashboard/person-logo.png' alt='' className='w-[13px] h-[13px]'/>
+            <p className='font-medium text-[#32936F] text-[16px]'>Recruitment</p>
+            <div className='bg-[white] w-[3px] h-[1.5rem] ml-auto'></div>
         </div></Link>
         
       </div>
       </div>
       <div className='col-span-8 bg-white h-[100vh] px-[5vw] py-[1rem]'>
-      <div className='w-full flex justify-end'><p className='text-[#373737] font-semibold text-[25px] ml-auto text-right'>Administrator</p></div>
+      <div className='w-full flex flex-row justify-end items-center gap-[1rem]'>
+        <img src='/Images/dashboard/admin-icon.svg' alt='' className='w-[32px] h-[32px] rounded-full'/>
+        <div className='flex flex-col'>
+        <p className='text-[#373737] font-normal text-[14px] text-left'>Administrator</p>
+      <p className='text-[#808080] font-semibold text-[10px] text-left'>recruitment@grandmindcare.co.uk</p>
+        </div>
+      </div>
       <div className='flex flex-row justify-between items-center mt-[6rem]'>
        <div className='flex flex-col w-[50%]'>
         <p className='font-semibold text-[24px] text-[#1B1B1E]'>Welcome Admin!</p>

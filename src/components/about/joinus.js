@@ -15,7 +15,7 @@ const joinus = () => {
     e.preventDefault();
     setLoading(true)
     setDisabled(true)
-    const url = "https://grandmindcare.onrender.com/api/v1/grandmind";
+    const url = "https://grandmindcare.onrender.com/api/v1/grandmind/register";
     const registrationData = {
       name: name,
       email: email,

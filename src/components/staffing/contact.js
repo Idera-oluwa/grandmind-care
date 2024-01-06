@@ -1,8 +1,70 @@
 "use client"
 import React,{ useState } from 'react'
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 
 const contact = () => {
    const [file, setFile] = useState(null);
+   const [fullname, setFullname] = useState('');
+  const [email, setEmail] = useState('');
+  const [loading, setLoading] = useState(false)
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true)
+
+    const registrationData = {
+      fullname: fullname,
+      email: email,
+      cv: file,
+    };
+    if (fullname === "" || email === "" || file === "") {
+      toast.warning("Please input all credentials !", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      setLoading(false)
+      }
+    try {
+      const response = await axios.post('https://grandmindcare.onrender.com/api/v1/grandmind/applicants', registrationData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+        credentials: 'include',
+      });
+
+      console.log('Response:', response);
+
+      if (response.status === 200) {
+        console.log('Form submitted successfully!');
+      } else {
+        console.error('Form submission failed.');
+      }
+      toast.success("Registration Successful !", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      setLoading(false)
+      setFullname('')
+      setEmail('')
+      setFile(null)
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      if (error.response) {
+        console.log('Error Response Data:', error.response.data);
+        console.log('Error Response Status:', error.response.status);
+        console.log('Error Response Headers:', error.response.headers);
+      }
+      if (fullname !== "" || email !== "" || file !== "") {
+        toast.error("Registration failed !", {
+          position: toast.POSITION.TOP_RIGHT,
+        });
+      }
+       setLoading(false)
+       setFullname('')
+      setEmail('')
+      setFile(null)
+    }
+  };
 
   const handleFileUpload = (event) => {
     const uploadedFile = event.target.files[0];
@@ -31,6 +93,7 @@ const contact = () => {
                 <input
                   type="text"
                   name="first-name"
+                  value={fullname} onChange={(e) => setFullname(e.target.value)} required
                   className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none"
                 />
               </div>
@@ -44,6 +107,7 @@ const contact = () => {
                 <input
                   type="text"
                   name="email"
+                  value={email} onChange={(e) => setEmail(e.target.value)} required
                   className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none"
                 />
               </div>
@@ -57,6 +121,7 @@ const contact = () => {
                 <input
                  type="text"
                  value={file ? file.name : ''}
+                 required
                  readOnly
                   name="cv"
                   className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none"
@@ -67,14 +132,16 @@ const contact = () => {
           type="file"
           className="hidden"
           onChange={handleFileUpload}
+          accept=".pdf, .doc, .docx"
         />
               </label>
               <button
-                type="submit"
+                onClick={handleSubmit}
                 className="bg-[#474973] rounded-[10px] font-semibold text-[20px] w-full mt-[3rem] h-[64px] text-white hover:border-transparent hover:bg-[#353756] transition-all ease-out duration-[600]"
               >
-                Submit
+               {loading? 'Submitting...' : 'Submit'}
               </button>
+              <ToastContainer />
             </form>
           </div>
         </div>

@@ -5,7 +5,7 @@ import axios from 'axios';
 import Link from 'next/link';
 
 const page = () => {
-  const url = 'https://grandmindcare.onrender.com/api/v1/grandmind'
+  const url = 'https://grandmindcare.onrender.com/api/v1/grandmind/register'
   const [regData, setRegData] = useState([])
   const length = regData.length;
 

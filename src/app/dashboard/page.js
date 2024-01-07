@@ -38,7 +38,7 @@ const page = () => {
         /></div>
         {password === process.env.NEXT_PUBLIC_PASSWORD && email === process.env.NEXT_PUBLIC_EMAIL ?
           <Link href="/dashboard/compiledregistrationadmindashboard">
-            <button className="bg-[#3066BE] rounded-[10px] w-full flex justify-center items-center h-[78px] text-[20px] font-semibold text-[#FDFDFD] tracking-[1px] transition-all ease-out duration-[600] mt-[2rem]" onClick={handleClick}>
+            <button className="bg-[#3066BE] rounded-[10px] w-full flex justify-center items-center h-[78px] text-[20px] font-semibold text-[#FDFDFD] tracking-[1px] transition-all ease-out duration-[600] mt-[2rem]">
               {text}
             </button>
           </Link>

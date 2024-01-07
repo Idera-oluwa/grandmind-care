@@ -58,7 +58,13 @@ const page = () => {
       </div>
       </div>
       <div className='col-span-8 bg-white h-[100vh] px-[5vw] py-[1rem]'>
-      <div className='w-full flex justify-end'><p className='text-[#373737] font-semibold text-[25px] ml-auto text-right'>Administrator</p></div>
+      <div className='w-full flex flex-row justify-end items-center gap-[1rem]'>
+        <img src='/Images/dashboard/admin-icon.svg' alt='' className='w-[32px] h-[32px] rounded-full'/>
+        <div className='flex flex-col'>
+        <p className='text-[#373737] font-normal text-[14px] text-left'>Administrator</p>
+      <p className='text-[#808080] font-semibold text-[10px] text-left'>recruitment@grandmindcare.co.uk</p>
+        </div>
+      </div>
       <div className='flex flex-row justify-between mt-[5rem]'>
         <p className='font-semibold text-[24px] text-[#1B1B1E]'>Emails</p>
         <div className='p-[1rem] shadow-shadow4'>

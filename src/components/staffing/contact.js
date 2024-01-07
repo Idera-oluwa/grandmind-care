@@ -66,22 +66,22 @@ const contact = () => {
     setFile(uploadedFile);
   };
   return (
-    <div className="mt-[7rem] md:mt-[12rem] max-w-[100vw] mb-[22rem]">
+    <div className="mt-[7rem] md:mt-[12rem] max-w-[100vw] mb-[35rem] lg:mb-[22rem]">
       <h1 className="text-center text-[20px] font-semibold mb-[2rem]">
         Apply Now
       </h1>
-      <div className="w-full bg-[#474973] h-[336px] flex flex-col lg:flex-row  px-[4rem]">
+      <div className="w-full bg-[#474973] h-[336px] flex flex-col lg:flex-row px-0  md:px-[4rem] pt-[2rem] lg:pt-0">
         <div className="w-full lg:w-[30%] my-[auto]">
-          <h1 className="font-semibold md:text-[40px] text-[30px] text-[white]">
+          <h1 className="font-semibold md:text-[40px] text-[30px] text-[white] mx-auto text-center lg:text-left">
             Tell us about you!
           </h1>
-          <p className="font-semibold md:text-[16px] text-[14px] text-[white] mt-[1rem]">
+          <p className="font-semibold md:text-[16px] text-[14px] text-[white] mt-[1rem] text-center lg:text-left">
             Get started with your application here, send a detailed copy of your
             cv to us and let us review your application.
           </p>
         </div>
         <div className="w-full lg:w-[60%] ml-[auto]">
-          <div className="w-[600px] bg-[#474973] h-[300px] mt-[36px] border-b-0 border-2 border-white p-[1rem] rounded-t-[25px]">
+          <div className="w-full md:w-[600px] mx-auto bg-transparent h-[300px] mt-[36px] md:border-b-0 md:border-2 md:border-white p-0 md:p-[1rem] rounded-t-[25px]">
             <div className="w-full h-[528px] p-[1rem] rounded-[10px] bg-[#474973] items-center justify-center">
               <div className="w-full h-full border border-[#424359] rounded-[20px] bg-white p-[2rem]">
                 <form onSubmit={handleSubmit}>

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const subscribe = () => {
   return (
@@ -98,14 +99,14 @@ const subscribe = () => {
           <p className="font-medium text-[12px] text-[#474973B2]">
             Copyright 2023 © grandmind care Ltd.{" "}
           </p>
-          <div className="flex flex-row">
+          <Link href="/privacy-policy"><div className="flex flex-row">
             <p className="font-medium text-[12px] text-[#474973B2] pr-[0.3rem] border-r border-[#474973B2] cursor-pointer">
               Privacy Policy
             </p>
             <p className="font-medium text-[12px] text-[#474973B2] pl-[0.3rem] cursor-pointer">
               Terms and Conditions{" "}
             </p>
-          </div>
+          </div></Link>
         </div>
       </div>
     </div>

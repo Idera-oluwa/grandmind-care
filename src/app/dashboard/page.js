@@ -5,6 +5,11 @@ import Link from "next/link";
 const page = () => {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
+  const [text, setText] = useState('Sign In')
+  const handleClick=(e)=>{
+    e.preventDefault()
+    setText('Signing In...')
+  }
   return (
     <div className="flex flex-col justify-center items-center h-screen w-full">
       <h1 className="font-semibold text-[40px]">Admin Login</h1>
@@ -33,8 +38,8 @@ const page = () => {
         /></div>
         {password === process.env.NEXT_PUBLIC_PASSWORD && email === process.env.NEXT_PUBLIC_EMAIL ?
           <Link href="/dashboard/compiledregistrationadmindashboard">
-            <button className="bg-[#3066BE] rounded-[10px] w-full flex justify-center items-center h-[78px] text-[20px] font-semibold text-[#FDFDFD] tracking-[1px] transition-all ease-out duration-[600] mt-[2rem]" onClick={(e)=>e.preventDefault()}>
-              Sign In
+            <button className="bg-[#3066BE] rounded-[10px] w-full flex justify-center items-center h-[78px] text-[20px] font-semibold text-[#FDFDFD] tracking-[1px] transition-all ease-out duration-[600] mt-[2rem]" onClick={handleClick}>
+              {text}
             </button>
           </Link>
         :  <button className="bg-[#3066BE] rounded-[10px] w-full flex justify-center items-center h-[78px] text-[20px] font-semibold text-[#FDFDFD] tracking-[1px] transition-all ease-out duration-[600] mt-[2rem]" onClick={(e)=>e.preventDefault()}>

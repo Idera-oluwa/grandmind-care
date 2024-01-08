@@ -2,9 +2,12 @@
 import React, {useState,useEffect} from 'react'
 import { MdWindow } from "react-icons/md";
 import axios from 'axios';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Link from 'next/link';
 
 const page = () => {
+  const [showModal, setShowModal] = useState(false)
   const url = 'https://grandmindcare.onrender.com/api/v1/grandmind/register'
   const [regData, setRegData] = useState([])
   const length = regData.length;
@@ -25,8 +28,13 @@ const page = () => {
       const response = await axios.delete(`${backendEndpoint}/${id}`);
       console.log('User deleted successfully', response.data);
       window.location.reload()
+      setShowModal(false)
+      toast.success("User Deleted Successfully !", {
+      position: toast.POSITION.TOP_RIGHT,
+      });
     } catch (error) {
       console.error('Error deleting user', error);
+      setShowModal(false)
     }
   };
   
@@ -94,7 +102,18 @@ const page = () => {
           <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center'>{contact}</p>
           <div className='flex flex-row gap-[0.5rem] mx-auto items-center'>
             <img src='/Images/home/delete.png' className='w-[10.67px] h-[10.67px]'/>
-          <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center' onClick={()=>deleteUser(_id)}>Delete</p>
+          <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center' onClick={()=>{setShowModal(true)}}>Delete</p>
+          {showModal && <div className='w-screen h-screen fixed top-0 left-0 bg-black/20 flex justify-center items-center'>
+         <div className='p-[2rem] bg-white w-[491px] h-[217px] flex flex-col rounded-[10px] shadow'>
+         <p className='text-[#344E41] font-medium text-[20px]'>Delete Message</p>
+           <p className='font-normal text-[14px] leading-[19px] text-[#373737] mt-[0.5rem]'>Are you sure you want to delete this message? Deleted messages will be removed permanently.</p>
+           <div className='flex flex-row w-full justify-between mt-[2rem]'>
+          <button className='w-[145px] h-[51px] flex items-center justify-center bg-white rounded-[4px] border border-[#45454B] font-medium text-[16px] text-[#373737]' onClick={()=>{setShowModal(false)}}>Close</button>
+          <button className='w-[248px] h-[51px] flex items-center justify-center bg-[#CB261F] rounded-[4px] font-medium text-[16px] text-white' onClick={()=>deleteUser(_id)}>Delete Message</button>
+           </div>
+         </div>
+          </div>}
+          <ToastContainer />
           </div>
         </div>
          )

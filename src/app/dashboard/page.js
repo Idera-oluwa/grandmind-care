@@ -6,8 +6,7 @@ const page = () => {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
   const [text, setText] = useState('Sign In')
-  const handleClick=(e)=>{
-    e.preventDefault()
+  const handleClick=()=>{
     setText('Signing In...')
   }
   return (
@@ -30,7 +29,7 @@ const page = () => {
           Password
         </label>
         <input
-          type="text"
+          type="password"
           name="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
@@ -38,7 +37,7 @@ const page = () => {
         /></div>
         {password === process.env.NEXT_PUBLIC_PASSWORD && email === process.env.NEXT_PUBLIC_EMAIL ?
           <Link href="/dashboard/compiledregistrationadmindashboard">
-            <button className="bg-[#3066BE] rounded-[10px] w-full flex justify-center items-center h-[78px] text-[20px] font-semibold text-[#FDFDFD] tracking-[1px] transition-all ease-out duration-[600] mt-[2rem]">
+            <button className="bg-[#3066BE] rounded-[10px] w-full flex justify-center items-center h-[78px] text-[20px] font-semibold text-[#FDFDFD] tracking-[1px] transition-all ease-out duration-[600] mt-[2rem]" onClick={handleClick}>
               {text}
             </button>
           </Link>

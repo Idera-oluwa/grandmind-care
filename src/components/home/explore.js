@@ -19,9 +19,9 @@ const explore = () => {
         <p className="text-[32px] lg:text-[40px] font-bold text-black leading-[55.55px]">
           <span className="text-[#32936F]">staffing</span> options
         </p>
-        <img src="Images/home/underline.png" alt="" />
+        <img src="/Images/home/underline.png" alt="" />
         <img
-          src="Images/home/staffing.png"
+          src="/Images/home/staffing.png"
           alt=""
           className="mt-[1rem] w-full md:w-0 object-cover"
         />

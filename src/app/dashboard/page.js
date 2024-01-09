@@ -12,7 +12,7 @@ const page = () => {
   return (
     <div className="flex flex-col justify-center items-center h-screen w-full">
       <h1 className="font-semibold text-[40px]">Admin Login</h1>
-      <img src='Images/dashboard/admin-icon.svg' alt='' className='mt-[3rem]'/>
+      <img src='/Images/dashboard/admin-icon.svg' alt='' className='mt-[3rem]'/>
       <form className="flex flex-col mt-[2rem] w-[496px]">
        <div className='flex flex-col w-full'>
        <label htmlFor='email' className='font-medium text-[14px]'>Email</label>

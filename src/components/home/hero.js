@@ -25,11 +25,10 @@ const hero = () => {
       >
         <div className="flex flex-row gap-[20px]">
           <div className="flex flex-row gap-[8px] items-center cursor-pointer">
-            <Image
+            <img
               src="/Images/home/mail-sm.png"
               alt=""
-              width={18}
-              height={16}
+              className='w-[18px] h-[16px]'
             />
             <a href="mailto:info@grandmindcare.co.uk">
               <p className="text-[12px] md:text-[14px] font-normal text-[#474973]">
@@ -39,7 +38,7 @@ const hero = () => {
           </div>
           <div className="flex flex-row gap-[8px] items-center cursor-pointer">
             <img
-              src="Images/home/whatsapp-icon.png"
+              src="/Images/home/whatsapp-icon.png"
               alt="image"
               className="w-[17px] h-[17px]"
             />
@@ -105,7 +104,7 @@ const hero = () => {
         >
           <SwiperSlide>
             <img
-              src="Images/home/hero-image.png"
+              src="/Images/home/hero-image.png"
               alt=""
               className="rounded-[23px] w-full h-[209px] md:h-[420px] object-cover"
             />

@@ -16,7 +16,7 @@ const hero = () => {
       >
         <div className="flex flex-row gap-[8px] items-center cursor-pointer">
           <img
-            src="Images/home/mail-sm.png"
+            src="/Images/home/mail-sm.png"
             alt=""
             className="w-[18px] h-[16px]"
           />

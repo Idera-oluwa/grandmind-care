@@ -23,7 +23,7 @@ const sidebar = ({ show, hideSidebar }) => {
       <div className="flex flex-row items-center justify-between  mx-auto mt-[2rem] px-3">
         <Link href="/">
           <img
-            src="Images/home/LOGO.svg"
+            src="/Images/home/LOGO.svg"
             alt=""
             className="w-[133.86px] h-[34px]"
           />
@@ -96,13 +96,13 @@ const sidebar = ({ show, hideSidebar }) => {
             target="_blank"
             rel="noreferrer"
           >
-        <img src="Images/home/facebook-logo.png" alt="" />
+        <img src="/Images/home/facebook-logo.png" alt="" />
         </a>
         <a href="mailto:info@grandmindcare.co.uk">
-          <img src="Images/home/mail-logo.png" alt="" />
+          <img src="/Images/home/mail-logo.png" alt="" />
         </a>
         <a href="https://wa.me/447903220307" target="_blank" rel="noreferrer">
-          <img src="Images/home/whatsapp-icon.png" alt="" />
+          <img src="/Images/home/whatsapp-icon.png" alt="" />
         </a>
       </div>
     </div>

@@ -13,19 +13,19 @@ const WhyChooseUs = () => {
       <div className="mt-[2rem]">
         <div className="bg-[#474973D4] w-full hidden md:grid grid-cols-3 py-[1rem] rounded-[7px]">
         <Fade> <div className="col-span-1 border-r-2 border-[#FFD166] px-[2rem]">
-            <img src="Images/home/patient1.png" alt="" className="" />
+            <img src="/Images/home/patient1.png" alt="" className="" />
           </div>
           <div className="col-span-1 border-r-2 border-[#FFD166] px-[2rem]">
-            <img src="Images/home/patient2.png" alt="" className="" />
+            <img src="/Images/home/patient2.png" alt="" className="" />
           </div>
           <div className="col-span-1 px-[2rem]">
-            <img src="Images/home/patient3.png" alt="" className="" />
+            <img src="/Images/home/patient3.png" alt="" className="" />
           </div></Fade>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[3rem] md:gap-0 md:mt-[1rem]">
         <Fade><div className="col-span-1 md:px-[2rem] h-full">
             <img
-              src="Images/home/patient1.png"
+              src="/Images/home/patient1.png"
               alt=""
               className="w-full h-[209px] md:hidden object-cover rounded-[10px]"
             />
@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
                 </button>
               </Link>
               <img
-                src="Images/home/Grandmind-care.png"
+                src="/Images/home/Grandmind-care.png"
                 alt=""
                 className="w-[38px] h-[38px] mr-[1rem]"
               />
@@ -52,7 +52,7 @@ const WhyChooseUs = () => {
           </div>
           <div className="col-span-1 md:px-[2rem] h-full">
             <img
-              src="Images/home/patient2.png"
+              src="/Images/home/patient2.png"
               alt=""
               className="w-full h-[209px] md:hidden object-cover rounded-[10px]"
             />
@@ -71,7 +71,7 @@ const WhyChooseUs = () => {
                 </button>
               </Link>
               <img
-                src="Images/home/Grandmind-care.png"
+                src="/Images/home/Grandmind-care.png"
                 alt=""
                 className="w-[38px] h-[38px] mr-[1rem]"
               />
@@ -80,7 +80,7 @@ const WhyChooseUs = () => {
           </div>
           <div className="col-span-1 md:px-[2rem] h-full">
             <img
-              src="Images/home/patient3.png"
+              src="/Images/home/patient3.png"
               alt=""
               className="w-full h-[209px] md:hidden object-cover rounded-[10px]"
             />
@@ -98,7 +98,7 @@ const WhyChooseUs = () => {
                 </button>
               </Link>
               <img
-                src="Images/home/Grandmind-care.png"
+                src="/Images/home/Grandmind-care.png"
                 alt=""
                 className="w-[38px] h-[38px] mr-[1rem]"
               />

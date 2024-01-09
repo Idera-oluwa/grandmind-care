@@ -14,7 +14,7 @@ const contact = () => {
         <div className="flex flex-col justify-between md:flex-row lg:flex-col gap-[2rem] md:gap-0 lg:gap-[2rem]">
           <div className="flex flex-row gap-[2rem]">
             <img
-              src="Images/contact/location.png"
+              src="/Images/contact/location.png"
               alt=""
               className="w-[17px] h-[24px]"
             />
@@ -35,7 +35,7 @@ const contact = () => {
           </div>
           <div className="flex flex-row gap-[2rem]">
             <img
-              src="Images/contact/home.png"
+              src="/Images/contact/home.png"
               alt=""
               className="w-[17px] h-[18px]"
             />
@@ -58,7 +58,7 @@ const contact = () => {
         <div className="flex flex-col justify-between md:flex-row lg:flex-col gap-[2rem] md:gap-0 lg:gap-[2rem]">
           <div className="flex flex-row gap-[2rem]">
             <img
-              src="Images/home/mail-sm.png"
+              src="/Images/home/mail-sm.png"
               alt=""
               className="w-[17px] h-[18px]"
             />
@@ -73,7 +73,7 @@ const contact = () => {
           </div>
           <div className="flex flex-row gap-[2rem] md:mr-[5rem] lg:mr-0">
             <img
-              src="Images/home/phone-logo.png"
+              src="/Images/home/phone-logo.png"
               alt=""
               className="w-[17px] h-[18px]"
             />

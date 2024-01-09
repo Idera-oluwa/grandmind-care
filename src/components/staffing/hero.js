@@ -21,9 +21,9 @@ const hero = () => {
           <p className="text-[32px] md:text-[35px] lg:text-[40px] font-bold text-black leading-[55.55px]">
             <span className="text-[#32936F]">staffing</span> options
           </p>
-          <img src="Images/home/underline.png" alt="" />
+          <img src="/Images/home/underline.png" alt="" />
           <img
-            src="Images/staffing/staffing1.png"
+            src="/Images/staffing/staffing1.png"
             alt=""
             className="md:hidden w-full mt-[1rem]"
           />
@@ -40,7 +40,7 @@ const hero = () => {
           <div className="flex flex-row gap-[10px] mt-[1rem]">
             <div className="flex flex-row gap-[8px] items-center cursor-pointer">
               <img
-                src="Images/home/mail-sm.png"
+                src="/Images/home/mail-sm.png"
                 alt=""
                 className="w-[18px] h-[16px]"
               />
@@ -52,7 +52,7 @@ const hero = () => {
             </div>
             <div className="flex flex-row gap-[8px] items-center cursor-pointer">
               <img
-                src="Images/home/whatsapp-icon.png"
+                src="/Images/home/whatsapp-icon.png"
                 alt=""
                 className="w-[17px] h-[17px]"
               />
@@ -72,7 +72,7 @@ const hero = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: "0.3", ease: "easeOut" }}
-          src="Images/staffing/staffing1.png"
+          src="/Images/staffing/staffing1.png"
           alt=""
           className="hidden md:grid w-[57%]"
         />

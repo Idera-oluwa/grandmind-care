@@ -9,7 +9,7 @@ const staff = () => {
     <div className="w-[90vw]  2xl:max-w-[1440px] mx-auto">
       <div className="mt-[7rem] md:mt-[10rem] h-[20rem] md:h-auto w-full relative">
         <img
-          src="Images/staffing/our-staff-banner.png"
+          src="/Images/staffing/our-staff-banner.png"
           alt=""
           className="object-cover h-full w-full rounded-[10px]"
         />

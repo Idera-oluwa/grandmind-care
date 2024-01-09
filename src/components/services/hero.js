@@ -29,7 +29,7 @@ const hero = () => {
         <div className="flex flex-row gap-[10px] mt-[1rem]">
           <div className="flex flex-row gap-[8px] items-center cursor-pointer">
             <img
-              src="Images/home/mail-sm.png"
+              src="/Images/home/mail-sm.png"
               alt=""
               className="w-[18px] h-[16px]"
             />
@@ -41,7 +41,7 @@ const hero = () => {
           </div>
           <div className="flex flex-row gap-[8px] items-center cursor-pointer">
             <img
-              src="Images/home/whatsapp-icon.png"
+              src="/Images/home/whatsapp-icon.png"
               alt=""
               className="w-[17px] h-[17px]"
             />
@@ -62,7 +62,7 @@ const hero = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: "0.3", ease: "easeOut" }}
-          src="Images/services/our-services-image.png"
+          src="/Images/services/our-services-image.png"
           alt=""
           className="w-full"
         />

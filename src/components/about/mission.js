@@ -12,7 +12,7 @@ const mission = () => {
       className="mt-[7rem] md:mt-[10rem] relative w-full h-[20rem] md:h-auto"
     >
       <img
-        src="Images/about/mission-img2.png"
+        src="/Images/about/mission-img2.png"
         alt=""
         className="object-cover h-full w-full  rounded-[10px]"
       />

@@ -11,7 +11,7 @@ const navbar = ({ showSidebar }) => {
       <div className="flex flex-row items-center justify-between w-[90vw]  2xl:max-w-[1440px] mx-auto">
         <Link href="/">
           <img
-            src="Images/home/LOGO.svg"
+            src="/Images/home/LOGO.svg"
             alt=""
             className="w-[133.86px] h-[34px]"
           />
@@ -79,13 +79,13 @@ const navbar = ({ showSidebar }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="Images/home/facebook-logo.png" alt="" />
+            <img src="/Images/home/facebook-logo.png" alt="" />
           </a>
           <a href="info@grandmindcare.co.uk">
-            <img src="Images/home/mail-logo.png" alt="" />
+            <img src="/Images/home/mail-logo.png" alt="" />
           </a>
           <a href="https://wa.me/447903220307" target="_blank" rel="noreferrer">
-            <img src="Images/home/whatsapp-icon.png" alt="" />
+            <img src="/Images/home/whatsapp-icon.png" alt="" />
           </a>
         </div>
         <FaBarsStaggered

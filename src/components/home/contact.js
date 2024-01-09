@@ -4,7 +4,7 @@ const contact = () => {
   return (
     <div className="mt-[7rem] md:mt-[10rem] relative pb-[5rem] h-[652px]">
       <img
-        src="Images/home/contact.png"
+        src="/Images/home/contact.png"
         alt=""
         className="object-cover rounded-[10px] h-[11rem] w-full md:h-auto"
       />

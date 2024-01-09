@@ -34,7 +34,7 @@ const joinus = () => {
                 </p>
               </div>
               <img
-                src="Images/staffing/logo2.png"
+                src="/Images/staffing/logo2.png"
                 alt=""
                 className="w-[30px] h-[30px] mt-auto ml-auto"
               />
@@ -52,7 +52,7 @@ const joinus = () => {
                 </p>
               </div>
               <img
-                src="Images/staffing/logo2.png"
+                src="/Images/staffing/logo2.png"
                 alt=""
                 className="w-[30px] h-[30px] mt-auto ml-auto absolute right-0 bottom-0 mr-[1rem] mb-[1rem]"
               />
@@ -63,14 +63,14 @@ const joinus = () => {
       </div>
       <div className="w-full relative">
         <img
-          src="Images/staffing/join-us.svg"
+          src="/Images/staffing/join-us.svg"
           alt=""
           className="col-span-1 h-full w-full object-cover"
         />
         <div className="absolute bottom-0 left-0 lg:ml-[3rem] mb-[-3rem] flex flex-row-reverse gap-[1rem] md:gap-[2rem]">
           <div className="bg-white p-[1rem] flex flex-row items-center gap-[0.5rem] md:gap-[1rem] rounded-[5px] shadow-shadow4 hover:shadow-none border border-transparent hover:border hover:border-[#FFD166] cursor-pointer">
             <img
-              src="Images/staffing/staff-phone.png"
+              src="/Images/staffing/staff-phone.png"
               alt=""
               className="w-[2rem] h-[2rem] md:w-auto md:h-auto"
             />
@@ -87,7 +87,7 @@ const joinus = () => {
           </div>
           <div className="bg-white p-[1rem] flex flex-row items-center gap-[0.5rem] md:gap-[1rem] rounded-[5px] shadow-shadow4 hover:shadow-none border border-transparent hover:border hover:border-[#474973] cursor-pointer">
             <img
-              src="Images/staffing/staff-mail.png"
+              src="/Images/staffing/staff-mail.png"
               alt=""
               className="w-[2rem] h-[2rem] md:w-auto md:h-auto"
             />

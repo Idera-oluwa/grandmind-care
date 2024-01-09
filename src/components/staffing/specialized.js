@@ -8,7 +8,7 @@ const specialized = () => {
     <div className="w-[90vw] lg:w-[80%]  2xl:max-w-[1440px] mx-auto">
       <div className="mt-[7rem] md:mt-[12rem] grid grid-cols-1 lg:grid-cols-2 w-full md:w-full mx-auto gap-[4rem]">
         <img
-          src="Images/staffing/specialized.png"
+          src="/Images/staffing/specialized.png"
           alt=""
           className="hidden lg:grid col-span-1 w-full"
         />
@@ -17,7 +17,7 @@ const specialized = () => {
             Specialised Staffs
           </p>
           <img
-            src="Images/staffing/specialized.png"
+            src="/Images/staffing/specialized.png"
             alt=""
             className="grid lg:hidden w-full mt-[1rem]"
           />

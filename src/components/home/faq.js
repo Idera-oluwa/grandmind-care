@@ -12,7 +12,7 @@ const faq = () => {
       <div className="flex flex-col mt-[3rem]">
       <Fade>
         <div className="flex flex-row gap-[1rem] md:gap-[3rem] items-center pb-[15px] border-b border-[#FFD166]">
-          <img src="Images/home/dot.png" alt="" className="w-[12px] h-[12px]" />
+          <img src="/Images/home/dot.png" alt="" className="w-[12px] h-[12px]" />
           <div className="flex flex-col">
             <p className="text-[16px] font-semibold text-[#353538]">
               What is Grandmind Care LTD?
@@ -26,7 +26,7 @@ const faq = () => {
           </div>
         </div>
         <div className="flex flex-row gap-[1rem] md:gap-[3rem] items-center pb-[15px] border-b border-[#FFD166] mt-[1rem]">
-          <img src="Images/home/dot.png" alt="" className="w-[12px] h-[12px]" />
+          <img src="/Images/home/dot.png" alt="" className="w-[12px] h-[12px]" />
           <div className="flex flex-col">
             <p className="text-[16px] font-semibold text-[#353538]">
               How can I create an account on Grandmind Care?
@@ -38,7 +38,7 @@ const faq = () => {
           </div>
         </div>
         <div className="flex flex-row gap-[1rem] md:gap-[3rem] items-center pb-[15px] border-b border-[#FFD166] mt-[1rem]">
-          <img src="Images/home/dot.png" alt="" className="w-[12px] h-[12px]" />
+          <img src="/Images/home/dot.png" alt="" className="w-[12px] h-[12px]" />
           <div className="flex flex-col">
             <p className="text-[16px] font-semibold text-[#353538]">
             How are our services priced?

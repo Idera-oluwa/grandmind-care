@@ -10,7 +10,7 @@ const services = () => {
         <div className="flex flex-col bg-[#F6F8FF] items-center py-[2rem] px-[2rem] shadow-shadow1 h-[319px] rounded-[10px] cursor-pointer hover:bg-[#fdebf1] transition-all duration-300 ease-in">
         <Fade>
           <img
-            src="Images/home/home-icon.png"
+            src="/Images/home/home-icon.png"
             alt=""
             className="w-[30px] h-[28px]"
           />
@@ -32,7 +32,7 @@ const services = () => {
         </div>
         <div className="flex flex-col bg-[#F6F8FF] items-center py-[2rem] px-[2rem] shadow-shadow1 h-[319px] rounded-[10px] cursor-pointer hover:bg-[#fdebf1] transition-all duration-300 ease-in">
           <img
-            src="Images/home/heart-icon.png"
+            src="/Images/home/heart-icon.png"
             alt=""
             className="w-[30px] h-[28px]"
           />
@@ -53,7 +53,7 @@ const services = () => {
         </div>
         <div className="flex flex-col bg-[#F6F8FF] items-center py-[2rem] px-[2rem] shadow-shadow1 h-[319px] rounded-[10px] cursor-pointer hover:bg-[#fdebf1] transition-all duration-300 ease-in">
           <img
-            src="Images/home/memory-care-icon.png"
+            src="/Images/home/memory-care-icon.png"
             alt=""
             className="w-[30px] h-[28px]"
           />

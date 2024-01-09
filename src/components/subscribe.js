@@ -24,7 +24,7 @@ const subscribe = () => {
               type="submit"
               className="bg-[#FFD166] w-[17%] md:w-[62px] h-[59px] rounded-r-[5px] flex justify-center items-center cursor-pointer hover:border-transparent hover:bg-[#ffba66] transition-all ease-out duration-[600]"
             >
-              <img src="Images/home/subscribe-arrow.png" alt="" />
+              <img src="/Images/home/subscribe-arrow.png" alt="" />
             </button>
           </form>
         </div>
@@ -32,7 +32,7 @@ const subscribe = () => {
           {/* Left hand side */}
           <div className="w-full lg:w-[50%]">
             <img
-              src="Images/home/LOGO.svg"
+              src="/Images/home/LOGO.svg"
               alt=""
               className="w-[164px] h-[41.65px]"
             />
@@ -45,17 +45,17 @@ const subscribe = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="Images/home/facebook-logo.png" alt="" />
+                <img src="/Images/home/facebook-logo.png" alt="" />
               </a>
               <a href="mailto:info@grandmindcare.co.uk">
-                <img src="Images/home/mail-logo.png" alt="" />
+                <img src="/Images/home/mail-logo.png" alt="" />
               </a>
               <a
                 href="https://wa.me/447903220307"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="Images/home/whatsapp-icon.png" alt="" />
+                <img src="/Images/home/whatsapp-icon.png" alt="" />
               </a>
             </div>
           </div>

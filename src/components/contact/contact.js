@@ -63,10 +63,10 @@ const contact = () => {
               className="w-[17px] h-[18px]"
             />
             <div className="text-left">
-              <a href="info@sgmcare.co.uk">
+            <a href="mailto:info@grandmindcare.co.uk">
                 {" "}
                 <p className="font-semibold text-[14px] text-[#1B1B1E]">
-                  info@sgmcare.co.uk
+                info@grandmindcare.co.uk
                 </p>
               </a>
             </div>

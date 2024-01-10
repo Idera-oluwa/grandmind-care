@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
             <img
               src="/Images/home/patient1.png"
               alt=""
-              className="w-full h-[209px] md:hidden object-cover rounded-[10px]"
+              className="w-full h-[209px] md:hidden object-contain rounded-[10px]"
             />
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[1.5rem] md:mt-[0.5rem]">
               Personalised Care Plans
@@ -54,12 +54,12 @@ const WhyChooseUs = () => {
             <img
               src="/Images/home/patient2.png"
               alt=""
-              className="w-full h-[209px] md:hidden object-cover rounded-[10px]"
+              className="w-full h-[209px] md:hidden object-contain rounded-[10px]"
             />
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[0.5rem]">
               Skilled Professionals
             </p>
-            <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] leading-[21.78px] mt-[1.5rem]">
+            <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] leading-[21.78px] mt-[1rem] md:mt-[1.5rem]">
               Our experienced and trained carers are committed to providing
               quality assistance with a focus on dignity and respect.
             </p>
@@ -82,12 +82,12 @@ const WhyChooseUs = () => {
             <img
               src="/Images/home/patient3.png"
               alt=""
-              className="w-full h-[209px] md:hidden object-cover rounded-[10px]"
+              className="w-full h-[209px] md:hidden object-contain rounded-[10px]"
             />
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[0.5rem]">
               Comprehensive Support
             </p>
-            <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] leading-[21.78px] mt-[4.5rem]">
+            <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] leading-[21.78px] mt-[1rem] md:mt-[4.5rem]">
               We design individualized care plans to ensure your loved ones
               receive the attention and support they deserve
             </p>

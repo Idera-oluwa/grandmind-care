@@ -78,10 +78,10 @@ const sidebar = ({ show, hideSidebar }) => {
             STAFFING
           </li>
         </Link>
-        <Link href="/contact">
+        <Link href="/cform">
           <li
             className={`text-[14px] transition-all ease-out duration-[600] font-medium py-[15px] px-[15px] hover:px-[20px]  hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer ${
-              pathname === "/contact/"
+              pathname === "/cform/"
                 ? "bg-[#252760] text-[#FFFFFF]"
                 : "bg-transparent text-[#1B1B1E] "
             }`}

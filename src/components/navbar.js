@@ -77,10 +77,10 @@ const navbar = ({ showSidebar }) => {
               STAFFING
             </li>
           </Link>
-          <Link href="/contact">
+          <Link href="/cform">
             <li
               className={`text-[14px] text-center transition-all ease-out duration-[700] font-medium py-[5px] px-[15px] hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer rounded-[5px] ${
-                pathname === "/contact/"
+                pathname === "/cform/"
                   ? "bg-[#252760] text-[#FFFFFF]"
                   : "bg-transparent text-[#1B1B1E] "
               }`}

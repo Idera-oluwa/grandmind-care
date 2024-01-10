@@ -66,7 +66,7 @@ const contact = () => {
     setFile(uploadedFile);
   };
   return (
-    <div className="mt-[7rem] md:mt-[12rem] max-w-[100vw] mb-[35rem] lg:mb-[22rem]">
+    <div className="mt-[7rem] md:mt-[12rem] max-w-[100vw] mb-[35rem] lg:mb-[22rem]" id="apply">
       <h1 className="text-center text-[20px] font-semibold mb-[2rem]">
         Apply Now
       </h1>

@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import Faq from "../../../components/contact/faq";
-import Contact from "../../../components/contact/contact";
+import Faq from "../../../components/cform/faq";
+import Contact from "../../../components/cform/contact";
 
 const page = () => {
   return (

@@ -44,7 +44,7 @@ const faq = () => {
             How are our services priced?
             </p>
             <p className="text-[14px] font-medium leading-[16.94px] text-[#353538] mt-[1rem]">
-            Our pricing is tailored to the specific services required. For a detailed discussion and quote, please <a href='/contact' className='text-[#3066BE]'>contact us</a>
+            Our pricing is tailored to the specific services required. For a detailed discussion and quote, please <a href='/cform' className='text-[#3066BE]'>contact us</a>
             </p>
           </div>
         </div>

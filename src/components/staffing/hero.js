@@ -32,7 +32,7 @@ const hero = () => {
             opportunities with flexible scheduling options that suit your
             availability.
           </p>
-          <Link href="/about#register">
+          <Link href="#apply">
             <button className="bg-[#474973] rounded-[22px] py-[9px] lg:py-[10px] px-[15px] lg:px-[18px] text-[15px] font-bold text-[#FDFDFD] tracking-[1px] mt-[1rem] border border-transparent hover:bg-[hsl(237,24%,25%)] transition-all ease-out duration-[600]">
               Apply Now
             </button>

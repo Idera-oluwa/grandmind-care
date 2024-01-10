@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
             <img
               src="/Images/home/patient1.png"
               alt=""
-              className="w-full h-[209px] md:hidden object-contain rounded-[10px]"
+              className="min-w-full h-[209px] md:hidden object-contain rounded-[10px]"
             />
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[1.5rem] md:mt-[0.5rem]">
               Personalised Care Plans
@@ -54,7 +54,7 @@ const WhyChooseUs = () => {
             <img
               src="/Images/home/patient2.png"
               alt=""
-              className="w-full h-[209px] md:hidden object-contain rounded-[10px]"
+              className="min-w-full h-[209px] md:hidden object-contain rounded-[10px]"
             />
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[0.5rem]">
               Skilled Professionals
@@ -82,7 +82,7 @@ const WhyChooseUs = () => {
             <img
               src="/Images/home/patient3.png"
               alt=""
-              className="w-full h-[209px] md:hidden object-contain rounded-[10px]"
+              className="min-w-full h-[209px] md:hidden object-contain rounded-[10px]"
             />
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[0.5rem]">
               Comprehensive Support

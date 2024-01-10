@@ -95,9 +95,9 @@ const joinus = () => {
               <p className="font-bold text-[14px] md:text-[20px] text-[#1B1B1E]">
                 Email
               </p>
-              <a href="mailto:info@grandmind.co.uk">
+              <a href="mailto:info@grandmindcare.co.uk">
                 <p className="font-semibold text-[10px] md:text-[14px] text-[#1B1B1E]">
-                  info@grandmind.co.uk
+                  info@grandmindcare.co.uk
                 </p>
               </a>
             </div>

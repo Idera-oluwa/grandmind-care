@@ -31,7 +31,7 @@ const navbar = ({ showSidebar }) => {
           <Link href="/about">
             <li
               className={`transition-all ease-out duration-[600] text-[14px] text-center font-medium py-[5px] px-[15px] hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer rounded-[5px] ${
-                pathname === "/about"
+                pathname === "/about/"
                   ? "bg-[#252760] text-[#FFFFFF]"
                   : "bg-transparent text-[#1B1B1E] "
               }`}
@@ -42,7 +42,7 @@ const navbar = ({ showSidebar }) => {
           <Link href="/services">
             <li
               className={`text-[14px] text-center transition-all ease-out duration-[600] font-medium py-[5px] px-[15px] hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer rounded-[5px] ${
-                pathname === "/services"
+                pathname === "/services/"
                   ? "bg-[#252760] text-[#FFFFFF]"
                   : "bg-transparent text-[#1B1B1E] "
               }`}
@@ -53,7 +53,7 @@ const navbar = ({ showSidebar }) => {
           <Link href="/staffing">
             <li
               className={`text-[14px] text-center transition-all ease-out duration-[600] font-medium py-[5px] px-[15px] hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer rounded-[5px] ${
-                pathname === "/staffing"
+                pathname === "/staffing/"
                   ? "bg-[#252760] text-[#FFFFFF]"
                   : "bg-transparent text-[#1B1B1E] "
               }`}
@@ -64,7 +64,7 @@ const navbar = ({ showSidebar }) => {
           <Link href="/contact">
             <li
               className={`text-[14px] text-center transition-all ease-out duration-[600] font-medium py-[5px] px-[15px] hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer rounded-[5px] ${
-                pathname === "/contact"
+                pathname === "/contact/"
                   ? "bg-[#252760] text-[#FFFFFF]"
                   : "bg-transparent text-[#1B1B1E] "
               }`}

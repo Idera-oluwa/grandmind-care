@@ -48,7 +48,7 @@ const sidebar = ({ show, hideSidebar }) => {
         <Link href="/about">
           <li
             className={`transition-all ease-out duration-[600] text-[14px] font-medium py-[15px] px-[15px] hover:px-[20px] hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer ${
-              pathname === "/about"
+              pathname === "/about/"
                 ? "bg-[#252760] text-[#FFFFFF]"
                 : "bg-transparent text-[#1B1B1E] "
             }`}
@@ -59,7 +59,7 @@ const sidebar = ({ show, hideSidebar }) => {
         <Link href="/services">
           <li
             className={`text-[14px] transition-all ease-out duration-[600] font-medium py-[15px] px-[15px] hover:px-[20px] hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer ${
-              pathname === "/services"
+              pathname === "/services/"
                 ? "bg-[#252760] text-[#FFFFFF]"
                 : "bg-transparent text-[#1B1B1E] "
             }`}
@@ -70,7 +70,7 @@ const sidebar = ({ show, hideSidebar }) => {
         <Link href="/staffing">
           <li
             className={`text-[14px] transition-all ease-out duration-[600] font-medium py-[15px] px-[15px] hover:px-[20px]  hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer ${
-              pathname === "/staffing"
+              pathname === "/staffing/"
                 ? "bg-[#252760] text-[#FFFFFF]"
                 : "bg-transparent text-[#1B1B1E] "
             }`}
@@ -81,7 +81,7 @@ const sidebar = ({ show, hideSidebar }) => {
         <Link href="/contact">
           <li
             className={`text-[14px] transition-all ease-out duration-[600] font-medium py-[15px] px-[15px] hover:px-[20px]  hover:bg-[#252760] hover:text-[#FFFFFF] cursor-pointer ${
-              pathname === "/contact"
+              pathname === "/contact/"
                 ? "bg-[#252760] text-[#FFFFFF]"
                 : "bg-transparent text-[#1B1B1E] "
             }`}

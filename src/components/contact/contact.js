@@ -72,8 +72,7 @@ const contact = () => {
             </div>
           </div>
           <div className="flex flex-row gap-[2rem] md:mr-[5rem] lg:mr-0">
-            <img
-              src="/Images/home/phone-logo.png"
+          <img src="/Images/home/whatsapp-icon.png"
               alt=""
               className="w-[17px] h-[18px]"
             />

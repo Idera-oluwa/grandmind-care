@@ -34,7 +34,7 @@ const domiciliary = () => {
   
         <SwiperSlide className='h-full'>
         <div className='flex flex-col md:flex-row w-full h-full items-center px-[1rem] md:px-[3rem] justify-center'>
-          <img src='/Images/home/domiciliary-img.png' alt='' className='h-[128px] lg:h-[329px] min-w-[100%] md:w-[50%] md:grid rounded-[5px] object-contain'/>
+          <img src='/Images/home/domiciliary-img.png' alt='' className='h-[128px] lg:h-[329px] w-[100%] md:w-[50%] md:grid rounded-[5px] object-fill'/>
           <div className='flex flex-col ml-0 md:ml-[3rem] w-[100%] md:w-[50%] mt-[1rem] md:mt-0'>
            <p className='font-medium text-[20px] md:text-[40px] text-[#E27396] text-center md:text-left'>Trusted <span className='text-[#FFFFFF]'>Professionals</span></p>
            <p className='font-normal text-[14px] text-[#FFFFFF] text-center md:text-left'>is to make this journey smoother for both carers and those in need of care.</p>
@@ -44,7 +44,7 @@ const domiciliary = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className='flex flex-col md:flex-row w-full h-full items-center px-[1rem] md:px-[3rem] justify-center'>
-          <img src='/Images/home/hero3.png' alt='' className='h-[128px] lg:h-[329px] min-w-[100%] md:w-[50%] md:grid rounded-[5px] object-contain'/>
+          <img src='/Images/home/hero3.png' alt='' className='h-[128px] lg:h-[329px] w-[100%] md:w-[50%] md:grid rounded-[5px] object-fill'/>
           <div className='flex flex-col ml-0 md:ml-[3rem] w-[100%] md:w-[50%] mt-[1rem] md:mt-0'>
            <p className='font-medium text-[20px] md:text-[40px] text-[#FFFFFF] text-center md:text-left'>Dependable <span className='text-[#32936F]'>&</span> Reliable</p>
            <p className='font-normal text-[14px] text-[#FFFFFF] text-center md:text-left'>is to make this journey smoother for both carers and those in need of care.</p>
@@ -54,7 +54,7 @@ const domiciliary = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className='flex flex-col md:flex-row w-full h-full items-center px-[1rem] md:px-[3rem] justify-center'>
-          <img src='/Images/home/domiciliary2.png' alt='' className='h-[128px] lg:h-[329px] min-w-[100%] md:w-[50%] md:grid rounded-[5px] object-contain'/>
+          <img src='/Images/home/domiciliary2.png' alt='' className='h-[128px] lg:h-[329px] w-[100%] md:w-[50%] md:grid rounded-[5px] object-fill'/>
           <div className='flex flex-col ml-0 md:ml-[3rem] w-[100%] md:w-[50%] mt-[1rem] md:mt-0'>
            <p className='font-medium text-[20px] md:text-[40px] text-[#FFFFFF] text-center md:text-left'>Personalised <span className='text-[#32936F]'>Care</span></p>
            <p className='font-normal text-[14px] text-[#FFFFFF] text-center md:text-left'>is to make this journey smoother for both carers and those in need of care.</p>

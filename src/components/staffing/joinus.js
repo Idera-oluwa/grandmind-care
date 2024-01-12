@@ -17,7 +17,7 @@ const joinus = () => {
           individuals to contribute to our mission.
         </p>
         <div className="flex flex-col md:flex-row gap-[2rem] md:gap-0 mt-[2rem] justify-between">
-          <div className="w-full md:w-[45%] bg-white px-[1rem] py-[1rem] rounded-[5px]">
+          <div className="w-full md:w-[45%] bg-white px-[1.5rem] py-[1.5rem] rounded-[5px]">
             <div className="flex flex-row">
               <div className="flex flex-col gap-[0.4rem]">
                 <p className="font-medium text-[14px] text-[#1B1B1E]">
@@ -40,15 +40,18 @@ const joinus = () => {
               />
             </div>
           </div>
-          <div className="w-full md:w-[49%] bg-white px-[1rem] py-[1rem] rounded-[5px] relative">
+          <div className="w-full md:w-[49%] bg-white px-[1.5rem] py-[1.5rem] rounded-[5px] relative">
             <div className="flex flex-row h-full items-center">
               <div className="flex flex-col gap-[0.4rem]">
-                <p className="font-medium text-[14px] text-[#1B1B1E]">Carers</p>
+                <p className="font-medium text-[14px] text-[#1B1B1E]">Care Assistants</p>
                 <p className="font-medium text-[14px] text-[#1B1B1E]">
                   Senior Carers
                 </p>
                 <p className="font-medium text-[14px] text-[#1B1B1E]">
                 Live-In Carers
+                </p>
+                <p className="font-medium text-[14px] text-[#1B1B1E]">
+                Wake-In Carers
                 </p>
               </div>
               <img
@@ -78,9 +81,9 @@ const joinus = () => {
               <p className="font-bold text-[14px] md:text-[20px] text-[#1B1B1E]">
                 Call us
               </p>
-              <a href="tel:+442034177797">
+              <a href="tel:+441474247739">
                 <p className="font-semibold text-[10px] md:text-[14px] text-[#1B1B1E]">
-                +44&#40;0&#41;2034177797
+                01474247739
                 </p>
               </a>
             </div>

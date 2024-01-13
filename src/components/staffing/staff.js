@@ -22,7 +22,7 @@ const staff = () => {
             Welcome to Grandmind Care, our journey is fueled by a deep
             commitment to enhancing lives through compassionate care{" "}
           </p>
-          <Link href="/about#register">
+          <Link href="#apply">
             <button className="bg-[#474973] rounded-[22px] py-[10px] lg:py-[12px] px-[18px] lg:px-[20px] text-[15px] font-bold text-[#FDFDFD] tracking-[1px] mt-[3rem] border border-transparent transition-all ease-out duration-[600] hover:bg-[hsl(237,24%,25%)]">
              Apply Now
             </button>

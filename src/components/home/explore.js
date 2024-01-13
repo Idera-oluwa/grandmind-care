@@ -13,10 +13,10 @@ const explore = () => {
         transition={{ duration: "0.3", ease: "easeOut" }}
         className="w-full md:w-[50%]"
       >
-        <p className="text-[32px] lg:text-[40px] font-bold text-black leading-[55.55px]">
+        <p className="text-[28px] lg:text-[40px] font-bold text-black lg:leading-[55.55px]">
           Explore our flexible
         </p>
-        <p className="text-[32px] lg:text-[40px] font-bold text-black leading-[55.55px]">
+        <p className="text-[28px] lg:text-[40px] font-bold text-black lg:leading-[55.55px]">
           <span className="text-[#32936F]">staffing</span> options
         </p>
         <img src="/Images/home/underline.png" alt="" />
@@ -25,14 +25,14 @@ const explore = () => {
           alt=""
           className="mt-[1rem] w-full md:w-0 object-cover"
         />
-        <p className="text-[14px] lg:text-[14px] font-medium leading-[21.78px] w-[95%] md:w-[80%]  2xl:w-full mt-[1rem] lg:mt-[0rem]">
+        <p className="text-[12px] lg:text-[14px] font-medium leading-[21.78px] w-full md:w-[80%]  2xl:w-full mt-[1rem] lg:mt-[0rem]">
           We recognize the importance of work-life balance. Discover
           opportunities with flexible scheduling options that suit your
           availability.
         </p>
-        <Link href="/about">
-          <button className="py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] rounded-[32px] mt-[2rem] hover:bg-[#474973] hover:border-transparent hover:text-[#FDFDFD] transition-all ease-out duration-[600]">
-            Learn more
+        <Link href="/staffing">
+          <button className="py-[5px] px-[20px] border border-[#1B1B1E] text-[#1B1B1E] rounded-[32px] mt-[1rem] md:mt-[2rem] hover:bg-[#474973] hover:border-transparent hover:text-[#FDFDFD] transition-all ease-out duration-[600]">
+            Apply Now
           </button>
         </Link>
       </motion.div>

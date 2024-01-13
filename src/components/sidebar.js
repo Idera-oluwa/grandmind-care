@@ -7,8 +7,6 @@ import { usePathname } from "next/navigation";
 const sidebar = ({ show, hideSidebar }) => {
   const pathname = usePathname();
 
-  console.log(show);
-
   useEffect(() => {
     setTimeout(() => {
       hideSidebar();

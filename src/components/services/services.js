@@ -15,18 +15,12 @@ const services = () => {
             className="w-[30px] h-[28px]"
           />
           <p className="font-semibold text-[18px] text-[#1B1B1E] mt-[1rem]">
-            In-Home Elderly Care
+          Home Care Services
           </p>
-          <div className="mt-[1rem] text-center flex flex-col gap-[0.2rem]">
-            <p className="text-[16px] font-normal text-[#1B1B1E]">
-              Assistance with daily activities
-            </p>
-            <p className="text-[16px] font-normal text-[#1B1B1E]">
-              Medication management
-            </p>
-            <p className="text-[16px] font-normal text-[#1B1B1E]">
-              Companionship and emotional support
-            </p>
+          <div className="mt-[1rem] text-center">
+          <p className="text-[16px] font-normal text-[#1B1B1E] leading-[26.92px]">
+              Home Care Services are tailored to meet the unique needs of individuals in the comfort of their own homes.
+              </p>
           </div>
           </Fade>
         </div>
@@ -37,19 +31,13 @@ const services = () => {
             className="w-[30px] h-[28px]"
           />
           <p className="font-semibold text-[18px] text-[#1B1B1E] mt-[1rem]">
-            Special Needs Support
+          Supported Living
           </p>
-          <div className="mt-[1rem] text-center flex flex-col gap-[0.2rem]">
-            <p className="text-[16px] font-normal text-[#1B1B1E]">
-              Tailored care plans
-            </p>
-            <p className="text-[16px] font-normal text-[#1B1B1E]">
-              Therapeutic activities
-            </p>
-            <p className="text-[16px] font-normal text-[#1B1B1E]">
-              Emotional and behavioral support
-            </p>
-          </div>
+          <div className="mt-[1rem] text-center">
+              <p className="text-[16px] font-normal text-[#1B1B1E] leading-[26.92px]">
+              We believe in fostering independence and creating a supportive environment for individuals to thrive.
+              </p>
+            </div>
         </div>
         <div className="flex flex-col bg-[#F6F8FF] items-center py-[2rem] px-[2rem] shadow-shadow1 h-[319px] rounded-[10px] cursor-pointer hover:bg-[#fdebf1] transition-all duration-300 ease-in">
           <img
@@ -58,19 +46,13 @@ const services = () => {
             className="w-[30px] h-[28px]"
           />
           <p className="font-semibold text-[18px] text-[#1B1B1E] mt-[1rem]">
-            Memory Care Services
+          Mental Health Services
           </p>
-          <div className="mt-[1rem] text-center flex flex-col gap-[0.2rem]">
-            <p className="text-[16px] font-normal text-[#1B1B1E]">
-              Cognitive stimulation
-            </p>
-            <p className="text-[16px] font-normal text-[#1B1B1E]">
-              Safe and secure environment
-            </p>
-            <p className="text-[16px] font-normal text-[#1B1B1E]">
-              Family support and education
-            </p>
-          </div>
+          <div className="mt-[1rem] text-center">
+              <p className="text-[16px] font-normal text-[#1B1B1E] leading-[26.92px]">
+              Our Mental Health Services are designed to provide care and support for individuals facing mental health challenges.
+              </p>
+            </div>
         </div></Zoom>
       </div>
     </div>

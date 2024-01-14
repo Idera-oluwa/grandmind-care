@@ -21,7 +21,7 @@ const herosm = () => {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: "0.3", ease: "easeOut" }}
-        className="w-full md:w-[47%] relative"
+        className="w-[90vw]  2xl:max-w-[1440px] mx-auto"
       >
         <div className="flex flex-row gap-[10px] justify-center">
           <div className="flex flex-row gap-[8px] items-center cursor-pointer">
@@ -63,21 +63,7 @@ const herosm = () => {
             </button>
           </Link>
         </div>
-        <div className="flex flex-col gap-[17px] items-center mt-[3rem] absolute top-0 right-0">
-      <a
-            href="https://www.facebook.com/LCBNTV"
-            target="_blank"
-            rel="noreferrer"
-          >
-        <img src="/Images/home/facebook-logo.png" alt="" className='w-[9.3px] h-[9px]'/>
-        </a>
-        <a href="mailto:info@grandmindcare.co.uk">
-          <img src="/Images/home/mail-logo.png" alt="" className='w-[9px] h-[8px]'/>
-        </a>
-        <a href="tel:441474247739" target="_blank" rel="noreferrer">
-          <img src="/Images/home/phone-logo.png" alt="" className='w-[9px] h-[8px]'/>
-        </a>
-      </div>
+       
       </motion.div>
       {/* Right hand side */}
 
@@ -101,28 +87,28 @@ const herosm = () => {
             <img
               src="/Images/home/hero-image.png"
               alt=""
-              className="rounded-[10px] w-full h-[209px] md:h-[420px] object-cover"
+              className="w-full h-[209px] md:h-[420px] object-cover"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src="/Images/home/hero2.png"
               alt=""
-              className="rounded-[10px] w-full h-[209px] md:h-[420px] object-cover"
+              className="w-full h-[209px] md:h-[420px] object-cover"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src="/Images/home/hero3.png"
               alt=""
-              className="rounded-[10px] w-full h-[209px] md:h-[420px] object-cover"
+              className="w-full h-[209px] md:h-[420px] object-cover"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src="/Images/home/hero4.png"
               alt=""
-              className="rounded-[23px] w-full h-[209px] md:h-[420px] object-cover"
+              className="w-full h-[209px] md:h-[420px] object-cover"
             />
           </SwiperSlide>
         </Swiper>
@@ -130,10 +116,9 @@ const herosm = () => {
           Our{" "}
           <span className="text-[20px] font-bold text-[#E27396]">Mission</span>
         </h1>
-        <p className="text-[12px] font-medium text-[#1B1B1E] mt-[0.5rem] md:mt-0 text-center md:text-left w-[90%] mx-auto">
+        <p className="text-[12px] font-medium text-[#1B1B1E] mt-[0.5rem] md:mt-0 text-center md:text-left w-[90%] px-[5vw] mx-auto">
           is to make this journey smoother for both carers and those in need
-          of care. Here, you'll find a supportive community, valuable resources,
-          and a seamless
+          of care. Here, you'll find a supportive community and valuable resources.
         </p>
       </motion.div>
     </div>

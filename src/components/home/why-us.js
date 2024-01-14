@@ -6,7 +6,7 @@ import { Slide,Fade  } from "react-awesome-reveal";
 const WhyChooseUs = () => {
   return (
 
-    <div className="mt-[7rem] md:mt-[10rem]">
+    <div className="mt-[7rem] md:mt-[10rem] w-[90vw]  2xl:max-w-[1440px] mx-auto">
       <h1 className="text-[20px] font-semibold text-[#1B1B1E] text-center">
         Why Choose Us
       </h1>
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
             <img
               src="/Images/home/patient1.png"
               alt=""
-              className="w-full h-[209px] md:hidden object-fill rounded-[10px]"
+              className="w-full h-[209px] md:hidden object-fill rounded-none"
             />
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[1.5rem] md:mt-[0.5rem]">
               Personalised Care Plans
@@ -54,7 +54,7 @@ const WhyChooseUs = () => {
             <img
               src="/Images/home/patient2.png"
               alt=""
-              className="w-full h-[209px] md:hidden object-fill rounded-[10px]"
+              className="w-full h-[209px] md:hidden object-fill rounded-none"
             />
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[0.5rem]">
               Skilled Professionals
@@ -82,7 +82,7 @@ const WhyChooseUs = () => {
             <img
               src="/Images/home/patient3.png"
               alt=""
-              className="w-full h-[209px] md:hidden object-fill rounded-[10px]"
+              className="w-full h-[209px] md:hidden object-fill rounded-none"
             />
             <p className="text-[18px] md:text-[20px] font-semibold text-[#1B1B1E] mt-[0.5rem]">
               Comprehensive Support

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const explore = () => {
   return (
-    <div className="flex flex-row mt-[7rem] md:mt-[10rem] items-center">
+    <div className="flex flex-row mt-[7rem] md:mt-[10rem] items-center w-[90vw]  2xl:max-w-[1440px] mx-auto">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}

@@ -29,7 +29,7 @@ const navbar = ({ showSidebar }) => {
           <img
             src="/Images/home/LOGO.svg"
             alt=""
-            className="w-[133.86px] h-[34px]"
+            className="w-[90px] h-[20px] md:w-[133.86px] md:h-[34px]"
           />
         </Link>
         <ul className="hidden lg:flex flex-row gap-[8px] items-center ">
@@ -104,8 +104,9 @@ const navbar = ({ showSidebar }) => {
             <img src="/Images/home/whatsapp-icon.png" alt="" />
           </a>
         </div>
-        <FaBarsStaggered
-          className="text-[30px] lg:hidden cursor-pointer text-[#252760]"
+        <img src='/Images/home/menu-Icon.svg'
+        alt=''
+        className="lg:hidden cursor-pointer"
           onClick={showSidebar}
         />
       </div>

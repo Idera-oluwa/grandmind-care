@@ -16,18 +16,18 @@ const sidebar = ({ show, hideSidebar }) => {
     <div
       className={`lg:hidden fixed top-0 transition-all ease-out duration-600 container  ${
         show ? `transform translate-x-[0]` : "transform -translate-x-[100%]"
-      } bg-white h-[100vh] z-[10000]`}
+      } bg-white h-[100vh] z-[100000]`}
     >
       <div className="flex flex-row items-center justify-between  mx-auto mt-[2rem] px-3">
         <Link href="/">
           <img
             src="/Images/home/LOGO.svg"
             alt=""
-            className="w-[133.86px] h-[34px]"
+            className="w-[90px] h-[20px] md:w-[133.86px] md:h-[34px]"
           />
         </Link>
         <FaTimes
-          className="text-[40px] cursor-pointer text-[#252760]"
+          className="text-[20px] cursor-pointer text-[#252760]"
           onClick={hideSidebar}
         />
       </div>

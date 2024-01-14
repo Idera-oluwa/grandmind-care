@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const contactSm = () => {
   return (
-    <div className='md:hidden mt-[7rem]'>
+    <div className='md:hidden mt-[7rem] w-[90vw]  2xl:max-w-[1440px] mx-auto'>
       <p className='font-normal text-[24px] text-[#1B1B1E] text-center'>Want To Join Us?</p>
       <p className='font-medium text-[12px] leading-[27px] text-[#1B1B1E] text-center mt-[0.5rem]'>Whether you're a carer looking for fulfilling opportunities or a family seeking reliable and caring support, we invite you to join us on this care journey. Explore, <span className='text-[#32936F]'>Grandmind Care </span>connect with our community, and be a part of something truly meaningful.</p>
       <Link href="/about#register">

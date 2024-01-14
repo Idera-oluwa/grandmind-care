@@ -5,7 +5,7 @@ import { Zoom } from "react-awesome-reveal";
 
 const services = () => {
   return (
-    <div className="mt-[7rem] md:mt-[12rem] lg:px-[3rem]">
+    <div className="w-[90vw]  2xl:max-w-[1440px] mx-auto mt-[7rem] md:mt-[12rem] lg:px-[3rem]">
       <h1 className="text-[20px] font-semibold text-[#1B1B1E] text-center">
         Our Services
       </h1>

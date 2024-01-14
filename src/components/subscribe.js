@@ -4,13 +4,13 @@ import Link from "next/link";
 const subscribe = () => {
   return (
     <div className="mt-[6rem] w-[90vw] md:w-[80vw] lg:w-[70vw]  2xl:max-w-[1440px] mx-auto">
-      <div className="w-full lg:w-full bg-[#F4EEEE] px-[1rem] md:px-[4rem] py-[2rem] mx-auto rounded-[10px]">
-        <div className="flex flex-col gap-[1rem] lg:gap-0 lg:flex-row justify-between items-center border-b border-[#76778399] pb-[3rem]">
-          <p className="font-semibold text-[20px] md:text-[24px] text-[#1B1B1E]">
+      <div className="w-full lg:w-full bg-[#F4EEEE] px-[1rem] md:px-[4rem] py-[2rem] mx-auto">
+        <div className="flex flex-col gap-[1rem] lg:gap-0 lg:flex-row justify-between items-center border-b border-[#76778399] pb-[2rem] md:pb-[3rem]">
+          <p className="font-semibold text-[14px] md:text-[24px] text-[#1B1B1E]">
             Subscribe To Our Newsletter
           </p>
           <form
-            className="flex flex-row w-full md:w-auto"
+            className="flex flex-row w-[80%]  mx-auto md:w-auto"
             action="https://formspree.io/f/mleqedzn"
             method="POST"
           >
@@ -18,19 +18,19 @@ const subscribe = () => {
               type="text"
               name="subscribe"
               placeholder="Enter your email"
-              className="font-medium text-[14px] text-[#767783] w-[83%] md:w-[306px] px-[1rem] h-[59px] outline-none rounded-l-[5px]"
+              className="font-medium text-[10px] md:text-[14px] text-[#767783] w-[83%] md:w-[306px] px-[1rem] h-[38px] md:h-[59px] outline-none rounded-l-[5px]"
             />
             <button
               type="submit"
-              className="bg-[#FFD166] w-[17%] md:w-[62px] h-[59px] rounded-r-[5px] flex justify-center items-center cursor-pointer hover:border-transparent hover:bg-[#ffba66] transition-all ease-out duration-[600]"
+              className="bg-[#FFD166] w-[17%] md:w-[62px] h-[38px] md:h-[59px] rounded-r-[5px] flex justify-center items-center cursor-pointer hover:border-transparent hover:bg-[#ffba66] transition-all ease-out duration-[600]"
             >
-              <img src="/Images/home/subscribe-arrow.png" alt="" />
+              <img src="/Images/home/sub-arrow.png" alt="" />
             </button>
           </form>
         </div>
         <div className="flex flex-col gap-[2rem] lg:gap-0 lg:flex-row mt-[3rem] justify-between border-b border-[#76778399] pb-[3rem]">
           {/* Left hand side */}
-          <div className="w-full lg:w-[50%]">
+          <div className="w-full lg:w-[50%] hidden md:block">
             <img
               src="/Images/home/LOGO.svg"
               alt=""
@@ -61,49 +61,49 @@ const subscribe = () => {
           </div>
           {/* Right hand side */}
           <div className="grid grid-cols-2 lg:flex lg:flex-row gap-[0.8rem] md:gap-[1rem]">
-            <div className="bg-[#474973] col-span-1 flex flex-col justify-center items-center lg:w-[224px] h-[130px] md:h-[152px] text-left rounded-[10px]">
+            <div className="bg-[#474973] col-span-1 flex flex-col justify-center items-center lg:w-[224px] h-[130px] md:h-[152px] text-left">
               <div className="text-center">
                 <p className="font-bold text-[12px] text-white">
                   Office Address
                 </p>
-                <p className="font-medium text-[11px] text-white mt-[0.5rem]">
+                <p className="font-medium text-[10px] text-white mt-[0.5rem]">
                   22 Cutmore Street
                 </p>
-                <p className="font-medium text-[11px] text-white mt-[0.2rem]">
+                <p className="font-medium text-[10px] text-white mt-[0.2rem]">
                   Gravesend Kent
                 </p>
-                <p className="font-medium text-[11px] text-white mt-[0.2rem]">
+                <p className="font-medium text-[10px] text-white mt-[0.2rem]">
                   DA11 0PS
                 </p>
               </div>
             </div>
-            <div className="bg-[#474973] col-span-1 flex flex-col justify-center items-center lg:w-[224px] h-[130px] md:h-[152px] rounded-[10px]">
+            <div className="bg-[#474973] col-span-1 flex flex-col justify-center items-center lg:w-[224px] h-[130px] md:h-[152px]">
               <div className="text-center">
                 <p className="font-bold text-[12px] text-white">
                   Office Opening Hours
                 </p>
-                <p className="font-medium text-[11px] text-white mt-[0.5rem]">
+                <p className="font-medium text-[10px] text-white mt-[0.5rem]">
                   Mon-Fri: 9:00am -5:00pm
                 </p>
-                <p className="font-medium text-[11px] text-white mt-[0.2rem]">
+                <p className="font-medium text-[10px] text-white mt-[0.2rem]">
                   Saturday: Closed
                 </p>
-                <p className="font-medium text-[11px] text-white mt-[0.2rem]">
+                <p className="font-medium text-[10px] text-white mt-[0.2rem]">
                   Sunday: Closed
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-between mt-[1rem] gap-[1rem] md:gap-0">
-          <p className="font-medium text-[12px] text-[#474973B2]">
+        <div className="flex flex-row justify-between mt-[1rem] gap-[1rem] md:gap-0">
+          <p className="font-medium text-[10px] md:text-[12px] text-[#474973B2]">
             Copyright 2023 © grandmind care Ltd.{" "}
           </p>
           <Link href="/privacy-policy"><div className="flex flex-row">
-            <p className="font-medium text-[12px] text-[#474973B2] pr-[0.3rem] border-r border-[#474973B2] cursor-pointer">
+            <p className="font-medium text-[12px] text-[#474973B2] pr-[0.3rem] md:border-r border-[#474973B2] cursor-pointer">
               Privacy Policy
             </p>
-            <p className="font-medium text-[12px] text-[#474973B2] pl-[0.3rem] cursor-pointer">
+            <p className="font-medium  hidden md:block text-[12px] text-[#474973B2] pl-[0.3rem] cursor-pointer">
               Terms and Conditions{" "}
             </p>
           </div></Link>

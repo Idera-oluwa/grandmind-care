@@ -15,7 +15,7 @@ import { Fade } from "react-awesome-reveal";
 const hero = () => {
   const sliderRef = useRef();
   return (
-    <div className="hidden md:flex flex-col md:flex-row md:items-center mt-[3rem] md:mt-[6rem]">
+    <div className="w-[90vw] 2xl:max-w-[1440px] mx-auto hidden md:flex flex-col md:flex-row md:items-center mt-[3rem] md:mt-[6rem]">
       {/* Left hand side */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -96,7 +96,7 @@ const hero = () => {
           spaceBetween={50}
           slidesPerView={1}
           // navigation
-          autoplay={{ delay: 2500, disableOnInteraction: false }}
+          autoplay={{ delay: 5000, disableOnInteraction: false }}
           onSwiper={(it) => (sliderRef.current = it)}
           effect="fade"
           fadeEffect={{ crossFade: true }}
@@ -136,8 +136,7 @@ const hero = () => {
         </h1>
         <p className="text-[14px] md:text-[14px] font-medium text-[#1B1B1E] mt-[0.5rem] md:mt-0 text-center md:text-left">
           is to make this journey smoother for both carers and those in need
-          of care. Here, you'll find a supportive community, valuable resources,
-          and a seamless
+          of care. Here, you'll find a supportive community and valuable resources.
         </p>
       </motion.div>
     </div>

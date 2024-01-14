@@ -2,7 +2,7 @@ import React from "react";
 
 const contact = () => {
   return (
-    <div className="hidden md:block mt-[7rem] md:mt-[10rem] relative pb-[5rem] h-[652px]">
+    <div className="hidden md:block mt-[7rem] md:mt-[10rem] relative pb-[5rem] h-[652px] w-[90vw]  2xl:max-w-[1440px] mx-auto">
       <img
         src="/Images/home/contact.png"
         alt=""

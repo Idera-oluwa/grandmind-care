@@ -11,17 +11,31 @@ import Companies from "../../components/home/companies";
 
 export default function Home() {
   return (
-    <div className="w-[90vw]  2xl:max-w-[1440px] mx-auto mt-[2rem] mb-[5rem] overflow-hidden">
+    <div className="mt-[2rem] mb-[5rem] overflow-hidden relative">
       <Hero />
       <HeroSm/>
       <Services />
       <Domiciliary />
       <WhyChooseUs />
       <Explore />
-      <Faq />
       <Contact />
       <ContactSm />
       <Companies />
+      <div className="flex flex-col md:hidden gap-[17px] items-center mt-[11rem] fixed top-0 right-0 mr-[5vw] z-[10000]">
+      <a
+            href="https://www.facebook.com/LCBNTV"
+            target="_blank"
+            rel="noreferrer"
+          >
+        <img src="/Images/home/facebook-logo.png" alt="" className='w-[13px] h-[13px]'/>
+        </a>
+        <a href="mailto:info@grandmindcare.co.uk">
+          <img src="/Images/home/mail-logo.png" alt="" className='w-[13px] h-[13px]'/>
+        </a>
+        <a href="tel:441474247739" target="_blank" rel="noreferrer">
+          <img src="/Images/home/phone-logo.png" alt="" className='w-[13px] h-[13px]'/>
+        </a>
+      </div>
     </div>
   );
 }

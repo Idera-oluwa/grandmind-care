@@ -62,7 +62,7 @@ const joinus = () => {
       </h1>
       <div className="flex flex-col md:flex-row mt-[2rem] md:mt-[4rem] md:px-[2rem] justify-between gap-[2rem] md:gap-0">
         <div className="w-full md:w-[50%] mt-[2rem] md:mt-[4rem]">
-          <img src="/Images/home/LOGO.png" alt="" />
+          <img src="/Images/home/Logo-new.svg" alt="" />
           <p className="text-[14px] md:text-[16px] font-medium text-[#1B1B1E] w-[95%] lg:w-[85%] mt-[2rem] leading-[36.02px]">
             Whether you're a carer looking for fulfilling opportunities or a
             family seeking reliable and caring support, we invite you to join us

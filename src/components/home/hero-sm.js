@@ -78,7 +78,7 @@ const herosm = () => {
           spaceBetween={50}
           slidesPerView={1}
           // navigation
-          autoplay={{ delay: 2500, disableOnInteraction: false }}
+          autoplay={{ delay: 5000, disableOnInteraction: false }}
           onSwiper={(it) => (sliderRef.current = it)}
           effect="fade"
           fadeEffect={{ crossFade: true }}

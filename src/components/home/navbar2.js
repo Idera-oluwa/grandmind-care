@@ -11,7 +11,7 @@ const navbar = ({ showSidebar }) => {
       <div className="flex flex-row items-center justify-between w-[90vw]  2xl:max-w-[1440px] mx-auto">
         <Link href="/">
           <img
-            src="/Images/home/LOGO.svg"
+            src="/Images/home/Logo-new.svg"
             alt=""
             className="w-[90px] h-[20px] md:w-[133.86px] md:h-[34px]"
           />

@@ -34,7 +34,7 @@ const joinus = () => {
                 </p>
               </div>
               <img
-                src="/Images/staffing/logo2.png"
+                src="/Images/home/logo-symbol.svg"
                 alt=""
                 className="w-[30px] h-[30px] mt-auto ml-auto"
               />
@@ -55,7 +55,7 @@ const joinus = () => {
                 </p>
               </div>
               <img
-                src="/Images/staffing/logo2.png"
+                src="/Images/home/logo-symbol.svg"
                 alt=""
                 className="w-[30px] h-[30px] mt-auto ml-auto absolute right-0 bottom-0 mr-[1rem] mb-[1rem]"
               />

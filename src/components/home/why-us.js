@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
                 </button>
               </Link>
               <img
-                src="/Images/home/Grandmind-care.png"
+                src="/Images/home/logo-symbol.svg"
                 alt=""
                 className="w-[38px] h-[38px] mr-[1rem]"
               />
@@ -71,7 +71,7 @@ const WhyChooseUs = () => {
                 </button>
               </Link>
               <img
-                src="/Images/home/Grandmind-care.png"
+                src="/Images/home/logo-symbol.svg"
                 alt=""
                 className="w-[38px] h-[38px] mr-[1rem]"
               />
@@ -98,7 +98,7 @@ const WhyChooseUs = () => {
                 </button>
               </Link>
               <img
-                src="/Images/home/Grandmind-care.png"
+                src="/Images/home/logo-symbol.svg"
                 alt=""
                 className="w-[38px] h-[38px] mr-[1rem]"
               />

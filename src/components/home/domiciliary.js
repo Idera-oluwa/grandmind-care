@@ -18,7 +18,7 @@ const domiciliary = () => {
     <div className='mt-[7rem] md:mt-[10rem] w-[90vw]  2xl:max-w-[1440px] mx-auto'>
      <h1 className='text-[20px] font-semibold text-[#1B1B1E] text-center'>Home Care Services</h1>
      <div className='mt-[2rem] relative h-[250px] md:h-[412px] w-[100%]'>
-        <img src='Images/home/backdrop.png' alt='' className='absolute z-10 w-full h-full object-cover'/>
+        <img src='/Images/home/backdrop.png' alt='' className='absolute z-10 w-full h-full object-cover'/>
         <div className='absolute z-50 w-full h-full bg-[#D9D9D933]'>
         <Swiper
       modules={[Autoplay, Navigation, A11y,EffectFade]}

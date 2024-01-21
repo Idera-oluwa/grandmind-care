@@ -32,7 +32,7 @@ const subscribe = () => {
           {/* Left hand side */}
           <div className="w-full lg:w-[50%] hidden md:block">
             <img
-              src="/Images/home/LOGO.svg"
+              src="/Images/home/Logo-new.svg"
               alt=""
               className="w-[164px] h-[41.65px]"
             />

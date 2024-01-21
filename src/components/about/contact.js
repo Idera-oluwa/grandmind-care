@@ -12,7 +12,7 @@ const contact = () => {
       <p className='text-[14px] md:text-[14px] font-semibold text-white mt-[1rem] w-[95%] md:w-[667px] text-center'> Get to know the faces and stories of the individuals working tirelessly to make our platform a trusted and compassionate space.</p>
       <Link href='/cform'><div className='w-[200px] md:w-[274px] bg-[#474973] h-[70px] md:h-[79px] rounded-[65px] mt-[2rem] flex flex-row gap-[1rem] justify-center items-center cursor-pointer'>
         <p className='text-[16px] md:text-[20px] font-semibold text-white'>Contact Us</p>
-        <img src='Images/about/arrow-right.png' alt=''/>
+        <img src='/Images/about/arrow-right.png' alt=''/>
       </div></Link></Fade>
     </div>
     </Fade>

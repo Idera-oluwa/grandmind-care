@@ -23,7 +23,7 @@ export default function Home() {
       <Companies />
       <div className="flex flex-col md:hidden gap-[17px] items-center mt-[11rem] fixed top-0 right-0 mr-[5vw] z-[10000]">
       <a
-            href="https://www.facebook.com/LCBNTV"
+            href="https://web.facebook.com/profile.php?id=61555673407229&_rdc=1&_rdr"
             target="_blank"
             rel="noreferrer"
           >

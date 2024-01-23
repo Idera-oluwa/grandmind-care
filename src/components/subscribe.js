@@ -41,7 +41,7 @@ const subscribe = () => {
             </p>
             <div className="flex flex-row gap-[8px] items-center mt-[1rem]">
               <a
-                href="https://www.facebook.com/LCBNTV"
+                href="https://web.facebook.com/profile.php?id=61555673407229&_rdc=1&_rdr"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -90,7 +90,7 @@ const sidebar = ({ show, hideSidebar }) => {
       </ul>
       <div className="flex flex-row gap-[8px] items-center justify-center mt-[3rem]">
       <a
-            href="https://www.facebook.com/LCBNTV"
+            href="https://web.facebook.com/profile.php?id=61555673407229&_rdc=1&_rdr"
             target="_blank"
             rel="noreferrer"
           >

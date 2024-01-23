@@ -98,7 +98,8 @@ const page = () => {
            <div className='grid grid-cols-4 py-[1rem] cursor-pointer hover:bg-[#7677831A]' key={_id}>
           <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center'>{fullname}</p>
           <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center'>{email}</p>
-          <a href={cvPath} download><img src='/Images/dashboard/download.png' alt='' className='mx-auto'/></a>
+          <a href={cvPath} download target="_blank"
+            rel="noreferrer"><img src='/Images/dashboard/download.png' alt='' className='mx-auto'/></a>
           <div className='flex flex-row gap-[0.5rem] mx-auto items-center'>
             <img src='/Images/home/delete.png' className='w-[10.67px] h-[10.67px]'/>
           <p className='text-[#383737] text-[14px] font-semibold col-span-1 text-center' onClick={()=>{setShowModal(true)}}>Delete</p>

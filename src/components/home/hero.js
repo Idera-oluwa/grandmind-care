@@ -43,12 +43,12 @@ const hero = () => {
               className="w-[17px] h-[17px]"
             />
             <a
-              href="https://wa.me/447903220307"
+              href="https://wa.me/447562126383"
               target="_blank"
               rel="noreferrer"
             >
               <p className="text-[13px] md:text-[14px] font-normal text-[#474973]">
-                07903220307
+                07562126383
               </p>
             </a>
           </div>

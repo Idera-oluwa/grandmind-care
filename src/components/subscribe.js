@@ -51,7 +51,7 @@ const subscribe = () => {
                 <img src="/Images/home/mail-logo.png" alt="" />
               </a>
               <a
-                href="https://wa.me/447903220307"
+                href="https://wa.me/447562126383"
                 target="_blank"
                 rel="noreferrer"
               >

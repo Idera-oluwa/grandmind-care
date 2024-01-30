@@ -81,7 +81,7 @@ const navbar = ({ showSidebar }) => {
           >
             <img src="/Images/home/facebook-logo.png" alt="" />
           </a>
-          <a href="info@grandmindcare.co.uk">
+          <a href="mailto:info@grandmindcare.co.uk">
             <img src="/Images/home/mail-logo.png" alt="" />
           </a>
           <a href="https://wa.me/447562126383" target="_blank" rel="noreferrer">

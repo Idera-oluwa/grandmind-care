@@ -30,17 +30,17 @@ const apply = () => {
               </div>
             </div>
         </div>
-        <div className='md:w-[45%] flex flex-col gap-[1rem] mt-[2rem] md:mt-0'>
-          <div className='flex flex-row gap-[1rem]'>
-          <img src='/Images/staffing/applying.png' alt=''  className='w-[40%] h-[160px]'/>
-          <img src='/Images/staffing/applying2.png' alt='' className='w-[60%] h-[160px]'/>
+        <div className='md:w-[45%] flex flex-col gap-[0.5rem] md:gap-[1rem] mt-[2rem] md:mt-0'>
+          <div className='flex flex-row gap-[0.5rem] md:gap-[1rem]'>
+          <img src='/Images/staffing/applying.png' alt=''  className='w-[40%] h-[150px]'/>
+          <img src='/Images/staffing/applying2.png' alt='' className='w-[57%] h-[150px]'/>
           </div>
-          <div className='flex flex-row gap-[1rem]'>
-          <img src='/Images/staffing/applying3.png' alt='' className='w-[40%] h-[160px]'/>
-          <img src='/Images/staffing/applying4.png' alt=''className='w-[60%] h-[160px]'/>
+          <div className='flex flex-row gap-[0.5rem] md:gap-[1rem]'>
+          <img src='/Images/staffing/applying3.png' alt='' className='w-[40%] h-[150px]'/>
+          <img src='/Images/staffing/applying4.png' alt=''className='w-[57%] h-[150px]'/>
           </div>
         </div>
-        <div className='py-[1rem] px-[2rem] bg-[#FFFFFF] w-[90%] mx-auto h-[241px] mt-[2rem] rounded-[10px] md:hidden shadow-shadow1'>
+        <div className='py-[1rem] px-[2rem] bg-[#FFFFFF] w-[95%] mx-auto h-[241px] mt-[2rem] rounded-[10px] md:hidden shadow-shadow1'>
             <div className="w-full h-[11px] rounded-[20px] bg-[#FFD166]"></div>
             <div className="flex flex-col mt-[1rem] gap-[0.5rem]">
                 <p className="text-[16px] font-bold text-[#1B1B1E]">

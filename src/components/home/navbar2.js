@@ -84,7 +84,7 @@ const navbar = ({ showSidebar }) => {
           <a href="mailto:info@grandmindcare.co.uk">
             <img src="/Images/home/mail-logo.png" alt="" />
           </a>
-          <a href="https://wa.me/447562126383" target="_blank" rel="noreferrer">
+          <a href="https://wa.me/447466308429" target="_blank" rel="noreferrer">
             <img src="/Images/home/whatsapp-icon.png" alt="" />
           </a>
         </div>

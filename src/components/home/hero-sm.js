@@ -33,12 +33,12 @@ const herosm = () => {
           </div>
           <div className="flex flex-row gap-[8px] items-center cursor-pointer">
             <a
-              href="https://wa.me/447562126383"
+              href="https://wa.me/447466308429"
               target="_blank"
               rel="noreferrer"
             >
               <p className="text-[12px] font-normal text-[#474973]">
-                07562126383
+                +44 (0) 7466308429
               </p>
             </a>
           </div>

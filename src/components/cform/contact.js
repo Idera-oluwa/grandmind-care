@@ -78,12 +78,12 @@ const contact = () => {
             />
             <div className="text-left">
             <a
-              href="https://wa.me/447562126383"
+              href="https://wa.me/447466308429"
               target="_blank"
               rel="noreferrer"
             >
                 <p className="font-semibold text-[14px] text-[#1B1B1E]">
-                 07562126383
+                 +44 (0) 7466308429
                 </p>
               </a>
             </div>

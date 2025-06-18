@@ -81,9 +81,9 @@ const joinus = () => {
               <p className="font-bold text-[14px] md:text-[20px] text-[#1B1B1E]">
                 Call us
               </p>
-              <a href="tel:+441474247739">
+              <a href="tel:+441474526784">
                 <p className="font-semibold text-[10px] md:text-[14px] text-[#1B1B1E]">
-                01474247739
+                01474526784
                 </p>
               </a>
             </div>

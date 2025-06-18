@@ -13,7 +13,7 @@ const contactSm = () => {
           </Link>
           <p className='text-[24px] mt-[3rem] font-normal text-center text-[#1B1B1E]'>Contact Us </p>
           <p className='text-[12px] font-medium leading-[17.5px] text-center w-[90%] mx-auto mt-[1rem]'>Have questions or ready to discuss your care needs? We're here to help. Reach out to us through the following channels:</p>
-          <a href="tel:441474247739" target="_blank" rel="noreferrer"><p className='text-[12px] font-medium text-[#474973] text-center mt-[1.5rem]'>01474247739</p></a>
+          <a href="tel:441474526784" target="_blank" rel="noreferrer"><p className='text-[12px] font-medium text-[#474973] text-center mt-[1.5rem]'>01474526784</p></a>
           <a href="mailto:info@grandmindcare.co.uk">
               <p className="text-[12px] font-medium text-[#474973] text-center">
               info@grandmindcare.co.uk
@@ -24,7 +24,7 @@ const contactSm = () => {
                 <img src="/Images/home/mail-logo.png" alt="" className='w-[34px] h-[28px]'/>
               </a>
               <a
-               href="tel:441474247739" target="_blank" rel="noreferrer"
+               href="tel:441474526784" target="_blank" rel="noreferrer"
               >
                 <img src="/Images/staffing/staff-phone.png" alt="" className='w-[29px] h-[29px]'/>
               </a>

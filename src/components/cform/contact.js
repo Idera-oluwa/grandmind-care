@@ -1,9 +1,46 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
 
 const contact = () => {
+  const [status, setStatus] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setIsSubmitting(true);
+    setStatus("");
+
+    const form = event.target;
+    const data = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        setStatus("Thanks for your message! We'll get back to you soon.");
+        form.reset();
+      } else {
+        const errorData = await response.json();
+        if (errorData.errors) {
+          setStatus(errorData.errors.map(error => error.message).join(", "));
+        } else {
+          setStatus("Oops! There was a problem submitting your message");
+        }
+      }
+    } catch (error) {
+      setStatus("Oops! There was a problem submitting your message");
+    }
+
+    setIsSubmitting(false);
+  };
   return (
     <Fade>
     <div
@@ -92,7 +129,7 @@ const contact = () => {
         </Fade>
       </div>
       <div className=" h-[500px] border border-[#47497380] rounded-[10px] bg-white p-[2rem] ml-auto col-span-1 lg:col-span-2 w-full">
-        <form action="https://formspree.io/f/xayrynve" method="POST">
+        <form action="https://formspree.io/f/xayrynve" method="POST" onSubmit={handleSubmit}>
           <div className="flex flex-col gap-[10px]">
             <label
               htmlFor="first-name"
@@ -103,6 +140,7 @@ const contact = () => {
             <input
               type="text"
               name="first-name"
+              required
               className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none"
             />
           </div>
@@ -115,15 +153,22 @@ const contact = () => {
             </label>
             <textarea
               name="message"
+              required
               className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[177px] outline-none"
             />
           </div>
           <button
             type="submit"
-            className="bg-[#474973] rounded-[10px] font-semibold text-[20px] w-full mt-[3rem] h-[64px] text-white hover:border-transparent hover:bg-[#353756] transition-all ease-out duration-[600]"
+            disabled={isSubmitting}
+            className="bg-[#474973] rounded-[10px] font-semibold text-[20px] w-full mt-[3rem] h-[64px] text-white hover:border-transparent hover:bg-[#353756] transition-all ease-out duration-[600] disabled:opacity-50"
           >
-            Submit
+            {isSubmitting ? "Submitting..." : "Submit"}
           </button>
+          {status && (
+            <p className={`mt-[1rem] text-center text-[14px] ${status.includes("Thanks") ? "text-green-600" : "text-red-600"}`}>
+              {status}
+            </p>
+          )}
         </form>
       </div>
     </div>

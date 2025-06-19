@@ -1,7 +1,45 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Link from "next/link";
 
 const subscribe = () => {
+  const [status, setStatus] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setIsSubmitting(true);
+    setStatus("");
+
+    const form = event.target;
+    const data = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        setStatus("Thanks for subscribing to our newsletter!");
+        form.reset();
+      } else {
+        const errorData = await response.json();
+        if (errorData.errors) {
+          setStatus(errorData.errors.map(error => error.message).join(", "));
+        } else {
+          setStatus("Oops! There was a problem with your subscription");
+        }
+      }
+    } catch (error) {
+      setStatus("Oops! There was a problem with your subscription");
+    }
+
+    setIsSubmitting(false);
+  };
   return (
     <div className="mt-[6rem] w-[90vw] md:w-[80vw] lg:w-[70vw]  2xl:max-w-[1440px] mx-auto">
       <div className="w-full lg:w-full bg-[#F4EEEE] px-[1rem] md:px-[4rem] py-[2rem] mx-auto">
@@ -13,20 +51,28 @@ const subscribe = () => {
             className="flex flex-row w-[80%]  mx-auto md:w-auto"
             action="https://formspree.io/f/mleqedzn"
             method="POST"
+            onSubmit={handleSubmit}
           >
             <input
-              type="text"
+              type="email"
               name="subscribe"
               placeholder="Enter your email"
+              required
               className="font-medium text-[10px] md:text-[14px] text-[#767783] w-[83%] md:w-[306px] px-[1rem] h-[38px] md:h-[59px] outline-none rounded-l-[5px]"
             />
             <button
               type="submit"
-              className="bg-[#FFD166] w-[17%] md:w-[62px] h-[38px] md:h-[59px] rounded-r-[5px] flex justify-center items-center cursor-pointer hover:border-transparent hover:bg-[#ffba66] transition-all ease-out duration-[600]"
+              disabled={isSubmitting}
+              className="bg-[#FFD166] w-[17%] md:w-[62px] h-[38px] md:h-[59px] rounded-r-[5px] flex justify-center items-center cursor-pointer hover:border-transparent hover:bg-[#ffba66] transition-all ease-out duration-[600] disabled:opacity-50"
             >
               <img src="/Images/home/sub-arrow.png" alt="" />
             </button>
           </form>
+          {status && (
+            <p className={`mt-[0.5rem] text-center text-[12px] ${status.includes("Thanks") ? "text-green-600" : "text-red-600"}`}>
+              {status}
+            </p>
+          )}
         </div>
         <div className="flex flex-col gap-[2rem] lg:gap-0 lg:flex-row mt-[3rem] justify-between border-b border-[#76778399] pb-[3rem]">
           {/* Left hand side */}

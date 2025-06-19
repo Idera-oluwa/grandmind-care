@@ -32,7 +32,7 @@ export default function Home() {
         <a href="mailto:info@grandmindcare.co.uk">
           <img src="/Images/home/mail-logo.png" alt="" className='w-[13px] h-[13px]'/>
         </a>
-        <a href="tel:+441474247739" target="_blank" rel="noreferrer">
+        <a href="tel:+441474526784" target="_blank" rel="noreferrer">
           <img src="/Images/home/phone-logo.png" alt="" className='w-[13px] h-[13px]'/>
         </a>
       </div>

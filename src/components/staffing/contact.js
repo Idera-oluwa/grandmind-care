@@ -1,69 +1,43 @@
 "use client";
 import React, { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import axios from "axios";
 
 const contact = () => {
-  const [file, setFile] = useState(null);
-  const [fullname, setFullname] = useState("");
-  const [email, setEmail] = useState("");
-  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    if (fullname === "" || email === "" || file === "") {
-      toast.warning("Please input all credentials !", {
-        position: toast.POSITION.TOP_RIGHT,
-        type: "warning",
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setIsSubmitting(true);
+    setStatus("");
+
+    const form = event.target;
+    const data = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
       });
-      setLoading(false);
-    } else {
-      try {
-        const formData = new FormData();
-        formData.append("cv", file);
-        formData.append("email", email);
-        formData.append("fullname", fullname);
 
-        const response = await axios.post(
-          "https://grandmindcare.onrender.com/api/v1/grandmind/applicants",
-          formData,
-          {
-            headers: {
-              "Content-Type": "multipart/form-data",
-            },
-          }
-        );
-        console.log(response);
-        toast.success("Registration Successful !", {
-          position: toast.POSITION.TOP_RIGHT,
-        });
-        setLoading(false);
-        setFullname("");
-        setEmail("");
-        setFile(null);
-      } catch (error) {
-        if (error.response) {
-          console.log("Error Response Data:", error.response.data);
-          console.log("Error Response Status:", error.response.status);
-          console.log("Error Response Headers:", error.response.headers);
+      if (response.ok) {
+        setStatus("Thanks for your application! We'll review your CV and get back to you soon.");
+        form.reset();
+      } else {
+        const errorData = await response.json();
+        if (errorData.errors) {
+          setStatus(errorData.errors.map(error => error.message).join(", "));
+        } else {
+          setStatus("Oops! There was a problem submitting your application");
         }
-        if (fullname !== "" || email !== "" || file !== "") {
-          toast.error("Registration failed !", {
-            position: toast.POSITION.TOP_RIGHT,
-          });
-        }
-        setLoading(false);
-
-        throw error;
       }
+    } catch (error) {
+      setStatus("Oops! There was a problem submitting your application");
     }
-  };
 
-  const handleFileUpload = (event) => {
-    const uploadedFile = event.target.files[0];
-    setFile(uploadedFile);
+    setIsSubmitting(false);
   };
   return (
     <div className="mt-[7rem] md:mt-[12rem] max-w-[100vw] mb-[35rem] lg:mb-[22rem]" id="apply">
@@ -84,7 +58,7 @@ const contact = () => {
           <div className="w-full md:w-[600px] mx-auto bg-transparent h-[300px] mt-[36px] md:border-b-0 md:border-2 md:border-white p-0 md:p-[1rem] rounded-t-[25px]">
             <div className="w-full h-[528px] p-[1rem] rounded-[10px] bg-[#474973] items-center justify-center">
               <div className="w-full h-full border border-[#424359] rounded-[20px] bg-white p-[2rem]">
-                <form onSubmit={handleSubmit}>
+                <form action="https://formspree.io/f/xayrynve" method="POST" encType="multipart/form-data" onSubmit={handleSubmit}>
                   <div className="flex flex-col gap-[10px]">
                     <label
                       htmlFor="first-name"
@@ -95,8 +69,6 @@ const contact = () => {
                     <input
                       type="text"
                       name="first-name"
-                      value={fullname}
-                      onChange={(e) => setFullname(e.target.value)}
                       required
                       className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none"
                     />
@@ -109,10 +81,8 @@ const contact = () => {
                       Email
                     </label>
                     <input
-                      type="text"
+                      type="email"
                       name="email"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
                       required
                       className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none"
                     />
@@ -122,34 +92,28 @@ const contact = () => {
                       htmlFor="cv"
                       className="text-[16px] font-bold text-[#474973]"
                     >
-                      CV
+                      CV Upload
                     </label>
                     <input
-                      type="text"
-                      value={file ? file.name : ""}
-                      required
-                      readOnly
+                      type="file"
                       name="cv"
+                      accept=".pdf, .doc, .docx"
+                      required
                       className="px-[20px] py-[20px] rounded-[10px] border border-[#47497380] h-[52px] outline-none"
                     />
                   </div>
-                  <label className="text-[14px] font-medium text-[#171C74] mt-[1rem] cursor-pointer">
-                    {" "}
-                    Click to upload your CV
-                    <input
-                      type="file"
-                      className="hidden"
-                      onChange={handleFileUpload}
-                      accept=".pdf, .doc, .docx"
-                    />
-                  </label>
                   <button
                     type="submit"
-                    className="bg-[#474973] rounded-[10px] font-semibold text-[20px] w-full mt-[3rem] h-[64px] text-white hover:border-transparent hover:bg-[#353756] transition-all ease-out duration-[600]"
+                    disabled={isSubmitting}
+                    className="bg-[#474973] rounded-[10px] font-semibold text-[20px] w-full mt-[3rem] h-[64px] text-white hover:border-transparent hover:bg-[#353756] transition-all ease-out duration-[600] disabled:opacity-50"
                   >
-                    {loading ? "Submitting..." : "Submit"}
+                    {isSubmitting ? "Submitting..." : "Submit"}
                   </button>
-                  <ToastContainer />
+                  {status && (
+                    <p className={`mt-[1rem] text-center text-[14px] ${status.includes("Thanks") ? "text-green-600" : "text-red-600"}`}>
+                      {status}
+                    </p>
+                  )}
                 </form>
               </div>
             </div>

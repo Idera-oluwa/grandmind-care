@@ -1,0 +1,15 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/remove-postcss-malware",
+    "main"
+  ],
+  "parent": {
+    "fix/remove-postcss-malware": "main",
+    "main": null
+  },
+  "order": [
+    "main",
+    "fix/remove-postcss-malware"
+  ]
+}
